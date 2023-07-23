@@ -8,6 +8,7 @@ const game = new Phaser.Game({
         	default: "arcade",
 			arcade: {
             	debug: true,
+				gravity: { y: 300},
         	}
     	}
 	});

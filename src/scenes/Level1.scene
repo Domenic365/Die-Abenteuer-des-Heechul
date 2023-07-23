@@ -2,6 +2,9 @@
     "id": "74577a35-d1f8-4ef4-8555-2d5a52e77a86",
     "sceneType": "SCENE",
     "settings": {
+        "snapEnabled": true,
+        "snapWidth": 6,
+        "snapHeight": 6,
         "preloadPackFiles": [
             "Die Abenteuer des Heechul/assets/boot.json"
         ],
@@ -11,6 +14,12 @@
         "borderHeight": 324
     },
     "displayList": [
+        {
+            "type": "Layer",
+            "id": "253cb6a5-ba79-4cba-9a9e-684cd3746c34",
+            "label": "GroundLayer",
+            "scope": "CLASS"
+        },
         {
             "prefabId": "0aeab9de-4c41-482b-aad4-a5c45b5e22e0",
             "id": "1a11bed6-39de-41f2-aa9c-3677c946eb45",
@@ -22,61 +31,18 @@
             "scope": "CLASS"
         },
         {
-            "type": "TilemapLayer",
-            "id": "c2e3d2e9-7b1e-4b22-8ff7-a31b8c362bf7",
-            "label": "foregroundBack_1",
-            "x": 2,
-            "y": 139,
-            "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
-            "layerName": "foregroundBack",
-            "tilesets": [
-                "overworld",
-                "overworldBack"
-            ]
-        },
-        {
-            "type": "TilemapLayer",
-            "id": "ec34bcc1-0378-4d2d-aeb5-cdb1e5f05bdd",
-            "label": "foreground_1",
-            "scope": "PUBLIC",
-            "y": 132,
-            "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
-            "layerName": "foreground",
-            "tilesets": [
-                "overworld",
-                "overworldBack"
-            ]
-        },
-        {
-            "prefabId": "3a43eade-51ad-4b97-b044-1fffa65f1fcb",
-            "id": "ac3b665d-3699-48cf-a309-19f9f9094c73",
+            "prefabId": "786c8c16-9343-4c23-a181-bd23ab8466eb",
+            "id": "80e513d6-b712-4cb8-929f-dc9391142217",
             "unlock": [
                 "x",
                 "y"
             ],
-            "label": "dude_Monster",
-            "x": 155,
-            "y": 269
+            "label": "Player",
+            "x": 186,
+            "y": 119
         }
     ],
-    "plainObjects": [
-        {
-            "id": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
-            "type": "Tilemap",
-            "label": "level1",
-            "key": "level1",
-            "tilesets": [
-                {
-                    "name": "overworld",
-                    "imageKey": "TileSet"
-                },
-                {
-                    "name": "overworldBack",
-                    "imageKey": "Back_TileSet"
-                }
-            ]
-        }
-    ],
+    "plainObjects": [],
     "meta": {
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",

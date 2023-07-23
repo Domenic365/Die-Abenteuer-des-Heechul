@@ -1,0 +1,31 @@
+{
+    "id": "786c8c16-9343-4c23-a181-bd23ab8466eb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "superClassName": "MovableObjects",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 576,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "553200d6-bb2a-4d4a-86e4-0c14a0674f1b",
+            "label": "Player",
+            "texture": {
+                "key": "Dude_Monster"
+            },
+            "body.width": 32,
+            "body.height": 32
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

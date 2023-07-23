@@ -1,6 +1,26 @@
 {
-    "activeFile": "/Users/domenic365/Documents/WebGames/Die Abenteuer des Heechul/assets/level1.json",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "level1.json": {
+            "scale": 0.3214790239726027,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 780.7663370951097,
+                "y": 94.87399713705531
+            }
+        },
+        "level1.json#overworld": {
+            "scaleInDock": 1
+        },
+        "level1.json#overworldBack": {
+            "scaleInDock": 1
+        }
+    },
     "openFiles": [
-        "/Users/domenic365/Documents/WebGames/Die Abenteuer des Heechul/assets/level1.json"
+        "level1.json"
+    ],
+    "recentFiles": [
+        "level1.json"
     ]
 }

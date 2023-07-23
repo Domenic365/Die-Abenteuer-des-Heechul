@@ -47,9 +47,84 @@
                 "key": "animations"
             },
             {
-                "url": "assets/tiles/Tiles/Back_TileSet.png",
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_01.png",
                 "type": "image",
-                "key": "Back_TileSet"
+                "key": "Back_TileSet_01"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_02.png",
+                "type": "image",
+                "key": "Back_TileSet_02"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_03.png",
+                "type": "image",
+                "key": "Back_TileSet_03"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_04.png",
+                "type": "image",
+                "key": "Back_TileSet_04"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_05.png",
+                "type": "image",
+                "key": "Back_TileSet_05"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_06.png",
+                "type": "image",
+                "key": "Back_TileSet_06"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_07.png",
+                "type": "image",
+                "key": "Back_TileSet_07"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_08.png",
+                "type": "image",
+                "key": "Back_TileSet_08"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_09.png",
+                "type": "image",
+                "key": "Back_TileSet_09"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_10.png",
+                "type": "image",
+                "key": "Back_TileSet_10"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_11.png",
+                "type": "image",
+                "key": "Back_TileSet_11"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_12.png",
+                "type": "image",
+                "key": "Back_TileSet_12"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_13.png",
+                "type": "image",
+                "key": "Back_TileSet_13"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_14.png",
+                "type": "image",
+                "key": "Back_TileSet_14"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_15.png",
+                "type": "image",
+                "key": "Back_TileSet_15"
+            },
+            {
+                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_16.png",
+                "type": "image",
+                "key": "Back_TileSet_16"
             },
             {
                 "url": "assets/character/player/Double_Jump_Dust_5.png",
@@ -236,9 +311,214 @@
                 "key": "Pizza"
             },
             {
-                "url": "assets/tiles/Tiles/TileSet.png",
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_01.png",
                 "type": "image",
-                "key": "TileSet"
+                "key": "TileSet_01"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_02.png",
+                "type": "image",
+                "key": "TileSet_02"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_03.png",
+                "type": "image",
+                "key": "TileSet_03"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_04.png",
+                "type": "image",
+                "key": "TileSet_04"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_05.png",
+                "type": "image",
+                "key": "TileSet_05"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_06.png",
+                "type": "image",
+                "key": "TileSet_06"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_07.png",
+                "type": "image",
+                "key": "TileSet_07"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_08.png",
+                "type": "image",
+                "key": "TileSet_08"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_09.png",
+                "type": "image",
+                "key": "TileSet_09"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_10.png",
+                "type": "image",
+                "key": "TileSet_10"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_11.png",
+                "type": "image",
+                "key": "TileSet_11"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_12.png",
+                "type": "image",
+                "key": "TileSet_12"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_13.png",
+                "type": "image",
+                "key": "TileSet_13"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_14.png",
+                "type": "image",
+                "key": "TileSet_14"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_15.png",
+                "type": "image",
+                "key": "TileSet_15"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_16.png",
+                "type": "image",
+                "key": "TileSet_16"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_17.png",
+                "type": "image",
+                "key": "TileSet_17"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_18.png",
+                "type": "image",
+                "key": "TileSet_18"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_19.png",
+                "type": "image",
+                "key": "TileSet_19"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_20.png",
+                "type": "image",
+                "key": "TileSet_20"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_21.png",
+                "type": "image",
+                "key": "TileSet_21"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_22.png",
+                "type": "image",
+                "key": "TileSet_22"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_23.png",
+                "type": "image",
+                "key": "TileSet_23"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_24.png",
+                "type": "image",
+                "key": "TileSet_24"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_25.png",
+                "type": "image",
+                "key": "TileSet_25"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_26.png",
+                "type": "image",
+                "key": "TileSet_26"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_27.png",
+                "type": "image",
+                "key": "TileSet_27"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_28.png",
+                "type": "image",
+                "key": "TileSet_28"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_29.png",
+                "type": "image",
+                "key": "TileSet_29"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_30.png",
+                "type": "image",
+                "key": "TileSet_30"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_31.png",
+                "type": "image",
+                "key": "TileSet_31"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_32.png",
+                "type": "image",
+                "key": "TileSet_32"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_33.png",
+                "type": "image",
+                "key": "TileSet_33"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_34.png",
+                "type": "image",
+                "key": "TileSet_34"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_35.png",
+                "type": "image",
+                "key": "TileSet_35"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_36.png",
+                "type": "image",
+                "key": "TileSet_36"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_37.png",
+                "type": "image",
+                "key": "TileSet_37"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_38.png",
+                "type": "image",
+                "key": "TileSet_38"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_39.png",
+                "type": "image",
+                "key": "TileSet_39"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_40.png",
+                "type": "image",
+                "key": "TileSet_40"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_41.png",
+                "type": "image",
+                "key": "TileSet_41"
+            },
+            {
+                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_42.png",
+                "type": "image",
+                "key": "TileSet_42"
             }
         ]
     },
