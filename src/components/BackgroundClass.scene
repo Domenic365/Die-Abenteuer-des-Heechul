@@ -1,0 +1,63 @@
+{
+    "id": "0aeab9de-4c41-482b-aad4-a5c45b5e22e0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 576,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "Layer",
+            "id": "07681f4e-f99e-4c29-9d4d-7d3913db86ca",
+            "label": "background",
+            "list": [
+                {
+                    "type": "TileSprite",
+                    "id": "f2a98b6f-97e2-4585-9aab-a31eef0435f3",
+                    "label": "tilesprite_1",
+                    "texture": {
+                        "key": "8"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 576,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "ac43aaf0-60aa-492a-ad0b-747d45231b3f",
+                    "label": "tilesprite_2",
+                    "texture": {
+                        "key": "7"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 576,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "025615cf-0c06-4aaf-8d16-6a24724126da",
+                    "label": "tilesprite",
+                    "texture": {
+                        "key": "6"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 576,
+                    "height": 324
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

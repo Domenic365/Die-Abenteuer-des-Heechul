@@ -1,0 +1,74 @@
+{
+    "id": "74577a35-d1f8-4ef4-8555-2d5a52e77a86",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [
+            "Die Abenteuer des Heechul/assets/boot.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "level1",
+        "borderWidth": 576,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "prefabId": "0aeab9de-4c41-482b-aad4-a5c45b5e22e0",
+            "id": "1a11bed6-39de-41f2-aa9c-3677c946eb45",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "background"
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "c2e3d2e9-7b1e-4b22-8ff7-a31b8c362bf7",
+            "label": "foregroundBack_1",
+            "x": 4,
+            "y": 139,
+            "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
+            "layerName": "foregroundBack",
+            "tilesets": [
+                "overworld",
+                "overworldBack"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "ec34bcc1-0378-4d2d-aeb5-cdb1e5f05bdd",
+            "label": "foreground_1",
+            "x": 2,
+            "y": 131,
+            "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
+            "layerName": "foreground",
+            "tilesets": [
+                "overworld",
+                "overworldBack"
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
+            "type": "Tilemap",
+            "label": "level1",
+            "key": "level1",
+            "tilesets": [
+                {
+                    "name": "overworld",
+                    "imageKey": "TileSet"
+                },
+                {
+                    "name": "overworldBack",
+                    "imageKey": "Back_TileSet"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/tiles/Background/Layers/1.png",
+                "type": "image",
+                "key": "1"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/2.png",
+                "type": "image",
+                "key": "2"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/3.png",
+                "type": "image",
+                "key": "3"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/4.png",
+                "type": "image",
+                "key": "4"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/5.png",
+                "type": "image",
+                "key": "5"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/6.png",
+                "type": "image",
+                "key": "6"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/7.png",
+                "type": "image",
+                "key": "7"
+            },
+            {
+                "url": "assets/tiles/Background/Layers/8.png",
+                "type": "image",
+                "key": "8"
+            },
+            {
+                "url": "assets/tiles/Tiles/Back_TileSet.png",
+                "type": "image",
+                "key": "Back_TileSet"
+            },
+            {
+                "url": "assets/tilemaps/level1/level1.json",
+                "type": "tilemapTiledJSON",
+                "key": "level1"
+            },
+            {
+                "url": "assets/tiles/Tiles/TileSet.png",
+                "type": "image",
+                "key": "TileSet"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
