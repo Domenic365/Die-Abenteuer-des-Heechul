@@ -32,16 +32,26 @@ class Level1 extends Phaser.Scene {
 		this.add.existing(background);
 
 		// foregroundBack_1
-		level1.createLayer("foregroundBack", ["overworldBack"], 4, 139);
+		level1.createLayer("foregroundBack", ["overworldBack"], 2, 139);
 
 		// foreground_1
-		level1.createLayer("foreground", ["overworld"], 2, 131);
+		const foreground_1 = level1.createLayer("foreground", ["overworld"], 0, 132);
 
+		// dude_Monster
+		const dude_Monster = new Player(this, 155, 269);
+		this.add.existing(dude_Monster);
+
+		this.background = background;
+		this.foreground_1 = foreground_1;
 		this.level1 = level1;
 
 		this.events.emit("scene-awake");
 	}
 
+	/** @type {BackgroundClass} */
+	background;
+	/** @type {Phaser.Tilemaps.TilemapLayer} */
+	foreground_1;
 	/** @type {Phaser.Tilemaps.Tilemap} */
 	level1;
 

@@ -42,14 +42,198 @@
                 "key": "8"
             },
             {
+                "url": "assets/character/player/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
                 "url": "assets/tiles/Tiles/Back_TileSet.png",
                 "type": "image",
                 "key": "Back_TileSet"
             },
             {
+                "url": "assets/character/player/Double_Jump_Dust_5.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Double_Jump_Dust_5"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster.png",
+                "type": "image",
+                "key": "Dude_Monster"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Attack1_4.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Attack1_4"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Attack2_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Attack2_6"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Climb_4.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Climb_4"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Death_8.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Death_8"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Hurt_4.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Hurt_4"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Idle_4.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Idle_4"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Jump_8.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Jump_8"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Push_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Push_6"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Run_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Run_6"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Throw_4.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Throw_4"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Walk_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Walk_6"
+            },
+            {
+                "url": "assets/character/player/Dude_Monster_Walk+Attack_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Dude_Monster_Walk+Attack_6"
+            },
+            {
                 "url": "assets/tilemaps/level1/level1.json",
                 "type": "tilemapTiledJSON",
                 "key": "level1"
+            },
+            {
+                "url": "assets/tiles/Objects/Food/Pizza.png",
+                "type": "image",
+                "key": "Pizza"
             },
             {
                 "url": "assets/tiles/Tiles/TileSet.png",

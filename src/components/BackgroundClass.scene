@@ -23,7 +23,7 @@
                     },
                     "originX": 0,
                     "originY": 0,
-                    "width": 576,
+                    "width": 4672,
                     "height": 324
                 },
                 {
@@ -35,7 +35,7 @@
                     },
                     "originX": 0,
                     "originY": 0,
-                    "width": 576,
+                    "width": 4672,
                     "height": 324
                 },
                 {
@@ -47,7 +47,67 @@
                     },
                     "originX": 0,
                     "originY": 0,
-                    "width": 576,
+                    "width": 4672,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "766f4fbe-efa7-445f-b6bb-c9fdf81fbee7",
+                    "label": "tilesprite_3",
+                    "texture": {
+                        "key": "5"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 4672,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "a58297ec-1c01-4dcd-914a-b0a2a17312e0",
+                    "label": "tilesprite_4",
+                    "texture": {
+                        "key": "4"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 4672,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "2834e990-9521-4106-8537-04537e802f65",
+                    "label": "tilesprite_5",
+                    "texture": {
+                        "key": "3"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 4672,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "f44febb3-fc71-451c-b3ff-7961a4b64d27",
+                    "label": "tilesprite_6",
+                    "texture": {
+                        "key": "2"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 4672,
+                    "height": 324
+                },
+                {
+                    "type": "TileSprite",
+                    "id": "1ede7ef4-3566-4c46-86c5-e2318a01cc00",
+                    "label": "tilesprite_7",
+                    "texture": {
+                        "key": "1"
+                    },
+                    "originX": 0,
+                    "originY": 0,
+                    "width": 4672,
                     "height": 324
                 }
             ]

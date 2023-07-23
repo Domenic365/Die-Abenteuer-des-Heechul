@@ -18,13 +18,14 @@
                 "x",
                 "y"
             ],
-            "label": "background"
+            "label": "background",
+            "scope": "CLASS"
         },
         {
             "type": "TilemapLayer",
             "id": "c2e3d2e9-7b1e-4b22-8ff7-a31b8c362bf7",
             "label": "foregroundBack_1",
-            "x": 4,
+            "x": 2,
             "y": 139,
             "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
             "layerName": "foregroundBack",
@@ -37,14 +38,25 @@
             "type": "TilemapLayer",
             "id": "ec34bcc1-0378-4d2d-aeb5-cdb1e5f05bdd",
             "label": "foreground_1",
-            "x": 2,
-            "y": 131,
+            "scope": "PUBLIC",
+            "y": 132,
             "tilemapId": "e5dc8a89-138a-41ba-aaae-abe30b7de681",
             "layerName": "foreground",
             "tilesets": [
                 "overworld",
                 "overworldBack"
             ]
+        },
+        {
+            "prefabId": "3a43eade-51ad-4b97-b044-1fffa65f1fcb",
+            "id": "ac3b665d-3699-48cf-a309-19f9f9094c73",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "dude_Monster",
+            "x": 155,
+            "y": 269
         }
     ],
     "plainObjects": [
