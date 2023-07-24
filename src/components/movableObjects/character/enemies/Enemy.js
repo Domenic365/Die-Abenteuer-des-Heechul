@@ -3,5 +3,6 @@ class Enemy extends MovableObjects {
         super(scene, x, y, texture, frame);
 
         scene.physics.add.existing(this, false);
+        scene.enemies.add(this);
     }
 }

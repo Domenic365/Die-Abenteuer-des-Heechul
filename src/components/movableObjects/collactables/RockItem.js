@@ -11,7 +11,7 @@ class RockItem extends MovableObjects {
 		this.body.setSize(16, 16, false);
 
 		/* START-USER-CTR-CODE */
-        // Write your code here.
+		scene.stones.add(this);
         /* END-USER-CTR-CODE */
 	}
 

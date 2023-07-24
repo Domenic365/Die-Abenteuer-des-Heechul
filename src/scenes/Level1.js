@@ -7,7 +7,6 @@ class Level1 extends Phaser.Scene {
         super("level1");
 
         /* START-USER-CTR-CODE */
-
         /* END-USER-CTR-CODE */
     }
 
@@ -63,12 +62,22 @@ class Level1 extends Phaser.Scene {
 
     // Write your code here
 
+    init() {
+        this.loadGroups();
+    }
+
     create() {
         this.editorCreate();
+        this.createCollisions();
     }
 
     update() {
         this.player.moveCharacter();
+    }
+
+    loadGroups() {
+        this.stones = new Phaser.Physics.Arcade.Group(this.world, this);
+        this.enemies = new Phaser.Physics.Arcade.Group(this.world, this);
     }
 
     stoneItemAndCharacterCollision() {
