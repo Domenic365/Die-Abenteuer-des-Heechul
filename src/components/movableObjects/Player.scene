@@ -27,5 +27,77 @@
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 4
-    }
+    },
+    "prefabProperties": [
+        {
+            "name": "stones",
+            "label": "stones",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "maxStones",
+            "label": "maxStones",
+            "tooltip": "",
+            "defValue": 3,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "lifePoints",
+            "label": "lifePoints",
+            "tooltip": "",
+            "defValue": 3,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "damage",
+            "label": "damage",
+            "tooltip": "",
+            "defValue": 2,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "speed",
+            "label": "speed",
+            "tooltip": "",
+            "defValue": 100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "jumpSpeed",
+            "label": "jumpSpeed",
+            "tooltip": "",
+            "defValue": -350,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "knockback",
+            "label": "knockback",
+            "tooltip": "",
+            "defValue": -100,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 {
     "anims": [
         {
-            "key": "idleDude_Monster_Idle",
+            "key": "idledude",
             "type": "frame",
             "frames": [
                 {
@@ -35,7 +35,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "doubleJumpDustDouble_Jump_Dust",
+            "key": "doubleJumpDust",
             "type": "frame",
             "frames": [
                 {
@@ -75,7 +75,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "attackDude_Monster_Attack",
+            "key": "attackDude",
             "type": "frame",
             "frames": [
                 {
@@ -109,7 +109,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "attack2Dude_Monster_Attack",
+            "key": "attack2Dude",
             "type": "frame",
             "frames": [
                 {
@@ -155,7 +155,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "deathDude_Monster_Death",
+            "key": "deathDude",
             "type": "frame",
             "frames": [
                 {
@@ -213,7 +213,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "hurtDude_Monster_Hurt",
+            "key": "hurtDude",
             "type": "frame",
             "frames": [
                 {
@@ -247,7 +247,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "jumpDude_Monster_Jump",
+            "key": "jumpDude",
             "type": "frame",
             "frames": [
                 {
@@ -305,7 +305,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "runDude_Monster_Run",
+            "key": "runDude",
             "type": "frame",
             "frames": [
                 {
@@ -351,7 +351,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "throwDude_Monster_Throw",
+            "key": "throwDude",
             "type": "frame",
             "frames": [
                 {
@@ -385,7 +385,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "walkDude_Monster_Walk",
+            "key": "walkDude",
             "type": "frame",
             "frames": [
                 {
@@ -431,7 +431,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "walkAttackDude_Monster_Walk+Attack",
+            "key": "walkAttackDude",
             "type": "frame",
             "frames": [
                 {
@@ -477,7 +477,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "climbDude_Monster_Climb",
+            "key": "climbDude",
             "type": "frame",
             "frames": [
                 {
@@ -511,7 +511,7 @@
             "showBeforeDelay": false
         },
         {
-            "key": "pushDude_Monster_Push",
+            "key": "pushDude",
             "type": "frame",
             "frames": [
                 {
@@ -566,6 +566,6 @@
         "sourceLang": "JAVA_SCRIPT",
         "esModule": false,
         "generateCode": true,
-        "outputFolder": "Die Abenteuer des Heechul/src/components"
+        "outputFolder": "Die-Abenteuer-des-Heechul/src/components"
     }
 }

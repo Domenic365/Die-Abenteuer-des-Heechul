@@ -1,27 +1,27 @@
 // The constants with the animation keys.
 
-const ANIM_IDLEDUDE_MONSTER_IDLE = "idleDude_Monster_Idle";
+const ANIM_IDLEDUDE = "idledude";
 
-const ANIM_DOUBLEJUMPDUSTDOUBLE_JUMP_DUST = "doubleJumpDustDouble_Jump_Dust";
+const ANIM_DOUBLEJUMPDUST = "doubleJumpDust";
 
-const ANIM_ATTACKDUDE_MONSTER_ATTACK = "attackDude_Monster_Attack";
+const ANIM_ATTACKDUDE = "attackDude";
 
-const ANIM_ATTACK2DUDE_MONSTER_ATTACK = "attack2Dude_Monster_Attack";
+const ANIM_ATTACK2DUDE = "attack2Dude";
 
-const ANIM_DEATHDUDE_MONSTER_DEATH = "deathDude_Monster_Death";
+const ANIM_DEATHDUDE = "deathDude";
 
-const ANIM_HURTDUDE_MONSTER_HURT = "hurtDude_Monster_Hurt";
+const ANIM_HURTDUDE = "hurtDude";
 
-const ANIM_JUMPDUDE_MONSTER_JUMP = "jumpDude_Monster_Jump";
+const ANIM_JUMPDUDE = "jumpDude";
 
-const ANIM_RUNDUDE_MONSTER_RUN = "runDude_Monster_Run";
+const ANIM_RUNDUDE = "runDude";
 
-const ANIM_THROWDUDE_MONSTER_THROW = "throwDude_Monster_Throw";
+const ANIM_THROWDUDE = "throwDude";
 
-const ANIM_WALKDUDE_MONSTER_WALK = "walkDude_Monster_Walk";
+const ANIM_WALKDUDE = "walkDude";
 
-const ANIM_WALKATTACKDUDE_MONSTER_WALK_ATTACK = "walkAttackDude_Monster_Walk+Attack";
+const ANIM_WALKATTACKDUDE = "walkAttackDude";
 
-const ANIM_CLIMBDUDE_MONSTER_CLIMB = "climbDude_Monster_Climb";
+const ANIM_CLIMBDUDE = "climbDude";
 
-const ANIM_PUSHDUDE_MONSTER_PUSH = "pushDude_Monster_Push";
+const ANIM_PUSHDUDE = "pushDude";
