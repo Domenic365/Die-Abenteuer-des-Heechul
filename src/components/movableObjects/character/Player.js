@@ -1,4 +1,3 @@
-
 // You can write more code here
 
 /* START OF COMPILED CODE */
@@ -12,8 +11,9 @@ class Player extends MovableObjects {
 		this.body.setSize(32, 32, false);
 
 		/* START-USER-CTR-CODE */
-		this.createKeys();
-		/* END-USER-CTR-CODE */
+        this.createKeys();
+        this.addCameraSettings();
+        /* END-USER-CTR-CODE */
 	}
 
 	/** @type {number} */
@@ -27,13 +27,17 @@ class Player extends MovableObjects {
 	/** @type {number} */
 	speed = 100;
 	/** @type {number} */
-	jumpSpeed = -350;
+	jumpSpeed = -400;
 	/** @type {number} */
 	knockback = -100;
 
 	/* START-USER-CODE */
 
-	collectStone() {
+    addColliderGround() {
+        this.scene.physics.add.collider(this, this.scene.groundGroup, ()=>{this.fellOnGround()});
+    }
+
+    collectStone() {
         this.stones++;
         this.scene.stoneBar.setFrame(this.stones);
     }
@@ -79,7 +83,7 @@ class Player extends MovableObjects {
         }
     }
 
-	/* END-USER-CODE */
+    /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */

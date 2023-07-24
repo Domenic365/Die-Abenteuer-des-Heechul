@@ -1,69 +1,142 @@
-
 // You can write more code here
 
 /* START OF COMPILED CODE */
 
 class Level1 extends Phaser.Scene {
+    constructor() {
+        super("level1");
 
-	constructor() {
-		super("level1");
+        /* START-USER-CTR-CODE */
 
-		/* START-USER-CTR-CODE */
-		// Write your code here.
-		/* END-USER-CTR-CODE */
-	}
+        /* END-USER-CTR-CODE */
+    }
 
-	/** @returns {void} */
-	preload() {
+    /** @returns {void} */
+    preload() {
+        this.load.pack("boot", "assets/boot.json");
+    }
 
-		this.load.pack("boot", "assets/boot.json");
-	}
+    /** @returns {void} */
+    editorCreate() {
+        // background
+        const background = new BackgroundClass(this);
+        this.add.existing(background);
 
-	/** @returns {void} */
-	editorCreate() {
+        // GroundLayer
+        const groundLayer = new GroundLayer(this);
+        this.add.existing(groundLayer);
 
-		// background
-		const background = new BackgroundClass(this);
-		this.add.existing(background);
+        // Player
+        const player = new Player(this, 96, 256);
+        this.add.existing(player);
 
-		// GroundLayer
-		const groundLayer = new GroundLayer(this);
-		this.add.existing(groundLayer);
+        // rock2
+        const rock2 = new RockItem(this, 384, 256);
+        this.add.existing(rock2);
 
-		// Player
-		const player = new Player(this, 20, 30);
-		this.add.existing(player);
+        // bear
+        const bear = new Bear(this, 480, 256);
+        this.add.existing(bear);
 
-		this.background = background;
-		this.groundLayer = groundLayer;
-		this.player = player;
+        // collider
+        this.physics.add.collider(
+            Player,
+            rock2,
+            this.stoneItemAndCharacterCollision()
+        );
 
-		this.events.emit("scene-awake");
-	}
+        this.background = background;
+        this.groundLayer = groundLayer;
+        this.player = player;
 
-	/** @type {BackgroundClass} */
-	background;
-	/** @type {GroundLayer} */
-	groundLayer;
-	/** @type {Player} */
-	player;
+        this.events.emit("scene-awake");
+    }
 
-	/* START-USER-CODE */
+    /** @type {BackgroundClass} */
+    background;
+    /** @type {GroundLayer} */
+    groundLayer;
+    /** @type {Player} */
+    player;
 
-	// Write your code here
+    /* START-USER-CODE */
 
-	create() {
-		this.editorCreate();
-		console.log(this.groundLayer);
-		console.log(this.groundGroup);
-		this.physics.add.collider(this.player, this.groundGroup);
-	}
+    // Write your code here
 
-	update(){
-		this.player.moveCharacter();
-	}
+    create() {
+        this.editorCreate();
+    }
 
-	/* END-USER-CODE */
+    update() {
+        this.player.moveCharacter();
+    }
+
+    stoneItemAndCharacterCollision() {
+        return (character, rockItem) => {
+            const canCollectStone = character.stones < character.maxStone;
+            if (canCollectStone) {
+                character.collectStone();
+                rockItem.destroy();
+            }
+        };
+    }
+
+    rockAndEnemyCollision() {
+        return (thrownObject, enemy) => {
+            thrownObject.destroy();
+            enemy.gotHit(
+                thrownObject.damage,
+                "skeletonHitAnim",
+                "skeletonDeathAnim"
+            );
+        };
+    }
+
+    characterAndEnemyCollision() {
+        return (character, enemy) => {
+            let enemyGotHitOnTop = enemy.body.touching.up;
+            if (enemyGotHitOnTop) {
+                enemy.gotHit(
+                    character.damage,
+                    "skeletonHitAnim",
+                    "skeletonDeathAnim"
+                );
+                character.isJumped = false;
+                character.jump(character.jumpSpeed, "characterJumpAnim");
+            } else {
+                character.gotHit(
+                    enemy.damage,
+                    "characterHitAnim",
+                    "characterDeathAnim",
+                    (character) => {
+                        character.setVelocityX(character.knockback);
+                        this.healthBar.setFrame(character.lifePoints);
+                    }
+                );
+            }
+        };
+    }
+
+    createCollisions() {
+        const collisionList = loadCollisionObjects(this);
+        collisionList.forEach((collisionObject) => {
+            if (collisionObject.overlap) {
+                this.physics.add.overlap(
+                    collisionObject.firstObject,
+                    collisionObject.secondObject,
+                    collisionObject.function
+                );
+            } else {
+                this.physics.add.collider(
+                    collisionObject.firstObject,
+                    collisionObject.secondObject,
+                    collisionObject.function
+                );
+            }
+        });
+    }
+
+    /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */

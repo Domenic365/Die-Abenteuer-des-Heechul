@@ -1,4 +1,3 @@
-
 // You can write more code here
 
 /* START OF COMPILED CODE */
@@ -1470,15 +1469,15 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 
 		/* START-USER-CTR-CODE */
 
-		scene.groundGroup = new GroundGroup(scene, this.getChildren());
-		/* END-USER-CTR-CODE */
+        scene.groundGroup = new GroundGroup(scene, this.getChildren());
+        /* END-USER-CTR-CODE */
 	}
 
 	/* START-USER-CODE */
 
-	// Write your code here.
+    // Write your code here.
 
-	/* END-USER-CODE */
+    /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */

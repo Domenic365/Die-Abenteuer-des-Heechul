@@ -43,11 +43,43 @@
             ],
             "label": "Player",
             "scope": "CLASS",
-            "x": 20,
-            "y": 30
+            "x": 96,
+            "y": 256
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "62eac75c-1f36-40ae-afe3-8012d5a8ae47",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rock2",
+            "x": 384,
+            "y": 256
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "8059a73e-a88a-4018-9153-852119337c40",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear",
+            "x": 480,
+            "y": 256
         }
     ],
-    "plainObjects": [],
+    "plainObjects": [
+        {
+            "id": "6163e1e0-000c-40bb-b4ab-cc6b299ce870",
+            "type": "Collider",
+            "label": "collider",
+            "scope": "LOCAL",
+            "object1": "Player",
+            "object2": "rock2",
+            "collideCallback": "this.stoneItemAndCharacterCollision()"
+        }
+    ],
     "meta": {
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",

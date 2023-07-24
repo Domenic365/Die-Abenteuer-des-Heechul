@@ -1,0 +1,31 @@
+{
+    "id": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+    "sceneType": "PREFAB",
+    "settings": {
+        "superClassName": "MovableObjects",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 576,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "bb3d9db5-a5c9-43d1-889c-8f133276806c",
+            "label": "rock2",
+            "texture": {
+                "key": "Rock2"
+            },
+            "body.width": 16,
+            "body.height": 16
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

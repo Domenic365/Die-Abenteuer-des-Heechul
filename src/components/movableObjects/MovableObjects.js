@@ -1,11 +1,15 @@
 class MovableObjects extends Phaser.Physics.Arcade.Sprite {
+    constructor(scene, x, y, texture, frame) {
+        super(scene, x, y, texture, frame);
+        this.init();
+        this.addColliderGround();
+    }
 
-	constructor(scene, x, y, texture, frame) {
-		super(scene, x, y, texture, frame);
-		this.init();
-	}
-	
-	  init() {
+    addColliderGround() {
+        this.scene.physics.add.collider(this, this.scene.groundGroup);
+    }
+
+    init() {
         this.isJumped = false;
         this.isDoing = false;
     }
@@ -34,7 +38,7 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
         this.lifePoints -= damage;
         let isDead = this.lifePoints < 1;
         if (isDead) {
-            this.doSomething(deathAnimKey, 400, funBeforeAnim, object => {
+            this.doSomething(deathAnimKey, 400, funBeforeAnim, (object) => {
                 object.destroy();
                 if (funAfterAnim) {
                     funAfterAnim(this);

@@ -83,7 +83,7 @@
             "name": "jumpSpeed",
             "label": "jumpSpeed",
             "tooltip": "",
-            "defValue": -350,
+            "defValue": -400,
             "customDefinition": false,
             "type": {
                 "id": "number"

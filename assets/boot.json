@@ -47,6 +47,19 @@
                 "key": "animations"
             },
             {
+                "url": "assets/character/enemies/bear/Attack.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Attack"
+            },
+            {
                 "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_01.png",
                 "type": "image",
                 "key": "Back_TileSet_01"
@@ -125,6 +138,24 @@
                 "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_16.png",
                 "type": "image",
                 "key": "Back_TileSet_16"
+            },
+            {
+                "url": "assets/character/enemies/bear/Bear.png",
+                "type": "image",
+                "key": "Bear"
+            },
+            {
+                "url": "assets/character/enemies/bear/Death.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Death"
             },
             {
                 "url": "assets/character/player/Double_Jump_Dust_5.png",
@@ -301,9 +332,45 @@
                 "key": "Dude_Monster_Walk+Attack_6"
             },
             {
+                "url": "assets/character/enemies/bear/Hurt.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Hurt"
+            },
+            {
+                "url": "assets/character/enemies/bear/Idle.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Idle"
+            },
+            {
                 "url": "assets/tiles/Objects/Food/Pizza.png",
                 "type": "image",
                 "key": "Pizza"
+            },
+            {
+                "url": "assets/character/player/Rock1.png",
+                "type": "image",
+                "key": "Rock1"
+            },
+            {
+                "url": "assets/character/player/Rock2.png",
+                "type": "image",
+                "key": "Rock2"
             },
             {
                 "url": "assets/tiles/Tiles/foregroundTiles/TileSet_01.png",
@@ -514,6 +581,32 @@
                 "url": "assets/tiles/Tiles/foregroundTiles/TileSet_42.png",
                 "type": "image",
                 "key": "TileSet_42"
+            },
+            {
+                "url": "assets/character/enemies/bear/Walk.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Walk"
+            },
+            {
+                "url": "assets/character/player/Walk_Run_Push_Dust_6.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Walk_Run_Push_Dust_6"
             }
         ]
     },

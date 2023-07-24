@@ -25,3 +25,15 @@ const ANIM_WALKATTACKDUDE = "walkAttackDude";
 const ANIM_CLIMBDUDE = "climbDude";
 
 const ANIM_PUSHDUDE = "pushDude";
+
+const ANIM_DUSTWALK_RUN_PUSH_DUST = "dustWalk_Run_Push_Dust";
+
+const ANIM_BEARATTACK = "bearAttack";
+
+const ANIM_BEARDEATH = "bearDeath";
+
+const ANIM_BEARHURT = "bearHurt";
+
+const ANIM_BEARIDLE = "bearIdle";
+
+const ANIM_BEARWALK = "bearWalk";
