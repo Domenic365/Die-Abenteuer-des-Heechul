@@ -12,13 +12,33 @@ class Player extends MovableObjects {
 		this.body.setSize(32, 32, false);
 
 		/* START-USER-CTR-CODE */
-		// Write your code here.
+		this.createKeys();
 		/* END-USER-CTR-CODE */
 	}
 
 	/* START-USER-CODE */
 
-	// Write your code here.
+	    createKeys() {
+        let keyboard = this.scene.input.keyboard;
+        this.cursorkeys = keyboard.createCursorKeys();
+//        keyboard.on("keydown-SPACE", this.throwStone());
+        keyboard.on("keydown-UP", () => {
+//            this.jump(this.jumpSpeed, "characterJumpAnim");
+        });
+    }
+
+	    moveCharacter() {
+        if (this.isDoing === false) {
+            if (this.cursorkeys.right.isDown === true) {
+				console.log("Du Hurensohn");
+//                this.move(this.speed, "characterRunAnim", false);
+            } else if (this.cursorkeys.left.isDown === true) {
+//                this.move(-this.speed, "characterRunAnim", true);
+            } else if (this.isJumped === false) {
+//                this.move(0, "characterIdleAnim");
+            }
+        }
+    }
 
 	/* END-USER-CODE */
 }

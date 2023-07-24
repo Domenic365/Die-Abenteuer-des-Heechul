@@ -22,27 +22,31 @@ class Level1 extends Phaser.Scene {
 	/** @returns {void} */
 	editorCreate() {
 
-		// GroundLayer
-		const groundLayer = this.add.layer();
-
 		// background
 		const background = new BackgroundClass(this);
 		this.add.existing(background);
 
+		// GroundLayer
+		const groundLayer = new GroundLayer(this);
+		this.add.existing(groundLayer);
+
 		// Player
-		const player = new Player(this, 186, 119);
+		const player = new Player(this, 20, 30);
 		this.add.existing(player);
 
-		this.groundLayer = groundLayer;
 		this.background = background;
+		this.groundLayer = groundLayer;
+		this.player = player;
 
 		this.events.emit("scene-awake");
 	}
 
-	/** @type {Phaser.GameObjects.Layer} */
-	groundLayer;
 	/** @type {BackgroundClass} */
 	background;
+	/** @type {GroundLayer} */
+	groundLayer;
+	/** @type {Player} */
+	player;
 
 	/* START-USER-CODE */
 
@@ -50,6 +54,13 @@ class Level1 extends Phaser.Scene {
 
 	create() {
 		this.editorCreate();
+		console.log(this.groundLayer);
+		console.log(this.groundGroup);
+		this.physics.add.collider(this.player, this.groundGroup);
+	}
+
+	update(){
+		this.player.moveCharacter();
 	}
 
 	/* END-USER-CODE */

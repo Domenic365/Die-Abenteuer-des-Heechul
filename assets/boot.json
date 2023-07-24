@@ -42,7 +42,7 @@
                 "key": "8"
             },
             {
-                "url": "assets/character/player/animations.json",
+                "url": "assets/animations.json",
                 "type": "animation",
                 "key": "animations"
             },
@@ -299,11 +299,6 @@
                 },
                 "type": "spritesheet",
                 "key": "Dude_Monster_Walk+Attack_6"
-            },
-            {
-                "url": "assets/tilemaps/level1/level1.json",
-                "type": "tilemapTiledJSON",
-                "key": "level1"
             },
             {
                 "url": "assets/tiles/Objects/Food/Pizza.png",

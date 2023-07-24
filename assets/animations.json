@@ -565,6 +565,7 @@
     "settings": {
         "sourceLang": "JAVA_SCRIPT",
         "esModule": false,
-        "generateCode": false
+        "generateCode": true,
+        "outputFolder": "Die Abenteuer des Heechul/src/components"
     }
 }

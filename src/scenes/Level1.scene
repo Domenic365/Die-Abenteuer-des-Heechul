@@ -3,8 +3,8 @@
     "sceneType": "SCENE",
     "settings": {
         "snapEnabled": true,
-        "snapWidth": 6,
-        "snapHeight": 6,
+        "snapWidth": 32,
+        "snapHeight": 32,
         "preloadPackFiles": [
             "Die Abenteuer des Heechul/assets/boot.json"
         ],
@@ -14,12 +14,6 @@
         "borderHeight": 324
     },
     "displayList": [
-        {
-            "type": "Layer",
-            "id": "253cb6a5-ba79-4cba-9a9e-684cd3746c34",
-            "label": "GroundLayer",
-            "scope": "CLASS"
-        },
         {
             "prefabId": "0aeab9de-4c41-482b-aad4-a5c45b5e22e0",
             "id": "1a11bed6-39de-41f2-aa9c-3677c946eb45",
@@ -31,6 +25,16 @@
             "scope": "CLASS"
         },
         {
+            "prefabId": "80d4f2e5-116a-4ec5-8551-83b1cfbcb9a8",
+            "id": "23b264a6-04af-4bc3-a074-8ca3f4762075",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "GroundLayer",
+            "scope": "CLASS"
+        },
+        {
             "prefabId": "786c8c16-9343-4c23-a181-bd23ab8466eb",
             "id": "80e513d6-b712-4cb8-929f-dc9391142217",
             "unlock": [
@@ -38,8 +42,9 @@
                 "y"
             ],
             "label": "Player",
-            "x": 186,
-            "y": 119
+            "scope": "CLASS",
+            "x": 20,
+            "y": 30
         }
     ],
     "plainObjects": [],
