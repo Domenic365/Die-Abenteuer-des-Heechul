@@ -18,8 +18,9 @@
                 "key": "Dude_Monster"
             },
             "collideWorldBounds": true,
-            "body.width": 32,
-            "body.height": 32
+            "body.width": 16,
+            "body.height": 32,
+            "body.offset.x": 8
         }
     ],
     "plainObjects": [],

@@ -595,6 +595,26 @@
                 "key": "Rock2"
             },
             {
+                "url": "assets/tiles/Objects/Spikes/Spikes1_1.png",
+                "type": "image",
+                "key": "Spikes1_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Spikes/Spikes1_2.png",
+                "type": "image",
+                "key": "Spikes1_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Spikes/Spikes2_1.png",
+                "type": "image",
+                "key": "Spikes2_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Spikes/Spikes2_2.png",
+                "type": "image",
+                "key": "Spikes2_2"
+            },
+            {
                 "url": "assets/tiles/Tiles/foregroundTiles/TileSet_01.png",
                 "type": "image",
                 "key": "TileSet_01"

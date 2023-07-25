@@ -563,58 +563,126 @@ class Level1 extends Phaser.Scene {
 		const player = new Player(this, 128, 224);
 		this.add.existing(player);
 
-		// rock2
-		const rock2 = new RockItem(this, 384, 280);
-		this.add.existing(rock2);
-
-		// bear
-		const bear = new Bear(this, 744, 264);
-		this.add.existing(bear);
-
 		// healthBar
 		const healthBar = this.add.sprite(56, 16, "Healthbar_sprite", 3);
 
 		// stoneBar
 		const stoneBar = this.add.sprite(56, 32, "Energybar_sprite", 0);
 
-		// rockItem
-		const rockItem = new RockItem(this, 352, 280);
-		this.add.existing(rockItem);
-
-		// rockItem_1
-		const rockItem_1 = new RockItem(this, 312, 280);
-		this.add.existing(rockItem_1);
-
-		// bear_1
-		const bear_1 = new Bear(this, 1120, 264);
-		this.add.existing(bear_1);
-
-		// bear_2
-		const bear_2 = new Bear(this, 896, 264);
-		this.add.existing(bear_2);
-
-		// bear_3
-		const bear_3 = new Bear(this, 1320, 264);
-		this.add.existing(bear_3);
-
 		// coinBar
 		const coinBar = this.add.image(56, 48, "coinBar", 0);
 
-		// coin0
-		const coin0 = new Coin(this, 192, 264);
-		this.add.existing(coin0);
+		// spikes
+		const spikes = new Spikes(this, 1360, 304);
+		this.add.existing(spikes);
+
+		// spikes_1
+		const spikes_1 = new Spikes(this, 1392, 304);
+		this.add.existing(spikes_1);
+
+		// spikes_2
+		const spikes_2 = new Spikes(this, 2768, 304);
+		this.add.existing(spikes_2);
+
+		// spikes_3
+		const spikes_3 = new Spikes(this, 2800, 304);
+		this.add.existing(spikes_3);
+
+		// spikes_4
+		const spikes_4 = new Spikes(this, 2832, 304);
+		this.add.existing(spikes_4);
+
+		// spikes_5
+		const spikes_5 = new Spikes(this, 2864, 304);
+		this.add.existing(spikes_5);
+
+		// bear
+		const bear = new Bear(this, 768, 184);
+		this.add.existing(bear);
+
+		// bear_1
+		const bear_1 = new Bear(this, 1320, 264);
+		this.add.existing(bear_1);
+
+		// rockItem
+		const rockItem = new RockItem(this, 416, 272);
+		this.add.existing(rockItem);
+
+		// rockItem_1
+		const rockItem_1 = new RockItem(this, 1000, 280);
+		this.add.existing(rockItem_1);
+
+		// burger
+		const burger = new Burger(this, 1440, 272);
+		this.add.existing(burger);
+
+		// rockItem_2
+		const rockItem_2 = new RockItem(this, 1520, 280);
+		this.add.existing(rockItem_2);
+
+		// rockItem_3
+		const rockItem_3 = new RockItem(this, 1880, 280);
+		this.add.existing(rockItem_3);
+
+		// bear_2
+		const bear_2 = new Bear(this, 1104, 264);
+		this.add.existing(bear_2);
+
+		// bear_3
+		const bear_3 = new Bear(this, 2184, 264);
+		this.add.existing(bear_3);
+
+		// bear_4
+		const bear_4 = new Bear(this, 1992, 264);
+		this.add.existing(bear_4);
+
+		// bear_5
+		const bear_5 = new Bear(this, 1704, 264);
+		this.add.existing(bear_5);
+
+		// bear_6
+		const bear_6 = new Bear(this, 3128, 88);
+		this.add.existing(bear_6);
+
+		// bear_7
+		const bear_7 = new Bear(this, 3752, 264);
+		this.add.existing(bear_7);
+
+		// bear_8
+		const bear_8 = new Bear(this, 3344, 264);
+		this.add.existing(bear_8);
 
 		// coin
-		const coin = new Coin(this, 224, 264);
+		const coin = new Coin(this, 2696, 272);
 		this.add.existing(coin);
 
 		// coin_1
-		const coin_1 = new Coin(this, 256, 264);
+		const coin_1 = new Coin(this, 704, 192);
 		this.add.existing(coin_1);
 
-		// hamburger
-		const hamburger = new Burger(this, 440, 272);
-		this.add.existing(hamburger);
+		// coin_2
+		const coin_2 = new Coin(this, 2872, 88);
+		this.add.existing(coin_2);
+
+		// burger_1
+		const burger_1 = new Burger(this, 3016, 88);
+		this.add.existing(burger_1);
+
+		// rockItem_4
+		const rockItem_4 = new RockItem(this, 2928, 272);
+		this.add.existing(rockItem_4);
+
+		// burger_2
+		const burger_2 = new Burger(this, 2984, 272);
+		this.add.existing(burger_2);
+
+		// rockItem_5
+		const rockItem_5 = new RockItem(this, 3584, 272);
+		this.add.existing(rockItem_5);
+
+		// burger_3
+		const burger_3 = new Burger(this, 3920, 144);
+		this.add.existing(burger_3);
 
 		this.background = background;
 		this.groundLayer = groundLayer;
@@ -649,67 +717,73 @@ class Level1 extends Phaser.Scene {
 
     create() {
         this.editorCreate();
-		this.createCollisions();
+        this.createCollisions();
 
-		this.healthBar.setScrollFactor(0, 0);
-		this.stoneBar.setScrollFactor(0, 0);
-		this.coinBar.setScrollFactor(0, 0);
-		this.physics.world.setBounds(0, 0, 4672, game.config.height);
+        this.healthBar.setScrollFactor(0, 0);
+        this.stoneBar.setScrollFactor(0, 0);
+        this.coinBar.setScrollFactor(0, 0);
+        this.physics.world.setBounds(0, 0, 4672, game.config.height);
     }
 
-	update() {
-		this.player.update();
-		this.background.update();
-	}
+    update() {
+        this.player.update();
+        this.background.update();
+    }
 
-	loadGroups() {
+    loadGroups() {
         this.stones = new Phaser.Physics.Arcade.Group(this.physics.world, this);
-		this.enemies = new Phaser.Physics.Arcade.Group(this.physics.world, this);
-		this.thrownStones = new Phaser.Physics.Arcade.Group(this.physics.world, this);
-		this.coins = new Phaser.Physics.Arcade.Group(this.physics.world, this);
-		this.burger = new Phaser.Physics.Arcade.Group(this.physics.world, this)
+        this.enemies = new Phaser.Physics.Arcade.Group(
+            this.physics.world,
+            this
+        );
+        this.thrownStones = new Phaser.Physics.Arcade.Group(
+            this.physics.world,
+            this
+        );
+        this.coins = new Phaser.Physics.Arcade.Group(this.physics.world, this);
+        this.burger = new Phaser.Physics.Arcade.Group(this.physics.world, this);
+        this.spikes = new Phaser.Physics.Arcade.StaticGroup(
+            this.physics.world,
+            this
+        );
     }
 
     stoneItemAndCharacterCollision() {
-		return (character, rockItem) => {
+        return (character, rockItem) => {
             const canCollectStone = character.stones < character.maxStone;
             if (canCollectStone) {
-				character.collectStone();
+                character.collectStone();
                 rockItem.destroy();
             }
         };
-	}
+    }
 
-	coinAndPlayerCollision() {
-		return (character, coin) => {
+    coinAndPlayerCollision() {
+        return (character, coin) => {
             const canCollectStone = character.coins < character.maxCoins;
             if (canCollectStone) {
-				character.collectCoin();
+                character.collectCoin();
                 coin.destroy();
             }
         };
-	}
+    }
 
-	burgerAndPlayerCollision() {
-		return (character, burger) => {
-            const canCollectBurger = character.lifePoints < character.maxLifePoints;
+    burgerAndPlayerCollision() {
+        return (character, burger) => {
+            const canCollectBurger =
+                character.lifePoints < character.maxLifePoints;
             if (canCollectBurger) {
-				character.collectBurger();
+                character.collectBurger();
                 burger.destroy();
             }
         };
-	}
-
+    }
 
     rockAndEnemyCollision() {
         return (thrownObject, enemy) => {
             thrownObject.destroy();
-            enemy.gotHit(
-                thrownObject.damage,
-                ANIM_BEARHURT,
-                ANIM_BEARDEATH
-			);
-			enemy.setVelocityX(0);
+            enemy.gotHit(thrownObject.damage, ANIM_BEARHURT, ANIM_BEARDEATH);
+            enemy.setVelocityX(0);
         };
     }
 
@@ -717,11 +791,7 @@ class Level1 extends Phaser.Scene {
         return (character, enemy) => {
             let enemyGotHitOnTop = enemy.body.touching.up;
             if (enemyGotHitOnTop) {
-                enemy.gotHit(
-                    character.damage,
-                    ANIM_BEARHURT,
-                    ANIM_BEARDEATH
-                );
+                enemy.gotHit(character.damage, ANIM_BEARHURT, ANIM_BEARDEATH);
                 character.isJumped = false;
                 character.jump(character.jumpSpeed, ANIM_JUMPDUDE);
             } else {
@@ -736,8 +806,7 @@ class Level1 extends Phaser.Scene {
                 );
             }
         };
-	}
-
+    }
 
     createCollisions() {
         const collisionList = loadCollisionObjects(this);
@@ -756,6 +825,15 @@ class Level1 extends Phaser.Scene {
                 );
             }
         });
+    }
+
+    playerSpikesCollision() {
+        return (player) => {
+            player.gotHit(1, ANIM_HURTDUDE, ANIM_DEATHDUDE, (player) => {
+                player.setVelocity(player.knockback * 2, player.knockback * 2);
+                this.healthBar.setFrame(player.lifePoints);
+            });
+        };
     }
 
     /* END-USER-CODE */

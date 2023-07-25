@@ -1374,28 +1374,6 @@
             "y": 224
         },
         {
-            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
-            "id": "62eac75c-1f36-40ae-afe3-8012d5a8ae47",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "rock2",
-            "x": 384,
-            "y": 280
-        },
-        {
-            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
-            "id": "8059a73e-a88a-4018-9153-852119337c40",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "bear",
-            "x": 744,
-            "y": 264
-        },
-        {
             "type": "Sprite",
             "id": "6d720a0c-d66a-48fe-ad8a-3ea2547670e4",
             "label": "healthBar",
@@ -1420,61 +1398,6 @@
             "y": 32
         },
         {
-            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
-            "id": "6df99575-41bf-4eee-9612-f3b7616b23b9",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "rockItem",
-            "x": 352,
-            "y": 280
-        },
-        {
-            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
-            "id": "efe0b89f-6fb6-433b-80df-61abfcf48046",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "rockItem_1",
-            "x": 312,
-            "y": 280
-        },
-        {
-            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
-            "id": "c31d54c4-d236-4e1a-a9b7-ccf2cd17e932",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "bear_1",
-            "x": 1120,
-            "y": 264
-        },
-        {
-            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
-            "id": "596106d4-7559-45ae-8082-6ea8062f8dce",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "bear_2",
-            "x": 896,
-            "y": 264
-        },
-        {
-            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
-            "id": "47e7c585-46ae-4b54-b6be-8ab30671523a",
-            "unlock": [
-                "x",
-                "y"
-            ],
-            "label": "bear_3",
-            "x": 1320,
-            "y": 264
-        },
-        {
             "type": "Image",
             "id": "37719bbf-19f9-44f5-bf24-d42bdaa8fa10",
             "label": "coinBar",
@@ -1487,48 +1410,312 @@
             "y": 48
         },
         {
-            "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
-            "id": "37b4808e-8eba-452d-9929-d39dd340624b",
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "7673cb87-fd59-4f2f-b283-5026b4d36414",
             "unlock": [
                 "x",
                 "y"
             ],
-            "label": "coin0",
-            "x": 192,
+            "label": "spikes",
+            "x": 1360,
+            "y": 304
+        },
+        {
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "653b5cce-16b4-4459-b371-eba9d119d18f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "spikes_1",
+            "x": 1392,
+            "y": 304
+        },
+        {
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "40a7cb3c-eda9-4735-abb4-d76bc2533101",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "spikes_2",
+            "x": 2768,
+            "y": 304
+        },
+        {
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "e39d412b-d4ae-4b24-9d28-fd93464f6c80",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "spikes_3",
+            "x": 2800,
+            "y": 304
+        },
+        {
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "008e6b3e-5158-4ad6-9a47-8748e76d50e5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "spikes_4",
+            "x": 2832,
+            "y": 304
+        },
+        {
+            "prefabId": "c878249b-57e3-48eb-8ac3-bd0c91554035",
+            "id": "f4bf6dae-9787-4768-b5a9-944563843c93",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "spikes_5",
+            "x": 2864,
+            "y": 304
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "3b5ead4d-b111-4951-83cb-17eae53f2b20",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear",
+            "x": 768,
+            "y": 184
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "4a600b93-f56d-4bdb-98ed-e04c63cdca66",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_1",
+            "x": 1320,
+            "y": 264
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "ea9521da-e039-4a55-bcaf-6c336c32ad43",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem",
+            "x": 416,
+            "y": 272
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "6013b706-643e-403b-a820-8cec6a322bfb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem_1",
+            "x": 1000,
+            "y": 280
+        },
+        {
+            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+            "id": "49fbb95c-dd2f-45bb-9246-0be8f88c8929",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "burger",
+            "x": 1440,
+            "y": 272
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "4b4fff70-6991-44f7-b7af-87352eef8d17",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem_2",
+            "x": 1520,
+            "y": 280
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "636c8b24-689c-40e4-84d8-7603239f28c8",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem_3",
+            "x": 1880,
+            "y": 280
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "d79980a0-f532-4bbe-8aeb-93d4a7eca486",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_2",
+            "x": 1104,
+            "y": 264
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "cffe237f-2190-455d-adb0-200ae71abac1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_3",
+            "x": 2184,
+            "y": 264
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "35fd8cf2-c511-4353-b1cb-31c8484d50ae",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_4",
+            "x": 1992,
+            "y": 264
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "8157501c-c527-43b9-ab73-c62b7042e681",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_5",
+            "x": 1704,
+            "y": 264
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "ab04ac39-efa0-4b48-aa9c-8e3d9f3d76dc",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_6",
+            "x": 3128,
+            "y": 88
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "061afdc3-7015-4c56-adf0-904659f3fee4",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_7",
+            "x": 3752,
+            "y": 264
+        },
+        {
+            "prefabId": "aa23a1a9-c738-40f9-a393-fb7703b8efa0",
+            "id": "7c67506e-70bb-4918-b817-650fddb73516",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "bear_8",
+            "x": 3344,
             "y": 264
         },
         {
             "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
-            "id": "1591fe59-fb6f-4b4e-92dd-403eaa153139",
+            "id": "e145f300-a919-4b75-a050-ac411512b231",
             "unlock": [
                 "x",
                 "y"
             ],
             "label": "coin",
-            "x": 224,
-            "y": 264
+            "x": 2696,
+            "y": 272
         },
         {
             "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
-            "id": "1d883ef5-f844-4497-a3ec-71c096311309",
+            "id": "3c3b63f9-a59f-41f0-b37b-d475fba41fa9",
             "unlock": [
                 "x",
                 "y"
             ],
             "label": "coin_1",
-            "x": 256,
-            "y": 264
+            "x": 704,
+            "y": 192
         },
         {
-            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
-            "id": "cc6c28a0-316c-4a6c-b897-7bbd1bd120c9",
+            "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+            "id": "8a17dc2a-bea7-420c-9965-2b0321ab44a4",
             "unlock": [
                 "x",
                 "y"
             ],
-            "label": "hamburger",
-            "x": 440,
+            "label": "coin_2",
+            "x": 2872,
+            "y": 88
+        },
+        {
+            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+            "id": "1e942373-82f6-40a7-825a-5387b7967fe1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "burger_1",
+            "x": 3016,
+            "y": 88
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "c1850cee-1641-4524-8dc8-ddaf03732791",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem_4",
+            "x": 2928,
             "y": 272
+        },
+        {
+            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+            "id": "d9ebf4a2-419e-46eb-8230-0c27fed01305",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "burger_2",
+            "x": 2984,
+            "y": 272
+        },
+        {
+            "prefabId": "3c2a4e3a-01d0-457e-bdab-f6daa9ef6d76",
+            "id": "40d4f5da-5822-4425-81c5-9af0d33e8486",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "rockItem_5",
+            "x": 3584,
+            "y": 272
+        },
+        {
+            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+            "id": "cb059b35-c068-402c-86fe-0324f58bf8a6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "burger_3",
+            "x": 3920,
+            "y": 144
         }
     ],
     "plainObjects": [],

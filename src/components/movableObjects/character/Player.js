@@ -9,7 +9,8 @@ class Player extends MovableObjects {
 
 		scene.physics.add.existing(this, false);
 		this.body.collideWorldBounds = true;
-		this.body.setSize(32, 32, false);
+		this.body.setOffset(8, 0);
+		this.body.setSize(16, 32, false);
 
 		/* START-USER-CTR-CODE */
         this.createKeys();

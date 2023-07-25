@@ -3852,6 +3852,18 @@
                     "y": 192,
                     "originX": 0,
                     "originY": 0
+                },
+                {
+                    "type": "Image",
+                    "id": "660104c5-7993-4bf8-9574-84ef8615c7ef",
+                    "label": "tileSet_314",
+                    "texture": {
+                        "key": "TileSet_02"
+                    },
+                    "x": 2880,
+                    "y": 288,
+                    "originX": 0,
+                    "originY": 0
                 }
             ]
         }

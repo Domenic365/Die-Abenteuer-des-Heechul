@@ -29,6 +29,11 @@ const loadCollisionObjects = (scene) => {
             function: scene.burgerAndPlayerCollision(),
             overlap: true,
         },
+        {
+            firstObject: scene.spikes,
+            secondObject: scene.player,
+            function: scene.playerSpikesCollision(),
+        },
     ];
 };
 

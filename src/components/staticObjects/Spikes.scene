@@ -1,26 +1,25 @@
 {
-    "id": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+    "id": "c878249b-57e3-48eb-8ac3-bd0c91554035",
     "sceneType": "PREFAB",
     "settings": {
-        "superClassName": "MovableObjects",
         "preloadMethodName": "",
         "preloadPackFiles": [],
         "createMethodName": "",
-        "borderWidth": 4672,
+        "borderWidth": 576,
         "borderHeight": 324
     },
     "displayList": [
         {
-            "type": "ArcadeSprite",
-            "id": "9f75565d-6142-49fe-9dba-2406f94d4fc7",
-            "label": "coin0",
+            "type": "ArcadeImage",
+            "id": "1f765c9b-0a77-4714-996b-3ad32617c8bd",
+            "label": "spikes2_1",
             "texture": {
-                "key": "Coin",
-                "frame": 0
+                "key": "Spikes2_1"
             },
-            "body.width": 16,
-            "body.height": 32,
-            "body.offset.x": 8
+            "physicsType": 1,
+            "body.width": 32,
+            "body.height": 25,
+            "body.offset.y": 5
         }
     ],
     "plainObjects": [],

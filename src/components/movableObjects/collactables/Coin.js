@@ -9,7 +9,8 @@ class Coin extends MovableObjects {
 		super(scene, x ?? 0, y ?? 0, texture || "Coin", frame ?? 0);
 
 		scene.physics.add.existing(this, false);
-		this.body.setSize(32, 32, false);
+		this.body.setOffset(8, 0);
+		this.body.setSize(16, 32, false);
 
 		/* START-USER-CTR-CODE */		
 		this.play(ANIM_COINCOIN);

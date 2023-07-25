@@ -8,7 +8,8 @@ class Bear extends Enemy {
 		super(scene, x ?? 0, y ?? 0, texture || "Bear", frame);
 
 		scene.physics.add.existing(this, false);
-		this.body.setSize(40, 40, false);
+		this.body.setOffset(18, 10);
+		this.body.setSize(20, 30, false);
 
 		/* START-USER-CTR-CODE */
 
