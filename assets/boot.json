@@ -7,6 +7,16 @@
                 "key": "1"
             },
             {
+                "url": "assets/tiles/Objects/Pointers/1_1.png",
+                "type": "image",
+                "key": "1_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Pointers/1_2.png",
+                "type": "image",
+                "key": "1_2"
+            },
+            {
                 "url": "assets/tiles/Background/Layers/2.png",
                 "type": "image",
                 "key": "2"
@@ -17,9 +27,29 @@
                 "key": "3"
             },
             {
+                "url": "assets/tiles/Objects/Pointers/3_1.png",
+                "type": "image",
+                "key": "3_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Pointers/3_2.png",
+                "type": "image",
+                "key": "3_2"
+            },
+            {
                 "url": "assets/tiles/Background/Layers/4.png",
                 "type": "image",
                 "key": "4"
+            },
+            {
+                "url": "assets/tiles/Objects/Pointers/4_1.png",
+                "type": "image",
+                "key": "4_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Pointers/4_2.png",
+                "type": "image",
+                "key": "4_2"
             },
             {
                 "url": "assets/tiles/Background/Layers/5.png",
@@ -140,9 +170,49 @@
                 "key": "Back_TileSet_16"
             },
             {
+                "url": "assets/tiles/Objects/Boxes/Barrel1.png",
+                "type": "image",
+                "key": "Barrel1"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Barrel2.png",
+                "type": "image",
+                "key": "Barrel2"
+            },
+            {
                 "url": "assets/character/enemies/bear/Bear.png",
                 "type": "image",
                 "key": "Bear"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box1.png",
+                "type": "image",
+                "key": "Box1"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box2.png",
+                "type": "image",
+                "key": "Box2"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box3.png",
+                "type": "image",
+                "key": "Box3"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box4.png",
+                "type": "image",
+                "key": "Box4"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box5.png",
+                "type": "image",
+                "key": "Box5"
+            },
+            {
+                "url": "assets/tiles/Objects/Boxes/Box6.png",
+                "type": "image",
+                "key": "Box6"
             },
             {
                 "url": "assets/character/enemies/bear/Death.png",
@@ -332,6 +402,87 @@
                 "key": "Dude_Monster_Walk+Attack_6"
             },
             {
+                "url": "assets/bars/Energybar_sprite.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 12,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Energybar_sprite"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass1_1.png",
+                "type": "image",
+                "key": "Grass1_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass1_2.png",
+                "type": "image",
+                "key": "Grass1_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass2_1.png",
+                "type": "image",
+                "key": "Grass2_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass2_2.png",
+                "type": "image",
+                "key": "Grass2_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass3_1.png",
+                "type": "image",
+                "key": "Grass3_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass3_2.png",
+                "type": "image",
+                "key": "Grass3_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass4_1.png",
+                "type": "image",
+                "key": "Grass4_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass4_2.png",
+                "type": "image",
+                "key": "Grass4_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass5_1.png",
+                "type": "image",
+                "key": "Grass5_1"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass5_2.png",
+                "type": "image",
+                "key": "Grass5_2"
+            },
+            {
+                "url": "assets/tiles/Objects/Grass/Grass6_1.png",
+                "type": "image",
+                "key": "Grass6_1"
+            },
+            {
+                "url": "assets/bars/Healthbar_sprite.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 12,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Healthbar_sprite"
+            },
+            {
                 "url": "assets/character/enemies/bear/Hurt.png",
                 "frameConfig": {
                     "frameWidth": 40,
@@ -361,6 +512,51 @@
                 "url": "assets/tiles/Objects/Food/Pizza.png",
                 "type": "image",
                 "key": "Pizza"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Big1.png",
+                "type": "image",
+                "key": "Rock_Big1"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Big2.png",
+                "type": "image",
+                "key": "Rock_Big2"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Big3.png",
+                "type": "image",
+                "key": "Rock_Big3"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Big4.png",
+                "type": "image",
+                "key": "Rock_Big4"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Big5.png",
+                "type": "image",
+                "key": "Rock_Big5"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Small1.png",
+                "type": "image",
+                "key": "Rock_Small1"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Small2.png",
+                "type": "image",
+                "key": "Rock_Small2"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Small3.png",
+                "type": "image",
+                "key": "Rock_Small3"
+            },
+            {
+                "url": "assets/tiles/Objects/Rocks/Rock_Small4.png",
+                "type": "image",
+                "key": "Rock_Small4"
             },
             {
                 "url": "assets/character/player/Rock1.png",
@@ -581,6 +777,26 @@
                 "url": "assets/tiles/Tiles/foregroundTiles/TileSet_42.png",
                 "type": "image",
                 "key": "TileSet_42"
+            },
+            {
+                "url": "assets/tiles/Objects/Trees/Tree1.png",
+                "type": "image",
+                "key": "Tree1"
+            },
+            {
+                "url": "assets/tiles/Objects/Trees/Tree2.png",
+                "type": "image",
+                "key": "Tree2"
+            },
+            {
+                "url": "assets/tiles/Objects/Trees/Tree3.png",
+                "type": "image",
+                "key": "Tree3"
+            },
+            {
+                "url": "assets/tiles/Objects/Trees/Tree4.png",
+                "type": "image",
+                "key": "Tree4"
             },
             {
                 "url": "assets/character/enemies/bear/Walk.png",

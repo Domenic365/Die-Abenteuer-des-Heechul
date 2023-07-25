@@ -15,6 +15,9 @@ class Bear extends Enemy {
         /* END-USER-CTR-CODE */
 	}
 
+	/** @type {number} */
+	damage = 1;
+
 	/* START-USER-CODE */
 
     // Write your code here.

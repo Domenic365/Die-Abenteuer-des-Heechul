@@ -13,7 +13,7 @@ const loadCollisionObjects = (scene) => {
             overlap: true,
         },
         {
-            firstObject: scene.stones,
+            firstObject: scene.thrownStones,
             secondObject: scene.enemies,
             function: scene.rockAndEnemyCollision(),
         },

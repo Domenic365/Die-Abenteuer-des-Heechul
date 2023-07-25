@@ -17,6 +17,7 @@
             "texture": {
                 "key": "Dude_Monster"
             },
+            "collideWorldBounds": true,
             "body.width": 32,
             "body.height": 32
         }
@@ -40,8 +41,8 @@
             }
         },
         {
-            "name": "maxStones",
-            "label": "maxStones",
+            "name": "maxStone",
+            "label": "maxStone",
             "tooltip": "",
             "defValue": 3,
             "customDefinition": false,

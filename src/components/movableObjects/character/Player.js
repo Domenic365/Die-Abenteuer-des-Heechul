@@ -8,6 +8,7 @@ class Player extends MovableObjects {
 		super(scene, x ?? 0, y ?? 0, texture || "Dude_Monster", frame);
 
 		scene.physics.add.existing(this, false);
+		this.body.collideWorldBounds = true;
 		this.body.setSize(32, 32, false);
 
 		/* START-USER-CTR-CODE */
@@ -19,7 +20,7 @@ class Player extends MovableObjects {
 	/** @type {number} */
 	stones = 0;
 	/** @type {number} */
-	maxStones = 3;
+	maxStone = 3;
 	/** @type {number} */
 	lifePoints = 3;
 	/** @type {number} */

@@ -507,20 +507,10 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		tileSet_97.setOrigin(0, 0);
 		this.add(tileSet_97);
 
-		// tileSet_98
-		const tileSet_98 = scene.add.image(1344, 288, "TileSet_02");
-		tileSet_98.setOrigin(0, 0);
-		this.add(tileSet_98);
-
 		// tileSet_99
 		const tileSet_99 = scene.add.image(1376, 320, "TileSet_09");
 		tileSet_99.setOrigin(0, 0);
 		this.add(tileSet_99);
-
-		// tileSet_100
-		const tileSet_100 = scene.add.image(1376, 288, "TileSet_02");
-		tileSet_100.setOrigin(0, 0);
-		this.add(tileSet_100);
 
 		// tileSet_101
 		const tileSet_101 = scene.add.image(1344, 320, "TileSet_09");
@@ -807,40 +797,20 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		tileSet_157.setOrigin(0, 0);
 		this.add(tileSet_157);
 
-		// tileSet_158
-		const tileSet_158 = scene.add.image(3840, 288, "TileSet_02");
-		tileSet_158.setOrigin(0, 0);
-		this.add(tileSet_158);
-
 		// tileSet_159
 		const tileSet_159 = scene.add.image(3840, 320, "TileSet_09");
 		tileSet_159.setOrigin(0, 0);
 		this.add(tileSet_159);
-
-		// tileSet_160
-		const tileSet_160 = scene.add.image(3872, 288, "TileSet_02");
-		tileSet_160.setOrigin(0, 0);
-		this.add(tileSet_160);
 
 		// tileSet_161
 		const tileSet_161 = scene.add.image(3872, 320, "TileSet_09");
 		tileSet_161.setOrigin(0, 0);
 		this.add(tileSet_161);
 
-		// tileSet_162
-		const tileSet_162 = scene.add.image(3904, 288, "TileSet_02");
-		tileSet_162.setOrigin(0, 0);
-		this.add(tileSet_162);
-
 		// tileSet_163
 		const tileSet_163 = scene.add.image(3936, 320, "TileSet_09");
 		tileSet_163.setOrigin(0, 0);
 		this.add(tileSet_163);
-
-		// tileSet_164
-		const tileSet_164 = scene.add.image(3936, 288, "TileSet_02");
-		tileSet_164.setOrigin(0, 0);
-		this.add(tileSet_164);
 
 		// tileSet_165
 		const tileSet_165 = scene.add.image(3904, 320, "TileSet_09");
@@ -906,11 +876,6 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		const tileSet_177 = scene.add.image(3808, 320, "TileSet_09");
 		tileSet_177.setOrigin(0, 0);
 		this.add(tileSet_177);
-
-		// tileSet_178
-		const tileSet_178 = scene.add.image(3808, 288, "TileSet_02");
-		tileSet_178.setOrigin(0, 0);
-		this.add(tileSet_178);
 
 		// tileSet_179
 		const tileSet_179 = scene.add.image(3776, 288, "TileSet_02");
@@ -1017,16 +982,6 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		tileSet_199.setOrigin(0, 0);
 		this.add(tileSet_199);
 
-		// tileSet_200
-		const tileSet_200 = scene.add.image(2752, 288, "TileSet_02");
-		tileSet_200.setOrigin(0, 0);
-		this.add(tileSet_200);
-
-		// tileSet_201
-		const tileSet_201 = scene.add.image(2784, 288, "TileSet_02");
-		tileSet_201.setOrigin(0, 0);
-		this.add(tileSet_201);
-
 		// tileSet_202
 		const tileSet_202 = scene.add.image(2784, 320, "TileSet_09");
 		tileSet_202.setOrigin(0, 0);
@@ -1102,30 +1057,15 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		tileSet_216.setOrigin(0, 0);
 		this.add(tileSet_216);
 
-		// tileSet_217
-		const tileSet_217 = scene.add.image(2880, 288, "TileSet_02");
-		tileSet_217.setOrigin(0, 0);
-		this.add(tileSet_217);
-
 		// tileSet_218
 		const tileSet_218 = scene.add.image(2848, 320, "TileSet_09");
 		tileSet_218.setOrigin(0, 0);
 		this.add(tileSet_218);
 
-		// tileSet_219
-		const tileSet_219 = scene.add.image(2848, 288, "TileSet_02");
-		tileSet_219.setOrigin(0, 0);
-		this.add(tileSet_219);
-
 		// tileSet_220
 		const tileSet_220 = scene.add.image(2816, 320, "TileSet_09");
 		tileSet_220.setOrigin(0, 0);
 		this.add(tileSet_220);
-
-		// tileSet_221
-		const tileSet_221 = scene.add.image(2816, 288, "TileSet_02");
-		tileSet_221.setOrigin(0, 0);
-		this.add(tileSet_221);
 
 		// tileSet_222
 		const tileSet_222 = scene.add.image(2304, 288, "TileSet_02");
@@ -1466,6 +1406,201 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		const tileSet_289 = scene.add.image(4640, 288, "TileSet_02");
 		tileSet_289.setOrigin(0, 0);
 		this.add(tileSet_289);
+
+		// tileSet_98
+		const tileSet_98 = scene.add.image(2432, 224, "TileSet_36");
+		this.add(tileSet_98);
+
+		// tileSet_100
+		const tileSet_100 = scene.add.image(2464, 224, "TileSet_37");
+		this.add(tileSet_100);
+
+		// tileSet_295
+		const tileSet_295 = scene.add.image(2496, 224, "TileSet_38");
+		this.add(tileSet_295);
+
+		// tileSet_296
+		const tileSet_296 = scene.add.image(2624, 128, "TileSet_22");
+		this.add(tileSet_296);
+
+		// tileSet_297
+		const tileSet_297 = scene.add.image(2656, 128, "TileSet_23");
+		this.add(tileSet_297);
+
+		// tileSet_298
+		const tileSet_298 = scene.add.image(2688, 128, "TileSet_23");
+		this.add(tileSet_298);
+
+		// tileSet_299
+		const tileSet_299 = scene.add.image(2720, 128, "TileSet_23");
+		this.add(tileSet_299);
+
+		// tileSet_300
+		const tileSet_300 = scene.add.image(2752, 128, "TileSet_23");
+		this.add(tileSet_300);
+
+		// tileSet_301
+		const tileSet_301 = scene.add.image(2784, 128, "TileSet_23");
+		this.add(tileSet_301);
+
+		// tileSet_302
+		const tileSet_302 = scene.add.image(2816, 128, "TileSet_23");
+		this.add(tileSet_302);
+
+		// tileSet_303
+		const tileSet_303 = scene.add.image(2848, 128, "TileSet_23");
+		this.add(tileSet_303);
+
+		// tileSet_304
+		const tileSet_304 = scene.add.image(2880, 128, "TileSet_23");
+		this.add(tileSet_304);
+
+		// tileSet_305
+		const tileSet_305 = scene.add.image(2912, 128, "TileSet_23");
+		this.add(tileSet_305);
+
+		// tileSet_306
+		const tileSet_306 = scene.add.image(2944, 128, "TileSet_23");
+		this.add(tileSet_306);
+
+		// tileSet_307
+		const tileSet_307 = scene.add.image(2976, 128, "TileSet_23");
+		this.add(tileSet_307);
+
+		// tileSet_200
+		const tileSet_200 = scene.add.image(3008, 128, "TileSet_23");
+		this.add(tileSet_200);
+
+		// tileSet_201
+		const tileSet_201 = scene.add.image(3040, 128, "TileSet_23");
+		this.add(tileSet_201);
+
+		// tileSet_217
+		const tileSet_217 = scene.add.image(3072, 128, "TileSet_23");
+		this.add(tileSet_217);
+
+		// tileSet_219
+		const tileSet_219 = scene.add.image(3104, 128, "TileSet_23");
+		this.add(tileSet_219);
+
+		// tileSet_03
+		const tileSet_03 = scene.add.image(3936, 160, "TileSet_03");
+		tileSet_03.setOrigin(0, 0);
+		this.add(tileSet_03);
+
+		// tileSet_178
+		const tileSet_178 = scene.add.image(3936, 192, "TileSet_10");
+		tileSet_178.setOrigin(0, 0);
+		this.add(tileSet_178);
+
+		// tileSet_308
+		const tileSet_308 = scene.add.image(3936, 224, "TileSet_10");
+		tileSet_308.setOrigin(0, 0);
+		this.add(tileSet_308);
+
+		// tileSet_309
+		const tileSet_309 = scene.add.image(3936, 256, "TileSet_10");
+		tileSet_309.setOrigin(0, 0);
+		this.add(tileSet_309);
+
+		// tileSet_310
+		const tileSet_310 = scene.add.image(3936, 288, "TileSet_12");
+		tileSet_310.setOrigin(0, 0);
+		this.add(tileSet_310);
+
+		// tileSet_315
+		const tileSet_315 = scene.add.image(3904, 256, "TileSet_09");
+		tileSet_315.setOrigin(0, 0);
+		this.add(tileSet_315);
+
+		// tileSet_316
+		const tileSet_316 = scene.add.image(3904, 224, "TileSet_09");
+		tileSet_316.setOrigin(0, 0);
+		this.add(tileSet_316);
+
+		// tileSet_317
+		const tileSet_317 = scene.add.image(3904, 288, "TileSet_09");
+		tileSet_317.setOrigin(0, 0);
+		this.add(tileSet_317);
+
+		// tileSet_318
+		const tileSet_318 = scene.add.image(3872, 288, "TileSet_09");
+		tileSet_318.setOrigin(0, 0);
+		this.add(tileSet_318);
+
+		// tileSet_319
+		const tileSet_319 = scene.add.image(3872, 256, "TileSet_09");
+		tileSet_319.setOrigin(0, 0);
+		this.add(tileSet_319);
+
+		// tileSet_320
+		const tileSet_320 = scene.add.image(3840, 288, "TileSet_09");
+		tileSet_320.setOrigin(0, 0);
+		this.add(tileSet_320);
+
+		// tileSet_290
+		const tileSet_290 = scene.add.image(640, 224, "TileSet_22");
+		this.add(tileSet_290);
+
+		// tileSet_291
+		const tileSet_291 = scene.add.image(672, 224, "TileSet_23");
+		this.add(tileSet_291);
+
+		// tileSet_292
+		const tileSet_292 = scene.add.image(704, 224, "TileSet_23");
+		this.add(tileSet_292);
+
+		// tileSet_293
+		const tileSet_293 = scene.add.image(736, 224, "TileSet_23");
+		this.add(tileSet_293);
+
+		// tileSet_294
+		const tileSet_294 = scene.add.image(768, 224, "TileSet_24");
+		this.add(tileSet_294);
+
+		// tileSet_221
+		const tileSet_221 = scene.add.image(3136, 128, "TileSet_24");
+		this.add(tileSet_221);
+
+		// tileSet_01
+		const tileSet_01 = scene.add.image(3808, 256, "TileSet_01");
+		tileSet_01.setOrigin(0, 0);
+		this.add(tileSet_01);
+
+		// tileSet_158
+		const tileSet_158 = scene.add.image(3840, 224, "TileSet_01");
+		tileSet_158.setOrigin(0, 0);
+		this.add(tileSet_158);
+
+		// tileSet_160
+		const tileSet_160 = scene.add.image(3872, 192, "TileSet_01");
+		tileSet_160.setOrigin(0, 0);
+		this.add(tileSet_160);
+
+		// tileSet_162
+		const tileSet_162 = scene.add.image(3904, 160, "TileSet_01");
+		tileSet_162.setOrigin(0, 0);
+		this.add(tileSet_162);
+
+		// tileSet_164
+		const tileSet_164 = scene.add.image(3808, 288, "TileSet_13");
+		tileSet_164.setOrigin(0, 0);
+		this.add(tileSet_164);
+
+		// tileSet_311
+		const tileSet_311 = scene.add.image(3840, 256, "TileSet_13");
+		tileSet_311.setOrigin(0, 0);
+		this.add(tileSet_311);
+
+		// tileSet_312
+		const tileSet_312 = scene.add.image(3872, 224, "TileSet_13");
+		tileSet_312.setOrigin(0, 0);
+		this.add(tileSet_312);
+
+		// tileSet_313
+		const tileSet_313 = scene.add.image(3904, 192, "TileSet_13");
+		tileSet_313.setOrigin(0, 0);
+		this.add(tileSet_313);
 
 		/* START-USER-CTR-CODE */
 
