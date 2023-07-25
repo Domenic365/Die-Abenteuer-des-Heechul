@@ -11,16 +11,23 @@ class Bear extends Enemy {
 		this.body.setSize(40, 40, false);
 
 		/* START-USER-CTR-CODE */
-        // Write your code here.
+
         /* END-USER-CTR-CODE */
 	}
 
 	/** @type {number} */
 	damage = 1;
+	/** @type {number} */
+	lifePoints = 2;
 
 	/* START-USER-CODE */
 
-    // Write your code here.
+	fellOnGround() {
+		let isAlive = this.lifePoints > 0;
+		if (isAlive && this.isDoing === false) {
+			this.move(-10, ANIM_BEARWALK);
+		}
+	}
 
     /* END-USER-CODE */
 }

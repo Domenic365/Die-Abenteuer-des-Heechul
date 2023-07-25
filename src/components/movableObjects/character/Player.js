@@ -34,10 +34,6 @@ class Player extends MovableObjects {
 
 	/* START-USER-CODE */
 
-    addColliderGround() {
-        this.scene.physics.add.collider(this, this.scene.groundGroup, ()=>{this.fellOnGround()});
-    }
-
     collectStone() {
         this.stones++;
         this.scene.stoneBar.setFrame(this.stones);
@@ -63,8 +59,10 @@ class Player extends MovableObjects {
         return () => {
             const hasStones = this.stones > 0;
             if (hasStones) {
-                this.doSomething(ANIM_ATTACKDUDE, 300, false, () => {
-                    this.scene.throwGroup.add(new RockClass(this.scene, this));
+                this.doSomething(ANIM_THROWDUDE, 300, false, () => {
+                    let stone = new RockToThrow(this.scene, this)
+                    this.scene.thrownStones.add(stone, true);
+                    stone.setVelocity(800, -100);
                     this.stones--;
                     this.scene.stoneBar.setFrame(this.stones);
                 });
@@ -75,9 +73,9 @@ class Player extends MovableObjects {
     moveCharacter() {
         if (this.isDoing === false) {
             if (this.cursorkeys.right.isDown === true) {
-                this.move(this.speed, ANIM_WALKDUDE, false);
+                this.move(this.speed, ANIM_RUNDUDE, false);
             } else if (this.cursorkeys.left.isDown === true) {
-                this.move(-this.speed, ANIM_WALKDUDE, true);
+                this.move(-this.speed, ANIM_RUNDUDE, true);
             } else if (this.isJumped === false) {
                 this.move(0, ANIM_IDLEDUDE);
             }

@@ -38,6 +38,16 @@
             "type": {
                 "id": "number"
             }
+        },
+        {
+            "name": "lifePoints",
+            "label": "lifePoints",
+            "tooltip": "",
+            "defValue": 2,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
         }
     ]
 }

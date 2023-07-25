@@ -29,7 +29,7 @@ const game = new Phaser.Game({
     physics: {
         default: "arcade",
         arcade: {
-            debug: true,
+            debug: false,
             gravity: { y: 700 },
         },
     },

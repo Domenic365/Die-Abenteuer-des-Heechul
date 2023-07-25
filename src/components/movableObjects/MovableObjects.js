@@ -6,7 +6,7 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
     }
 
     addColliderGround() {
-        this.scene.physics.add.collider(this, this.scene.groundGroup);
+        this.scene.physics.add.collider(this, this.scene.groundGroup, ()=>{this.fellOnGround()});
     }
 
     init() {
@@ -38,7 +38,7 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
         this.lifePoints -= damage;
         let isDead = this.lifePoints < 1;
         if (isDead) {
-            this.doSomething(deathAnimKey, 400, funBeforeAnim, (object) => {
+            this.doSomething(deathAnimKey, 600, funBeforeAnim, (object) => {
                 object.destroy();
                 if (funAfterAnim) {
                     funAfterAnim(this);

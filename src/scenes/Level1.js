@@ -577,6 +577,26 @@ class Level1 extends Phaser.Scene {
 		// stoneBar
 		const stoneBar = this.add.sprite(56, 32, "Energybar_sprite", 0);
 
+		// rockItem
+		const rockItem = new RockItem(this, 352, 280);
+		this.add.existing(rockItem);
+
+		// rockItem_1
+		const rockItem_1 = new RockItem(this, 312, 280);
+		this.add.existing(rockItem_1);
+
+		// bear_1
+		const bear_1 = new Bear(this, 1120, 264);
+		this.add.existing(bear_1);
+
+		// bear_2
+		const bear_2 = new Bear(this, 896, 264);
+		this.add.existing(bear_2);
+
+		// bear_3
+		const bear_3 = new Bear(this, 1320, 264);
+		this.add.existing(bear_3);
+
 		this.background = background;
 		this.groundLayer = groundLayer;
 		this.player = player;
@@ -641,7 +661,8 @@ class Level1 extends Phaser.Scene {
                 thrownObject.damage,
                 ANIM_BEARHURT,
                 ANIM_BEARDEATH
-            );
+			);
+			enemy.setVelocityX(0);
         };
     }
 
