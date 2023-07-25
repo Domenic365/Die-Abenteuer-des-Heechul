@@ -99,6 +99,36 @@
             "type": {
                 "id": "number"
             }
+        },
+        {
+            "name": "coins",
+            "label": "coins",
+            "tooltip": "",
+            "defValue": 0,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "maxCoins",
+            "label": "maxCoins",
+            "tooltip": "",
+            "defValue": 3,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "maxLifePoints",
+            "label": "maxLifePoints",
+            "tooltip": "",
+            "defValue": 3,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
         }
     ]
 }

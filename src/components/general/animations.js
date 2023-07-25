@@ -37,3 +37,5 @@ const ANIM_BEARHURT = "bearHurt";
 const ANIM_BEARIDLE = "bearIdle";
 
 const ANIM_BEARWALK = "bearWalk";
+
+const ANIM_COINCOIN = "coinCoin";

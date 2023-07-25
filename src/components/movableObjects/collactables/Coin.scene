@@ -1,0 +1,30 @@
+{
+    "id": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+    "sceneType": "PREFAB",
+    "settings": {
+        "superClassName": "MovableObjects",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 4672,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "ArcadeSprite",
+            "id": "9f75565d-6142-49fe-9dba-2406f94d4fc7",
+            "label": "coin0",
+            "texture": {
+                "key": "Coin",
+                "frame": 0
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

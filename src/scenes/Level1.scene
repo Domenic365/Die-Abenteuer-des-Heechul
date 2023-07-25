@@ -1392,7 +1392,7 @@
                 "y"
             ],
             "label": "bear",
-            "x": 480,
+            "x": 744,
             "y": 264
         },
         {
@@ -1473,6 +1473,62 @@
             "label": "bear_3",
             "x": 1320,
             "y": 264
+        },
+        {
+            "type": "Image",
+            "id": "37719bbf-19f9-44f5-bf24-d42bdaa8fa10",
+            "label": "coinBar",
+            "scope": "CLASS",
+            "texture": {
+                "key": "coinBar",
+                "frame": 0
+            },
+            "x": 56,
+            "y": 48
+        },
+        {
+            "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+            "id": "37b4808e-8eba-452d-9929-d39dd340624b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "coin0",
+            "x": 192,
+            "y": 264
+        },
+        {
+            "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+            "id": "1591fe59-fb6f-4b4e-92dd-403eaa153139",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "coin",
+            "x": 224,
+            "y": 264
+        },
+        {
+            "prefabId": "f3bc01da-e9c8-4243-aeb0-aa0a4241fc85",
+            "id": "1d883ef5-f844-4497-a3ec-71c096311309",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "coin_1",
+            "x": 256,
+            "y": 264
+        },
+        {
+            "prefabId": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+            "id": "cc6c28a0-316c-4a6c-b897-7bbd1bd120c9",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "hamburger",
+            "x": 440,
+            "y": 272
         }
     ],
     "plainObjects": [],

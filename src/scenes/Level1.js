@@ -568,7 +568,7 @@ class Level1 extends Phaser.Scene {
 		this.add.existing(rock2);
 
 		// bear
-		const bear = new Bear(this, 480, 264);
+		const bear = new Bear(this, 744, 264);
 		this.add.existing(bear);
 
 		// healthBar
@@ -597,11 +597,31 @@ class Level1 extends Phaser.Scene {
 		const bear_3 = new Bear(this, 1320, 264);
 		this.add.existing(bear_3);
 
+		// coinBar
+		const coinBar = this.add.image(56, 48, "coinBar", 0);
+
+		// coin0
+		const coin0 = new Coin(this, 192, 264);
+		this.add.existing(coin0);
+
+		// coin
+		const coin = new Coin(this, 224, 264);
+		this.add.existing(coin);
+
+		// coin_1
+		const coin_1 = new Coin(this, 256, 264);
+		this.add.existing(coin_1);
+
+		// hamburger
+		const hamburger = new Burger(this, 440, 272);
+		this.add.existing(hamburger);
+
 		this.background = background;
 		this.groundLayer = groundLayer;
 		this.player = player;
 		this.healthBar = healthBar;
 		this.stoneBar = stoneBar;
+		this.coinBar = coinBar;
 
 		this.events.emit("scene-awake");
 	}
@@ -616,6 +636,8 @@ class Level1 extends Phaser.Scene {
 	healthBar;
 	/** @type {Phaser.GameObjects.Sprite} */
 	stoneBar;
+	/** @type {Phaser.GameObjects.Image} */
+	coinBar;
 
 	/* START-USER-CODE */
 
@@ -631,6 +653,7 @@ class Level1 extends Phaser.Scene {
 
 		this.healthBar.setScrollFactor(0, 0);
 		this.stoneBar.setScrollFactor(0, 0);
+		this.coinBar.setScrollFactor(0, 0);
 		this.physics.world.setBounds(0, 0, 4672, game.config.height);
     }
 
@@ -643,6 +666,8 @@ class Level1 extends Phaser.Scene {
         this.stones = new Phaser.Physics.Arcade.Group(this.physics.world, this);
 		this.enemies = new Phaser.Physics.Arcade.Group(this.physics.world, this);
 		this.thrownStones = new Phaser.Physics.Arcade.Group(this.physics.world, this);
+		this.coins = new Phaser.Physics.Arcade.Group(this.physics.world, this);
+		this.burger = new Phaser.Physics.Arcade.Group(this.physics.world, this)
     }
 
     stoneItemAndCharacterCollision() {
@@ -653,7 +678,28 @@ class Level1 extends Phaser.Scene {
                 rockItem.destroy();
             }
         };
-    }
+	}
+
+	coinAndPlayerCollision() {
+		return (character, coin) => {
+            const canCollectStone = character.coins < character.maxCoins;
+            if (canCollectStone) {
+				character.collectCoin();
+                coin.destroy();
+            }
+        };
+	}
+
+	burgerAndPlayerCollision() {
+		return (character, burger) => {
+            const canCollectBurger = character.lifePoints < character.maxLifePoints;
+            if (canCollectBurger) {
+				character.collectBurger();
+                burger.destroy();
+            }
+        };
+	}
+
 
     rockAndEnemyCollision() {
         return (thrownObject, enemy) => {
@@ -690,7 +736,8 @@ class Level1 extends Phaser.Scene {
                 );
             }
         };
-    }
+	}
+
 
     createCollisions() {
         const collisionList = loadCollisionObjects(this);

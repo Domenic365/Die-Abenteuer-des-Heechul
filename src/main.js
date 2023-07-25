@@ -17,6 +17,18 @@ const loadCollisionObjects = (scene) => {
             secondObject: scene.enemies,
             function: scene.rockAndEnemyCollision(),
         },
+        {
+            firstObject: scene.coins,
+            secondObject: scene.player,
+            function: scene.coinAndPlayerCollision(),
+            overlap: true,
+        },
+        {
+            firstObject: scene.burger,
+            secondObject: scene.player,
+            function: scene.burgerAndPlayerCollision(),
+            overlap: true,
+        },
     ];
 };
 
@@ -29,7 +41,7 @@ const game = new Phaser.Game({
     physics: {
         default: "arcade",
         arcade: {
-            debug: false,
+            debug: true,
             gravity: { y: 700 },
         },
     },

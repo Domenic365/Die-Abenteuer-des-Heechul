@@ -1,0 +1,29 @@
+{
+    "id": "e6816f9b-9ef6-4c57-a384-5e36981959e6",
+    "sceneType": "PREFAB",
+    "settings": {
+        "superClassName": "MovableObjects",
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 4672,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "4841da3a-fb4e-4a77-82cb-b11a73ae4364",
+            "label": "hamburger",
+            "texture": {
+                "key": "Hamburger"
+            }
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

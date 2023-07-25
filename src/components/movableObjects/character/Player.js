@@ -31,6 +31,12 @@ class Player extends MovableObjects {
 	jumpSpeed = -400;
 	/** @type {number} */
 	knockback = -100;
+	/** @type {number} */
+	coins = 0;
+	/** @type {number} */
+	maxCoins = 3;
+	/** @type {number} */
+	maxLifePoints = 3;
 
 	/* START-USER-CODE */
 
@@ -39,11 +45,21 @@ class Player extends MovableObjects {
         this.scene.stoneBar.setFrame(this.stones);
     }
 
+    collectCoin() {
+        this.coins++;
+        this.scene.coinBar.setFrame(this.coins);
+    }
+
+    collectBurger() {
+        this.lifePoints++;
+        this.scene.healthBar.setFrame(this.lifePoints);
+    }
+
     addCameraSettings() {
         let camera = this.scene.cameras.main;
         camera.startFollow(this, false, 1, 0);
         camera.setScroll(0, 0);
-        camera.setBounds(0, 0, 2528, game.config.height);
+        camera.setBounds(0, 0, 4762, game.config.height);
     }
 
     createKeys() {
@@ -58,11 +74,15 @@ class Player extends MovableObjects {
     throwStone() {
         return () => {
             const hasStones = this.stones > 0;
+            let stoneSpeed = 800;
             if (hasStones) {
                 this.doSomething(ANIM_THROWDUDE, 300, false, () => {
                     let stone = new RockToThrow(this.scene, this)
                     this.scene.thrownStones.add(stone, true);
-                    stone.setVelocity(800, -100);
+                    if (this.flipX) {
+                        stoneSpeed = -800
+                    }
+                    stone.setVelocity(stoneSpeed, -100);
                     this.stones--;
                     this.scene.stoneBar.setFrame(this.stones);
                 });

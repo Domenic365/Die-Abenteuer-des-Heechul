@@ -215,6 +215,32 @@
                 "key": "Box6"
             },
             {
+                "url": "assets/tiles/Objects_Animated/Coin.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Coin"
+            },
+            {
+                "url": "assets/bars/Healthbar_sprite-3.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 12,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "coinBar"
+            },
+            {
                 "url": "assets/character/enemies/bear/Death.png",
                 "frameConfig": {
                     "frameWidth": 40,
@@ -470,6 +496,11 @@
                 "key": "Grass6_1"
             },
             {
+                "url": "assets/tiles/Objects/Food/Hamburger.png",
+                "type": "image",
+                "key": "Hamburger"
+            },
+            {
                 "url": "assets/bars/Healthbar_sprite.png",
                 "frameConfig": {
                     "frameWidth": 96,
@@ -507,11 +538,6 @@
                 },
                 "type": "spritesheet",
                 "key": "Idle"
-            },
-            {
-                "url": "assets/tiles/Objects/Food/Pizza.png",
-                "type": "image",
-                "key": "Pizza"
             },
             {
                 "url": "assets/tiles/Objects/Rocks/Rock_Big1.png",
