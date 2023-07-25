@@ -84,6 +84,10 @@ class Player extends MovableObjects {
         }
     }
 
+    update() {
+        this.moveCharacter();
+    }
+
     /* END-USER-CODE */
 }
 
