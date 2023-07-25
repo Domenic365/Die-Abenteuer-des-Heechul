@@ -18,6 +18,7 @@
                     "type": "TileSprite",
                     "id": "f2a98b6f-97e2-4585-9aab-a31eef0435f3",
                     "label": "tilesprite_1",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "8"
                     },
@@ -30,6 +31,7 @@
                     "type": "TileSprite",
                     "id": "ac43aaf0-60aa-492a-ad0b-747d45231b3f",
                     "label": "tilesprite_2",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "7"
                     },
@@ -42,6 +44,7 @@
                     "type": "TileSprite",
                     "id": "025615cf-0c06-4aaf-8d16-6a24724126da",
                     "label": "tilesprite",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "6"
                     },
@@ -54,6 +57,7 @@
                     "type": "TileSprite",
                     "id": "766f4fbe-efa7-445f-b6bb-c9fdf81fbee7",
                     "label": "tilesprite_3",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "5"
                     },
@@ -66,6 +70,7 @@
                     "type": "TileSprite",
                     "id": "a58297ec-1c01-4dcd-914a-b0a2a17312e0",
                     "label": "tilesprite_4",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "4"
                     },
@@ -78,6 +83,7 @@
                     "type": "TileSprite",
                     "id": "2834e990-9521-4106-8537-04537e802f65",
                     "label": "tilesprite_5",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "3"
                     },
@@ -90,6 +96,7 @@
                     "type": "TileSprite",
                     "id": "f44febb3-fc71-451c-b3ff-7961a4b64d27",
                     "label": "tilesprite_6",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "2"
                     },
@@ -102,6 +109,7 @@
                     "type": "TileSprite",
                     "id": "1ede7ef4-3566-4c46-86c5-e2318a01cc00",
                     "label": "tilesprite_7",
+                    "scope": "CLASS",
                     "texture": {
                         "key": "1"
                     },

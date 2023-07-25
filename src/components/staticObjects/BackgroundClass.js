@@ -48,14 +48,50 @@ class BackgroundClass extends Phaser.GameObjects.Layer {
 		tilesprite_7.setOrigin(0, 0);
 		this.add(tilesprite_7);
 
+		this.tilesprite_1 = tilesprite_1;
+		this.tilesprite_2 = tilesprite_2;
+		this.tilesprite = tilesprite;
+		this.tilesprite_3 = tilesprite_3;
+		this.tilesprite_4 = tilesprite_4;
+		this.tilesprite_5 = tilesprite_5;
+		this.tilesprite_6 = tilesprite_6;
+		this.tilesprite_7 = tilesprite_7;
+
 		/* START-USER-CTR-CODE */
-		// Write your code here.
 		/* END-USER-CTR-CODE */
 	}
 
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_1;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_2;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_3;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_4;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_5;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_6;
+	/** @type {Phaser.GameObjects.TileSprite} */
+	tilesprite_7;
+
 	/* START-USER-CODE */
 
-	// Write your code here.
+	update() {
+		let scrollfactor = 0.08;
+		this.tilesprite.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_1.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_2.tilePositionX += .1;
+		this.tilesprite_3.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_4.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_5.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_6.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+		this.tilesprite_7.tilePositionX = this.scene.cameras.main.scrollX * scrollfactor;
+
+	}
 
 	/* END-USER-CODE */
 }
