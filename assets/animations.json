@@ -865,6 +865,224 @@
             "skipMissedFrames": true,
             "repeat": -1,
             "showBeforeDelay": false
+        },
+        {
+            "key": "mageBossMage_boss_attack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_attack3",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "mageBossMage_boss_death",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_death",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "mageBossMage_boss_hurt",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Mage_boss_hurt",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_hurt",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_hurt",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_hurt",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "mageBossMage_boss_run",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Mage_boss_run",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
+        },
+        {
+            "key": "pickupPickup",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Pickup",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Pickup",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Pickup",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Pickup",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Pickup",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Pickup",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showBeforeDelay": false
         }
     ],
     "globalTimeScale": 1,

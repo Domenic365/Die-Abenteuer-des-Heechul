@@ -39,3 +39,13 @@ const ANIM_BEARIDLE = "bearIdle";
 const ANIM_BEARWALK = "bearWalk";
 
 const ANIM_COINCOIN = "coinCoin";
+
+const ANIM_MAGEBOSSMAGE_BOSS_ATTACK = "mageBossMage_boss_attack";
+
+const ANIM_MAGEBOSSMAGE_BOSS_DEATH = "mageBossMage_boss_death";
+
+const ANIM_MAGEBOSSMAGE_BOSS_HURT = "mageBossMage_boss_hurt";
+
+const ANIM_MAGEBOSSMAGE_BOSS_RUN = "mageBossMage_boss_run";
+
+const ANIM_PICKUPPICKUP = "pickupPickup";

@@ -1826,6 +1826,16 @@
             "label": "enemyStop_7",
             "x": 3824,
             "y": 272
+        },
+        {
+            "type": "Image",
+            "id": "d48739be-b25d-4b39-8193-586dbebffc4c",
+            "label": "mage_boss",
+            "texture": {
+                "key": "Mage_boss"
+            },
+            "x": 4480,
+            "y": 256
         }
     ],
     "plainObjects": [],

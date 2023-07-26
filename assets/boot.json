@@ -90,6 +90,11 @@
                 "key": "Attack"
             },
             {
+                "url": "assets/character/enemies/mageBoss/Attack2_3_FireBall.png",
+                "type": "image",
+                "key": "Attack2_3_FireBall"
+            },
+            {
                 "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_01.png",
                 "type": "image",
                 "key": "Back_TileSet_01"
@@ -538,6 +543,76 @@
                 },
                 "type": "spritesheet",
                 "key": "Idle"
+            },
+            {
+                "url": "assets/character/enemies/mageBoss/Mage_boss.png",
+                "type": "image",
+                "key": "Mage_boss"
+            },
+            {
+                "url": "assets/character/enemies/mageBoss/Mage_boss_attack3.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Mage_boss_attack3"
+            },
+            {
+                "url": "assets/character/enemies/mageBoss/Mage_boss_death.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Mage_boss_death"
+            },
+            {
+                "url": "assets/character/enemies/mageBoss/Mage_boss_hurt.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Mage_boss_hurt"
+            },
+            {
+                "url": "assets/character/enemies/mageBoss/Mage_boss_run.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Mage_boss_run"
+            },
+            {
+                "url": "assets/tiles/Objects_Animated/Pickup.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Pickup"
             },
             {
                 "url": "assets/tiles/Objects/Rocks/Rock_Big1.png",
