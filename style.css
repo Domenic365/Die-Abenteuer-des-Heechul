@@ -10,11 +10,11 @@ body {
     background-size: cover;
 }
 
-#border{
+#border {
     border: 12px solid #2f2f2f;
 }
 
-#canvas{
+#canvas {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,37 +23,62 @@ body {
     width: calc(16px * var(--size));
 }
 
-#canvas div{
+#canvas div {
     display: flex !important;
     flex-direction: column;
     width: 100%;
     transform-origin: unset !important;
 }
 
-.menuDiv{
+.menuDiv {
     height: 100%;
     background-image: url("./assets/tiles/Background/menuBackground.png");
     background-size: cover;
     transform: unset !important;
 }
 
-.test{
+.test {
     height: 30px;
     width: 30px;
     background-color: black;
 }
 
-.top{
+.top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.top button{
+.top button {
     all: unset;
     cursor: pointer;
 }
 
-.top button:hover{
+.top button:hover {
+    opacity: 0.9;
+}
+
+.pauseDiv {
+    height: 100%;
+    transform: unset !important;
+}
+
+.topButton {
+    justify-content: right;
+}
+
+.topButton button {
+    display: flex;
+    justify-content: end;
+    background: none;
+    border: none;
+}
+
+.topButton img{
+    width: 64px;
+    cursor: pointer;
+}
+
+.topButton img:hover{
     opacity: 0.9;
 }
