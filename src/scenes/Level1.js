@@ -5,9 +5,6 @@ class Level1 extends Phaser.Scene {
 
     }
 
-    preload() {
-        this.load.pack("boot", "assets/boot.json");
-    }
 
     editorCreate() {
 
