@@ -34,6 +34,11 @@ const loadCollisionObjects = (scene) => {
             secondObject: scene.player,
             function: scene.playerSpikesCollision(),
         },
+        {
+            firstObject: scene.enemies,
+            secondObject: scene.enemyStop,
+            function: scene.enemyStopCollision(),
+        },
     ];
 };
 
@@ -43,10 +48,14 @@ const game = new Phaser.Game({
     backgroundColor: "0x000000",
     pixelArt: true,
     scene: Level1,
+    scale: {
+        mode: Phaser.Scale.FIT,
+        parent: "canvas",
+    },
     physics: {
         default: "arcade",
         arcade: {
-            debug: true,
+            debug: false,
             gravity: { y: 700 },
         },
     },

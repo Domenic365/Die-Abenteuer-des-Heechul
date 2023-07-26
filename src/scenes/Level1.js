@@ -597,7 +597,7 @@ class Level1 extends Phaser.Scene {
 		this.add.existing(spikes_5);
 
 		// bear
-		const bear = new Bear(this, 768, 184);
+		const bear = new Bear(this, 720, 184);
 		this.add.existing(bear);
 
 		// bear_1
@@ -684,6 +684,46 @@ class Level1 extends Phaser.Scene {
 		const burger_3 = new Burger(this, 3920, 144);
 		this.add.existing(burger_3);
 
+		// enemyStop2
+		const enemyStop2 = new EnemyStop(this, 608, 192);
+		this.add.existing(enemyStop2);
+
+		// enemyStop1
+		const enemyStop1 = new EnemyStop(this, 800, 192);
+		this.add.existing(enemyStop1);
+
+		// enemyStop
+		const enemyStop = new EnemyStop(this, 16, 272);
+		this.add.existing(enemyStop);
+
+		// enemyStop_1
+		const enemyStop_1 = new EnemyStop(this, 1360, 272);
+		this.add.existing(enemyStop_1);
+
+		// enemyStop_2
+		const enemyStop_2 = new EnemyStop(this, 1392, 272);
+		this.add.existing(enemyStop_2);
+
+		// enemyStop_3
+		const enemyStop_3 = new EnemyStop(this, 2592, 96);
+		this.add.existing(enemyStop_3);
+
+		// enemyStop_4
+		const enemyStop_4 = new EnemyStop(this, 3168, 96);
+		this.add.existing(enemyStop_4);
+
+		// enemyStop_5
+		const enemyStop_5 = new EnemyStop(this, 2864, 272);
+		this.add.existing(enemyStop_5);
+
+		// enemyStop_6
+		const enemyStop_6 = new EnemyStop(this, 2768, 272);
+		this.add.existing(enemyStop_6);
+
+		// enemyStop_7
+		const enemyStop_7 = new EnemyStop(this, 3824, 272);
+		this.add.existing(enemyStop_7);
+
 		this.background = background;
 		this.groundLayer = groundLayer;
 		this.player = player;
@@ -745,7 +785,8 @@ class Level1 extends Phaser.Scene {
         this.spikes = new Phaser.Physics.Arcade.StaticGroup(
             this.physics.world,
             this
-        );
+		);
+		this.enemyStop = new Phaser.Physics.Arcade.StaticGroup(this.physics.world, this)
     }
 
     stoneItemAndCharacterCollision() {
@@ -834,7 +875,14 @@ class Level1 extends Phaser.Scene {
                 this.healthBar.setFrame(player.lifePoints);
             });
         };
-    }
+	}
+
+	enemyStopCollision() {
+		return (enemy) => {
+			enemy.speed = enemy.speed * -1;
+			enemy.move(enemy.speed, ANIM_BEARWALK, !enemy.flipX);
+		}
+	}
 
     /* END-USER-CODE */
 }

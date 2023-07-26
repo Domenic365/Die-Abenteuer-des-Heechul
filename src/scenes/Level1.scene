@@ -1483,7 +1483,7 @@
                 "y"
             ],
             "label": "bear",
-            "x": 768,
+            "x": 720,
             "y": 184
         },
         {
@@ -1716,6 +1716,116 @@
             "label": "burger_3",
             "x": 3920,
             "y": 144
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "fad9864a-a215-49a8-919e-8ca1da660676",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop2",
+            "x": 608,
+            "y": 192
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "188f6b2e-573d-47ac-8a22-a792fbd961db",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop1",
+            "x": 800,
+            "y": 192
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "6e8f8e4d-c54b-406b-b3b4-d4c9f307c065",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop",
+            "x": 16,
+            "y": 272
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "e4b0a9ec-4542-49fb-bb01-149d6c138329",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_1",
+            "x": 1360,
+            "y": 272
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "0e9fde5a-cdef-416b-b0dc-a618d93fe4e0",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_2",
+            "x": 1392,
+            "y": 272
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "7629f2da-fd50-482a-a350-777beee4af77",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_3",
+            "x": 2592,
+            "y": 96
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "54df272d-12e2-4b11-82f0-2a901a2fc071",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_4",
+            "x": 3168,
+            "y": 96
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "2a6410e2-f75b-43ce-9755-6a04c8965792",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_5",
+            "x": 2864,
+            "y": 272
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "e7824fbf-3ca2-4432-9b60-1c930c4055d5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_6",
+            "x": 2768,
+            "y": 272
+        },
+        {
+            "prefabId": "eacdd845-e19c-4bd1-8539-f00d652dbefb",
+            "id": "274b6066-f68f-45d7-acc7-0939a0adc1e1",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "enemyStop_7",
+            "x": 3824,
+            "y": 272
         }
     ],
     "plainObjects": [],

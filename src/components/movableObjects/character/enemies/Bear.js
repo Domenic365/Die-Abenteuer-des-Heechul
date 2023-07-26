@@ -8,7 +8,7 @@ class Bear extends Enemy {
 		super(scene, x ?? 0, y ?? 0, texture || "Bear", frame);
 
 		scene.physics.add.existing(this, false);
-		this.body.setOffset(18, 10);
+		this.body.setOffset(10, 10);
 		this.body.setSize(20, 30, false);
 
 		/* START-USER-CTR-CODE */
@@ -26,7 +26,7 @@ class Bear extends Enemy {
 	fellOnGround() {
 		let isAlive = this.lifePoints > 0;
 		if (isAlive && this.isDoing === false) {
-			this.move(-10, ANIM_BEARWALK);
+			this.move(this.speed, ANIM_BEARWALK);
 		}
 	}
 

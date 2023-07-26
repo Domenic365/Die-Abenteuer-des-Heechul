@@ -4,5 +4,7 @@ class Enemy extends MovableObjects {
 
         scene.physics.add.existing(this, false);
         scene.enemies.add(this);
+
+        this.speed = -10;
     }
 }

@@ -19,7 +19,7 @@
             },
             "body.width": 20,
             "body.height": 30,
-            "body.offset.x": 18,
+            "body.offset.x": 10,
             "body.offset.y": 10
         }
     ],
