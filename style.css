@@ -18,17 +18,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    --size: 100;
+    --size: 60;
     height: calc(9px * var(--size));
     width: calc(16px * var(--size));
 }
 
 #canvas div{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
     transform-origin: unset !important;
+}
+
+.menuDiv{
+    height: 100%;
+    background-image: url("./assets/tiles/Background/menuBackground.png");
+    background-size: cover;
+    transform: unset !important;
 }
 
 .test{
     height: 30px;
     width: 30px;
     background-color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top button{
+    all: unset;
+    cursor: pointer;
+}
+
+.top button:hover{
+    opacity: 0.9;
 }
