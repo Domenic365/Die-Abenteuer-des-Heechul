@@ -3,12 +3,7 @@ class HomeScreen extends Phaser.Scene {
         super("HomeScreen");
     }
 
-    editorCreate() {
-        this.events.emit("scene-awake");
-    }
-
     create() {
-        this.editorCreate();
         this.createMenuDom();
     }
 

@@ -1,25 +1,6 @@
+class Burger extends Collactable {
 
-// You can write more code here
-
-/* START OF COMPILED CODE */
-
-class Burger extends MovableObjects {
-
-	constructor(scene, x, y, texture, frame) {
-		super(scene, x ?? 0, y ?? 0, texture || "Hamburger", frame);
-
-		/* START-USER-CTR-CODE */
-		this.scene.burger.add(this);
-		/* END-USER-CTR-CODE */
-	}
-
-	/* START-USER-CODE */
-
-	// Write your code here.
-
-	/* END-USER-CODE */
+    constructor(scene, x, y, texture, frame) {
+        super(scene, x, y, "Hamburger", frame, scene.burger, scene.healthBar, "burger");
+    }
 }
-
-/* END OF COMPILED CODE */
-
-// You can write more code here

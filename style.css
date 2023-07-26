@@ -10,8 +10,10 @@ body {
     background-size: cover;
 }
 
-#border {
-    border: 12px solid #2f2f2f;
+canvas {
+    border: 8px solid #2f2f2f;
+    border-radius: 16px;
+    box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.46);
 }
 
 #canvas {
@@ -35,6 +37,7 @@ body {
     background-image: url("./assets/tiles/Background/menuBackground.png");
     background-size: cover;
     transform: unset !important;
+    border-radius: 4px;
 }
 
 .test {
@@ -74,11 +77,11 @@ body {
     border: none;
 }
 
-.topButton img{
+.topButton img {
     width: 64px;
     cursor: pointer;
 }
 
-.topButton img:hover{
+.topButton img:hover {
     opacity: 0.9;
 }
