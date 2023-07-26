@@ -1,7 +1,3 @@
-// You can write more code here
-
-/* START OF COMPILED CODE */
-
 class Bear extends Enemy {
 
 	constructor(scene, x, y, texture, frame) {
@@ -10,18 +6,10 @@ class Bear extends Enemy {
 		scene.physics.add.existing(this, false);
 		this.body.setOffset(10, 10);
 		this.body.setSize(20, 30, false);
-
-		/* START-USER-CTR-CODE */
-
-        /* END-USER-CTR-CODE */
 	}
 
-	/** @type {number} */
 	damage = 1;
-	/** @type {number} */
 	lifePoints = 2;
-
-	/* START-USER-CODE */
 
 	fellOnGround() {
 		let isAlive = this.lifePoints > 0;
@@ -29,10 +17,4 @@ class Bear extends Enemy {
 			this.move(this.speed, ANIM_BEARWALK);
 		}
 	}
-
-    /* END-USER-CODE */
 }
-
-/* END OF COMPILED CODE */
-
-// You can write more code here

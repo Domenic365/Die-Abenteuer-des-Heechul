@@ -1,8 +1,3 @@
-
-// You can write more code here
-
-/* START OF COMPILED CODE */
-
 class Spikes extends Phaser.Physics.Arcade.Image {
 
 	constructor(scene, x, y, texture, frame) {
@@ -12,18 +7,6 @@ class Spikes extends Phaser.Physics.Arcade.Image {
 		this.body.setOffset(0, 5);
 		this.body.setSize(32, 25, false);
 
-		/* START-USER-CTR-CODE */
 		this.scene.spikes.add(this);
-		/* END-USER-CTR-CODE */
 	}
-
-	/* START-USER-CODE */
-
-	// Write your code here.
-
-	/* END-USER-CODE */
 }
-
-/* END OF COMPILED CODE */
-
-// You can write more code here

@@ -1,123 +1,96 @@
-// You can write more code here
-
-/* START OF COMPILED CODE */
-
 class GroundLayer extends Phaser.GameObjects.Layer {
 
 	constructor(scene) {
 		super(scene);
 
-		// tileSet_02
 		const tileSet_02 = scene.add.image(0, 288, "TileSet_02");
 		tileSet_02.setOrigin(0, 0);
 		this.add(tileSet_02);
 
-		// tileSet_09
 		const tileSet_09 = scene.add.image(0, 320, "TileSet_09");
 		tileSet_09.setOrigin(0, 0);
 		this.add(tileSet_09);
 
-		// tileSet
 		const tileSet = scene.add.image(32, 288, "TileSet_02");
 		tileSet.setOrigin(0, 0);
 		this.add(tileSet);
 
-		// tileSet_1
 		const tileSet_1 = scene.add.image(32, 320, "TileSet_09");
 		tileSet_1.setOrigin(0, 0);
 		this.add(tileSet_1);
 
-		// tileSet_2
 		const tileSet_2 = scene.add.image(64, 288, "TileSet_02");
 		tileSet_2.setOrigin(0, 0);
 		this.add(tileSet_2);
 
-		// tileSet_3
 		const tileSet_3 = scene.add.image(96, 320, "TileSet_09");
 		tileSet_3.setOrigin(0, 0);
 		this.add(tileSet_3);
 
-		// tileSet_4
 		const tileSet_4 = scene.add.image(96, 288, "TileSet_02");
 		tileSet_4.setOrigin(0, 0);
 		this.add(tileSet_4);
 
-		// tileSet_5
 		const tileSet_5 = scene.add.image(64, 320, "TileSet_09");
 		tileSet_5.setOrigin(0, 0);
 		this.add(tileSet_5);
 
-		// tileSet_6
 		const tileSet_6 = scene.add.image(128, 288, "TileSet_02");
 		tileSet_6.setOrigin(0, 0);
 		this.add(tileSet_6);
 
-		// tileSet_7
 		const tileSet_7 = scene.add.image(160, 288, "TileSet_02");
 		tileSet_7.setOrigin(0, 0);
 		this.add(tileSet_7);
 
-		// tileSet_8
 		const tileSet_8 = scene.add.image(192, 288, "TileSet_02");
 		tileSet_8.setOrigin(0, 0);
 		this.add(tileSet_8);
 
-		// tileSet_9
 		const tileSet_9 = scene.add.image(224, 288, "TileSet_02");
 		tileSet_9.setOrigin(0, 0);
 		this.add(tileSet_9);
 
-		// tileSet_10
 		const tileSet_10 = scene.add.image(224, 320, "TileSet_09");
 		tileSet_10.setOrigin(0, 0);
 		this.add(tileSet_10);
 
-		// tileSet_11
 		const tileSet_11 = scene.add.image(192, 320, "TileSet_09");
 		tileSet_11.setOrigin(0, 0);
 		this.add(tileSet_11);
 
-		// tileSet_12
 		const tileSet_12 = scene.add.image(160, 320, "TileSet_09");
 		tileSet_12.setOrigin(0, 0);
 		this.add(tileSet_12);
 
-		// tileSet_13
 		const tileSet_13 = scene.add.image(128, 320, "TileSet_09");
 		tileSet_13.setOrigin(0, 0);
 		this.add(tileSet_13);
 
-		// tileSet_14
 		const tileSet_14 = scene.add.image(384, 320, "TileSet_09");
 		tileSet_14.setOrigin(0, 0);
 		this.add(tileSet_14);
 
-		// tileSet_15
 		const tileSet_15 = scene.add.image(416, 320, "TileSet_09");
 		tileSet_15.setOrigin(0, 0);
 		this.add(tileSet_15);
 
-		// tileSet_16
 		const tileSet_16 = scene.add.image(448, 320, "TileSet_09");
 		tileSet_16.setOrigin(0, 0);
 		this.add(tileSet_16);
 
-		// tileSet_17
 		const tileSet_17 = scene.add.image(480, 320, "TileSet_09");
 		tileSet_17.setOrigin(0, 0);
 		this.add(tileSet_17);
 
-		// tileSet_18
 		const tileSet_18 = scene.add.image(480, 288, "TileSet_02");
 		tileSet_18.setOrigin(0, 0);
 		this.add(tileSet_18);
 
-		// tileSet_19
 		const tileSet_19 = scene.add.image(448, 288, "TileSet_02");
 		tileSet_19.setOrigin(0, 0);
 		this.add(tileSet_19);
 
-		// tileSet_20
 		const tileSet_20 = scene.add.image(416, 288, "TileSet_02");
 		tileSet_20.setOrigin(0, 0);
 		this.add(tileSet_20);
@@ -1546,80 +1519,54 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 		const tileSet_291 = scene.add.image(672, 224, "TileSet_23");
 		this.add(tileSet_291);
 
-		// tileSet_292
 		const tileSet_292 = scene.add.image(704, 224, "TileSet_23");
 		this.add(tileSet_292);
 
-		// tileSet_293
 		const tileSet_293 = scene.add.image(736, 224, "TileSet_23");
 		this.add(tileSet_293);
 
-		// tileSet_294
 		const tileSet_294 = scene.add.image(768, 224, "TileSet_24");
 		this.add(tileSet_294);
 
-		// tileSet_221
 		const tileSet_221 = scene.add.image(3136, 128, "TileSet_24");
 		this.add(tileSet_221);
 
-		// tileSet_01
 		const tileSet_01 = scene.add.image(3808, 256, "TileSet_01");
 		tileSet_01.setOrigin(0, 0);
 		this.add(tileSet_01);
 
-		// tileSet_158
 		const tileSet_158 = scene.add.image(3840, 224, "TileSet_01");
 		tileSet_158.setOrigin(0, 0);
 		this.add(tileSet_158);
 
-		// tileSet_160
 		const tileSet_160 = scene.add.image(3872, 192, "TileSet_01");
 		tileSet_160.setOrigin(0, 0);
 		this.add(tileSet_160);
 
-		// tileSet_162
 		const tileSet_162 = scene.add.image(3904, 160, "TileSet_01");
 		tileSet_162.setOrigin(0, 0);
 		this.add(tileSet_162);
 
-		// tileSet_164
 		const tileSet_164 = scene.add.image(3808, 288, "TileSet_13");
 		tileSet_164.setOrigin(0, 0);
 		this.add(tileSet_164);
 
-		// tileSet_311
 		const tileSet_311 = scene.add.image(3840, 256, "TileSet_13");
 		tileSet_311.setOrigin(0, 0);
 		this.add(tileSet_311);
 
-		// tileSet_312
 		const tileSet_312 = scene.add.image(3872, 224, "TileSet_13");
 		tileSet_312.setOrigin(0, 0);
 		this.add(tileSet_312);
 
-		// tileSet_313
 		const tileSet_313 = scene.add.image(3904, 192, "TileSet_13");
 		tileSet_313.setOrigin(0, 0);
 		this.add(tileSet_313);
 
-		// tileSet_314
 		const tileSet_314 = scene.add.image(2880, 288, "TileSet_02");
 		tileSet_314.setOrigin(0, 0);
 		this.add(tileSet_314);
 
-		/* START-USER-CTR-CODE */
-
         scene.groundGroup = new GroundGroup(scene, this.getChildren());
-        /* END-USER-CTR-CODE */
 	}
-
-	/* START-USER-CODE */
-
-    // Write your code here.
-
-    /* END-USER-CODE */
 }
-
-/* END OF COMPILED CODE */
-
-// You can write more code here
