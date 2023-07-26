@@ -762,7 +762,10 @@ class Level1 extends Phaser.Scene {
         this.healthBar.setScrollFactor(0, 0);
         this.stoneBar.setScrollFactor(0, 0);
         this.coinBar.setScrollFactor(0, 0);
-        this.physics.world.setBounds(0, 0, 4672, game.config.height);
+		this.physics.world.setBounds(0, 0, 4672, game.config.height);
+
+		let yourMum = document.createElement("button");
+		this.add.dom(16, 16, yourMum);
     }
 
     update() {

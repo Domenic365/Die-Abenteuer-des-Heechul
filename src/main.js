@@ -52,6 +52,9 @@ const game = new Phaser.Game({
         mode: Phaser.Scale.FIT,
         parent: "canvas",
     },
+    dom: {
+        createContainer: true,
+    },
     physics: {
         default: "arcade",
         arcade: {

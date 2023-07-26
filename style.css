@@ -22,3 +22,13 @@ body {
     height: calc(9px * var(--size));
     width: calc(16px * var(--size));
 }
+
+#canvas div{
+    transform-origin: unset !important;
+}
+
+.test{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+}
