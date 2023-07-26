@@ -47,7 +47,7 @@ const game = new Phaser.Game({
     height: 324,
     backgroundColor: "0x000000",
     pixelArt: true,
-    scene: Level1,
+    scene: [Boot, Level1],
     scale: {
         mode: Phaser.Scale.FIT,
         parent: "canvas",

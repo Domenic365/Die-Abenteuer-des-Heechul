@@ -1,0 +1,29 @@
+{
+    "id": "8e22c2f7-cc02-4710-8bdb-4a9e69056ff7",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Boot",
+        "borderWidth": 4672,
+        "borderHeight": 324
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "1c460d7f-497f-48b7-a8e0-f550e190dc43",
+            "label": "text_1",
+            "x": 16,
+            "y": 16,
+            "text": "Loading Game..."
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}
