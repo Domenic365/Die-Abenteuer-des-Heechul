@@ -122,7 +122,7 @@ class Level1 extends Phaser.Scene {
     rockAndEnemyCollision() {
         return (thrownObject, enemy) => {
             thrownObject.destroy();
-            enemy.gotHit(thrownObject.damage, ANIM_BEARHURT, ANIM_BEARDEATH);
+            enemy.gotHit(thrownObject.damage);
             enemy.setVelocityX(0);
         };
     }
@@ -131,7 +131,7 @@ class Level1 extends Phaser.Scene {
         return (character, enemy) => {
             let enemyGotHitOnTop = enemy.body.touching.up;
             if (enemyGotHitOnTop) {
-                enemy.gotHit(character.damage, ANIM_BEARHURT, ANIM_BEARDEATH);
+                enemy.gotHit(character.damage);
                 character.isJumped = false;
                 character.jump(character.jumpSpeed, ANIM_JUMPDUDE);
             } else {
@@ -166,4 +166,5 @@ class Level1 extends Phaser.Scene {
             enemy.move(enemy.speed, ANIM_BEARWALK, !enemy.flipX);
         };
     }
+
 }

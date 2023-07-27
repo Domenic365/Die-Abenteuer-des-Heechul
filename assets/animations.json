@@ -1,1099 +1,1099 @@
 {
-    "anims": [
+  "anims": [
+    {
+      "key": "idledude",
+      "type": "frame",
+      "frames": [
         {
-            "key": "idledude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Idle_4",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Idle_4",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Idle_4",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Idle_4",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
+          "key": "Dude_Monster_Idle_4",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
         },
         {
-            "key": "doubleJumpDust",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Double_Jump_Dust_5",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Double_Jump_Dust_5",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Double_Jump_Dust_5",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Double_Jump_Dust_5",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Double_Jump_Dust_5",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
+          "key": "Dude_Monster_Idle_4",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
         },
         {
-            "key": "attackDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Attack1_4",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack1_4",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack1_4",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack1_4",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
+          "key": "Dude_Monster_Idle_4",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
         },
         {
-            "key": "attack2Dude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Attack2_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "deathDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 6,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Death_8",
-                    "frame": 7,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "hurtDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Hurt_4",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Hurt_4",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Hurt_4",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Hurt_4",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "jumpDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 6,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Jump_8",
-                    "frame": 7,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "runDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Run_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "throwDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Throw_4",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Throw_4",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Throw_4",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Throw_4",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "walkDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "walkAttackDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Walk+Attack_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "climbDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Climb_4",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Climb_4",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Climb_4",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Climb_4",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "pushDude",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Dude_Monster_Push_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "dustWalk_Run_Push_Dust",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk_Run_Push_Dust_6",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "bearAttack",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Attack",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Attack",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Attack",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Attack",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Attack",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Attack",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "bearDeath",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Death",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Death",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Death",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Death",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Death",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Death",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": 1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "bearHurt",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Hurt",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Hurt",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Hurt",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Hurt",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "bearIdle",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Idle",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Idle",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Idle",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Idle",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "bearWalk",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Walk",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Walk",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "coinCoin",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Coin",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 6,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Coin",
-                    "frame": 7,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 24,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "mageBossMage_boss_attack",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_attack3",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "mageBossMage_boss_death",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_death",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "mageBossMage_boss_hurt",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Mage_boss_hurt",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_hurt",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_hurt",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_hurt",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "mageBossMage_boss_run",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Mage_boss_run",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 8,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
-        },
-        {
-            "key": "pickupPickup",
-            "type": "frame",
-            "frames": [
-                {
-                    "key": "Pickup",
-                    "frame": 0,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Pickup",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Pickup",
-                    "frame": 2,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Pickup",
-                    "frame": 3,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Pickup",
-                    "frame": 4,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "Pickup",
-                    "frame": 5,
-                    "duration": 0,
-                    "keyframe": false
-                }
-            ],
-            "frameRate": 24,
-            "skipMissedFrames": true,
-            "repeat": -1,
-            "showBeforeDelay": false
+          "key": "Dude_Monster_Idle_4",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
         }
-    ],
-    "globalTimeScale": 1,
-    "meta": {
-        "app": "Phaser Editor 2D v3",
-        "contentType": "Phaser v3 Animations"
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
     },
-    "settings": {
-        "sourceLang": "JAVA_SCRIPT",
-        "esModule": false,
-        "generateCode": true,
-        "outputFolder": "Die Abenteuer des Heechul/src/components/general"
+    {
+      "key": "doubleJumpDust",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Double_Jump_Dust_5",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Double_Jump_Dust_5",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Double_Jump_Dust_5",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Double_Jump_Dust_5",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Double_Jump_Dust_5",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "attackDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Attack1_4",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack1_4",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack1_4",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack1_4",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "attack2Dude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Attack2_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "deathDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 6,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Death_8",
+          "frame": 7,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "hurtDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Hurt_4",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Hurt_4",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Hurt_4",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Hurt_4",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "jumpDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 6,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Jump_8",
+          "frame": 7,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "runDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Run_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "throwDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Throw_4",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Throw_4",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Throw_4",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Throw_4",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "walkDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "walkAttackDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Walk+Attack_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "climbDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Climb_4",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Climb_4",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Climb_4",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Climb_4",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "pushDude",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Dude_Monster_Push_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "dustWalk_Run_Push_Dust",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk_Run_Push_Dust_6",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "bearAttack",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Attack",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Attack",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Attack",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Attack",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Attack",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Attack",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "bearDeath",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Death",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Death",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Death",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Death",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Death",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Death",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": 1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "bearHurt",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Hurt",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Hurt",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Hurt",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Hurt",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "bearIdle",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Idle",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Idle",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Idle",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Idle",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "bearWalk",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Walk",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Walk",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "coinCoin",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Coin",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 6,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Coin",
+          "frame": 7,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 24,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "mageBossMage_boss_attack",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_attack3",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": 1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "mageBossMage_boss_death",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Mage_boss_death",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_death",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_death",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_death",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_death",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_death",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "mageBossMage_boss_hurt",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Mage_boss_hurt",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_hurt",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_hurt",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_hurt",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": 1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "mageBossMage_boss_run",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Mage_boss_run",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_run",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_run",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_run",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_run",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Mage_boss_run",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 8,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
+    },
+    {
+      "key": "pickupPickup",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "Pickup",
+          "frame": 0,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Pickup",
+          "frame": 1,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Pickup",
+          "frame": 2,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Pickup",
+          "frame": 3,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Pickup",
+          "frame": 4,
+          "duration": 0,
+          "keyframe": false
+        },
+        {
+          "key": "Pickup",
+          "frame": 5,
+          "duration": 0,
+          "keyframe": false
+        }
+      ],
+      "frameRate": 24,
+      "skipMissedFrames": true,
+      "repeat": -1,
+      "showBeforeDelay": false
     }
+  ],
+  "globalTimeScale": 1,
+  "meta": {
+    "app": "Phaser Editor 2D v3",
+    "contentType": "Phaser v3 Animations"
+  },
+  "settings": {
+    "sourceLang": "JAVA_SCRIPT",
+    "esModule": false,
+    "generateCode": true,
+    "outputFolder": "Die Abenteuer des Heechul/src/components/general"
+  }
 }
