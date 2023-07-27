@@ -3,10 +3,13 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
         super(scene, x, y, texture, frame);
         this.init();
         this.addColliderGround();
+        scene.add.existing(this);
     }
 
     addColliderGround() {
-        this.scene.physics.add.collider(this, this.scene.groundGroup, ()=>{this.fellOnGround()});
+        this.scene.physics.add.collider(this, this.scene.groundGroup, () => {
+            this.fellOnGround()
+        });
     }
 
     init() {

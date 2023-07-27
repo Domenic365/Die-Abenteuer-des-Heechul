@@ -3,6 +3,8 @@ class BackgroundClass extends Phaser.GameObjects.Layer {
     constructor(scene) {
         super(scene);
 
+        scene.add.existing(this);
+
         const tilesprite_1 = scene.add.tileSprite(0, 0, 4672, 324, "8");
         tilesprite_1.setOrigin(0, 0);
         this.add(tilesprite_1);

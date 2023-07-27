@@ -2,6 +2,7 @@ class GroundLayer extends Phaser.GameObjects.Layer {
 
     constructor(scene) {
         super(scene);
+        scene.add.existing(this);
 
         const tileSet_02 = scene.add.image(0, 288, "TileSet_02");
         tileSet_02.setOrigin(0, 0);

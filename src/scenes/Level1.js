@@ -2,164 +2,64 @@ class Level1 extends Phaser.Scene {
 
     constructor() {
         super("level1");
-
-    }
-
-
-    editorCreate() {
-
-        const background = new BackgroundClass(this);
-        this.add.existing(background);
-
-        const groundLayerBack = new GroundLayerBack(this);
-        this.add.existing(groundLayerBack);
-
-        const groundLayer = new GroundLayer(this);
-        this.add.existing(groundLayer);
-
-        const player = new Player(this, 128, 224);
-        this.add.existing(player);
-
-        this.healthBar = this.add.sprite(56, 16, "Healthbar_sprite", 3);
-
-        this.stoneBar = this.add.sprite(56, 32, "Energybar_sprite", 0);
-
-        this.coinBar = this.add.image(56, 48, "coinBar", 0);
-
-        const spikes = new Spikes(this, 1360, 304);
-        this.add.existing(spikes);
-
-        const spikes_1 = new Spikes(this, 1392, 304);
-        this.add.existing(spikes_1);
-
-        const spikes_2 = new Spikes(this, 2768, 304);
-        this.add.existing(spikes_2);
-
-        const spikes_3 = new Spikes(this, 2800, 304);
-        this.add.existing(spikes_3);
-
-        const spikes_4 = new Spikes(this, 2832, 304);
-        this.add.existing(spikes_4);
-
-        const spikes_5 = new Spikes(this, 2864, 304);
-        this.add.existing(spikes_5);
-
-        const bear = new Bear(this, 720, 184);
-        this.add.existing(bear);
-
-        const bear_1 = new Bear(this, 1320, 264);
-        this.add.existing(bear_1);
-
-        const rockItem = new RockItem(this, 416, 272);
-        this.add.existing(rockItem);
-
-        const rockItem_1 = new RockItem(this, 1000, 280);
-        this.add.existing(rockItem_1);
-
-        const burger = new Burger(this, 1440, 272);
-        this.add.existing(burger);
-
-        const rockItem_2 = new RockItem(this, 1520, 280);
-        this.add.existing(rockItem_2);
-
-        const rockItem_3 = new RockItem(this, 1880, 280);
-        this.add.existing(rockItem_3);
-
-        const bear_2 = new Bear(this, 1104, 264);
-        this.add.existing(bear_2);
-
-        const bear_3 = new Bear(this, 2184, 264);
-        this.add.existing(bear_3);
-
-        const bear_4 = new Bear(this, 1992, 264);
-        this.add.existing(bear_4);
-
-        const bear_5 = new Bear(this, 1704, 264);
-        this.add.existing(bear_5);
-
-        const bear_6 = new Bear(this, 3128, 88);
-        this.add.existing(bear_6);
-
-        const bear_7 = new Bear(this, 3752, 264);
-        this.add.existing(bear_7);
-
-        const bear_8 = new Bear(this, 3344, 264);
-        this.add.existing(bear_8);
-
-        const coin = new Coin(this, 2696, 272);
-        this.add.existing(coin);
-
-        const coin_1 = new Coin(this, 704, 192);
-        this.add.existing(coin_1);
-
-        const coin_2 = new Coin(this, 2872, 88);
-        this.add.existing(coin_2);
-
-        const burger_1 = new Burger(this, 3016, 88);
-        this.add.existing(burger_1);
-
-        const rockItem_4 = new RockItem(this, 2928, 272);
-        this.add.existing(rockItem_4);
-
-        const burger_2 = new Burger(this, 2984, 272);
-        this.add.existing(burger_2);
-
-        const rockItem_5 = new RockItem(this, 3584, 272);
-        this.add.existing(rockItem_5);
-
-        const burger_3 = new Burger(this, 3920, 144);
-        this.add.existing(burger_3);
-
-        const enemyStop2 = new EnemyStop(this, 608, 192);
-        this.add.existing(enemyStop2);
-
-        const enemyStop1 = new EnemyStop(this, 800, 192);
-        this.add.existing(enemyStop1);
-
-        const enemyStop = new EnemyStop(this, 16, 272);
-        this.add.existing(enemyStop);
-
-        const enemyStop_1 = new EnemyStop(this, 1360, 272);
-        this.add.existing(enemyStop_1);
-
-        const enemyStop_2 = new EnemyStop(this, 1392, 272);
-        this.add.existing(enemyStop_2);
-
-        const enemyStop_3 = new EnemyStop(this, 2592, 96);
-        this.add.existing(enemyStop_3);
-
-        const enemyStop_4 = new EnemyStop(this, 3168, 96);
-        this.add.existing(enemyStop_4);
-
-        const enemyStop_5 = new EnemyStop(this, 2864, 272);
-        this.add.existing(enemyStop_5);
-
-        const enemyStop_6 = new EnemyStop(this, 2768, 272);
-        this.add.existing(enemyStop_6);
-
-        const enemyStop_7 = new EnemyStop(this, 3824, 272);
-        this.add.existing(enemyStop_7);
-
-        this.add.image(4480, 256, "Mage_boss");
-
-        this.background = background;
-        this.player = player;
-
-        this.events.emit("scene-awake");
     }
 
     init() {
         this.loadGroups();
+        this.physics.world.setBounds(0, 0, 4672, game.config.height);
     }
 
     create() {
-        this.editorCreate();
+        this.createEnvironment();
+        this.mussNochGemachtWerden();
+        this.createPlayerAndBoss();
+        this.createObjects();
         this.createCollisions();
+        this.createDom();
+
+    }
+
+    update() {
+        this.player.update();
+        this.background.update();
+    }
+
+    //objectCreation
+
+
+    createEnvironment() {
+        this.background = new BackgroundClass(this);
+        this.groundLayerBack = new GroundLayerBack(this);
+        this.groundLayer = new GroundLayer(this);
+    }
+
+    createPlayerAndBoss() {
+        this.player = new Player(this, 128, 224);
+        this.add.image(4480, 256, "Mage_boss");
+    }
+
+    createObjects() {
+        for (const [ObjectClass, coordinatesArray] of objectsToCreate) {
+            this.createAndAddObjects(this, ObjectClass, coordinatesArray);
+        }
+    }
+
+    createAndAddObjects(scene, objectClass, coordinatesArray) {
+        for (const coords of coordinatesArray) {
+            const obj = new objectClass(scene, coords[0], coords[1]);
+            scene.add.existing(obj);
+        }
+    }
+
+
+    mussNochGemachtWerden() {
+        this.healthBar = this.add.sprite(56, 16, "Healthbar_sprite", 3);
+        this.stoneBar = this.add.sprite(56, 32, "Energybar_sprite", 0);
+        this.coinBar = this.add.image(56, 48, "coinBar", 0);
         this.healthBar.setScrollFactor(0, 0);
         this.stoneBar.setScrollFactor(0, 0);
         this.coinBar.setScrollFactor(0, 0);
-        this.physics.world.setBounds(0, 0, 4672, game.config.height);
-        this.createDom();
+
     }
 
     createDom() {
@@ -178,10 +78,6 @@ class Level1 extends Phaser.Scene {
         this.pause.setScrollFactor(0, 0);
     }
 
-    update() {
-        this.player.update();
-        this.background.update();
-    }
 
     loadGroups() {
         groupsToCreate.staticGroups.forEach((name) => {

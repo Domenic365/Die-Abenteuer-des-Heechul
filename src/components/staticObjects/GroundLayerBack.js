@@ -1,6 +1,7 @@
 class GroundLayerBack extends Phaser.GameObjects.Layer {
     constructor(scene) {
         super(scene);
+        scene.add.existing(this);
 
         const objectsToCreate = [
             {key: 'Back_TileSet_12', x: 768, y: 272},
