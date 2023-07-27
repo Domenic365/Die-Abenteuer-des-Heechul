@@ -34,7 +34,7 @@ class Level1 extends Phaser.Scene {
 
     createPlayerAndBoss() {
         this.player = new Player(this, 128, 224);
-        this.add.image(4480, 256, "Mage_boss");
+        this.mageBoss = new MageBoss(this, 4480, 256);
     }
 
     createObjects() {
