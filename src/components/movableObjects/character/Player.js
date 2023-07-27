@@ -19,11 +19,6 @@ class Player extends MovableObjects {
     knockback = -100;
     coins = 0;
 
-    collectStone() {
-        this.stones++;
-        this.scene.stoneBar.setFrame(this.stones);
-    }
-
     checkCollection(itemCount) {
         return itemCount < this.maxItem;
     }
@@ -53,7 +48,7 @@ class Player extends MovableObjects {
                     let stone = new RockToThrow(this.scene, this)
                     this.scene.thrownStones.add(stone, true);
                     if (this.flipX) {
-                        stoneSpeed = -800
+                        stoneSpeed = -800;
                     }
                     stone.setVelocity(stoneSpeed, -100);
                     this.stones--;
@@ -76,6 +71,12 @@ class Player extends MovableObjects {
     }
 
     update() {
-        this.moveCharacter();
+        this.dead = this.lifePoints < 1;
+        if (!this.dead) {
+            this.moveCharacter();
+        }
+        if (this.dead && this.isDoing === false) {
+            game.scene.scenes[2].gameOver();
+        }
     }
 }

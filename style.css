@@ -14,6 +14,8 @@ body {
     background-size: cover;
 }
 
+/*canvas*/
+
 canvas {
     border: 8px solid #2f2f2f;
     border-radius: 16px;
@@ -40,6 +42,8 @@ canvas {
     display: none !important;
 }
 
+/*main menu*/
+
 .logo {
     background: url("./assets/UI/Logo.png") no-repeat;
     height: 192px;
@@ -48,10 +52,15 @@ canvas {
 }
 
 .logo p {
+
+}
+
+.logo p {
     position: absolute;
     color: white;
-    left: 110px;
     top: 105px;
+    width: 424px;
+    text-align: center;
 }
 
 .menuDiv {
@@ -60,12 +69,6 @@ canvas {
     background-size: cover;
     transform: unset !important;
     border-radius: 4px;
-}
-
-.test {
-    height: 30px;
-    width: 30px;
-    background-color: black;
 }
 
 .top {
@@ -78,6 +81,8 @@ canvas {
     all: unset;
     cursor: pointer;
 }
+
+/*pause menu*/
 
 .top button:hover {
     opacity: 0.9;

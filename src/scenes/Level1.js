@@ -69,13 +69,20 @@ class Level1 extends Phaser.Scene {
 		</div>
 		<section pauseMenu class="pauseMenu dpNone">
 		    <div class="logo">
-			        <p>Die Abenteuer des Heechul</p>
+			        <p pauseText>Pause</p>
 			</div>
                 <button class="gameButton" onclick="toggleGame()">
                     <img src="./assets/UI/play.png" alt="">
                 </button>
-            </section>
-		<div class="gameOver"></div>
+        </section>
+        <section gameOverMenu class="pauseMenu dpNone">    
+        		    <div class="logo">
+			        <p pauseText>GAME OVER</p>
+			</div>
+                <button class="gameButton" onclick="game.scene.scenes[0].scene.start('HomeScreen')">
+                    <img src="./assets/UI/home.png" alt="">
+                </button>
+        </section>
 		`;
         this.pause = this.add.dom(0, 0, pauseDiv);
         this.pause.setScrollFactor(0, 0);
@@ -97,17 +104,9 @@ class Level1 extends Phaser.Scene {
         const collisionList = loadCollisionObjects(this);
         collisionList.forEach((collisionObject) => {
             if (collisionObject.overlap) {
-                this.physics.add.overlap(
-                    collisionObject.firstObject,
-                    collisionObject.secondObject,
-                    collisionObject.function
-                );
+                this.physics.add.overlap(collisionObject.firstObject, collisionObject.secondObject, collisionObject.function);
             } else {
-                this.physics.add.collider(
-                    collisionObject.firstObject,
-                    collisionObject.secondObject,
-                    collisionObject.function
-                );
+                this.physics.add.collider(collisionObject.firstObject, collisionObject.secondObject, collisionObject.function);
             }
         });
     }
@@ -135,19 +134,21 @@ class Level1 extends Phaser.Scene {
                 character.isJumped = false;
                 character.jump(character.jumpSpeed, ANIM_JUMPDUDE);
             } else {
-                character.gotHit(
-                    enemy.damage,
-                    ANIM_HURTDUDE,
-                    ANIM_DEATHDUDE,
-                    (character) => {
-                        character.setVelocityX(character.knockback);
-                        this.healthBar.setFrame(character.lifePoints);
-                    }
-                );
+                character.gotHit(enemy.damage, ANIM_HURTDUDE, ANIM_DEATHDUDE, (character) => {
+                    character.setVelocityX(character.knockback);
+                    this.healthBar.setFrame(character.lifePoints);
+                });
             }
         };
     }
 
+    gameOver() {
+        this.scene.sleep();
+        const pauseButton = document.querySelector(".topButton Button");
+        pauseButton.classList.add("dpNone");
+        const gameOver = document.querySelector("[gameovermenu]");
+        gameOver.classList.remove("dpNone");
+    }
 
     playerSpikesCollision() {
         return (player) => {
