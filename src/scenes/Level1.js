@@ -11,12 +11,11 @@ class Level1 extends Phaser.Scene {
 
     create() {
         this.createEnvironment();
-        this.mussNochGemachtWerden();
+        this.createBars();
         this.createPlayerAndBoss();
         this.createObjects();
         this.createCollisions();
         this.createDom();
-
     }
 
     update() {
@@ -52,15 +51,12 @@ class Level1 extends Phaser.Scene {
     }
 
 
-    mussNochGemachtWerden() {
-        this.healthBar = this.add.sprite(56, 16, "Healthbar_sprite", 3);
-        this.stoneBar = this.add.sprite(56, 32, "Energybar_sprite", 0);
-        this.coinBar = this.add.image(56, 48, "coinBar", 0);
-        this.healthBar.setScrollFactor(0, 0);
-        this.stoneBar.setScrollFactor(0, 0);
-        this.coinBar.setScrollFactor(0, 0);
-
+    createBars() {
+        bars.forEach(barInfo => {
+            this[barInfo.name] = new Bar(this, 56, barInfo.y, barInfo.sprite, barInfo.value);
+        });
     }
+
 
     createDom() {
         let pauseDiv = document.createElement("div");

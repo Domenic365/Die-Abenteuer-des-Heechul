@@ -56,6 +56,12 @@ const groupsToCreate = {
     ],
 };
 
+const bars = [
+    {name: "healthBar", y: 16, sprite: "Healthbar_sprite", value: 3},
+    {name: "stoneBar", y: 32, sprite: "Energybar_sprite", value: 0},
+    {name: "coinBar", y: 48, sprite: "coinBar", value: 0},
+];
+
 const spikesCoords = [
     [1360, 304], [1392, 304], [2768, 304], [2800, 304], [2832, 304], [2864, 304]
 ];
