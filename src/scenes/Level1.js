@@ -63,11 +63,18 @@ class Level1 extends Phaser.Scene {
         pauseDiv.classList.add("pauseDiv");
         pauseDiv.innerHTML = /*html*/ `
 		<div class="topButton">
-			<Button> 
+			<Button class="gameButton" onclick="toggleGame()"> 
 				<img src="./assets/UI/pauseButton.png" alt="">
 			</Button>
 		</div>
-		<div class="pauseMenu"></div>
+		<section pauseMenu class="pauseMenu dpNone">
+		    <div class="logo">
+			        <p>Die Abenteuer des Heechul</p>
+			</div>
+                <button class="gameButton" onclick="toggleGame()">
+                    <img src="./assets/UI/play.png" alt="">
+                </button>
+            </section>
 		<div class="gameOver"></div>
 		`;
         this.pause = this.add.dom(0, 0, pauseDiv);

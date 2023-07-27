@@ -10,10 +10,12 @@ class HomeScreen extends Phaser.Scene {
     createMenuDom() {
         let menu = document.createElement("div");
         menu.classList.add("menuDiv");
-        menu.innerHTML = /*html*/ `
+        menu.innerHTML = `
 			<div class="top">
-                <img src="./assets/UI/Logo.png" alt="">
-                <button onclick="game.scene.scenes[0].scene.start('Boot')">
+			    <div class="logo">
+			        <p>Die Abenteuer des Heechul</p>
+			    </div>
+                <button class="gameButton" onclick="game.scene.scenes[0].scene.start('Boot')">
                     <img src="./assets/UI/play.png" alt="">
                 </button>
             </div>

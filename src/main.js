@@ -19,3 +19,17 @@ const game = new Phaser.Game({
         },
     },
 });
+
+
+function toggleGame() {
+    "use strict";
+    const pauseMenu = document.querySelector("[pauseMenu]");
+    const isNotDisplayed = pauseMenu.classList.contains("dpNone");
+    if (isNotDisplayed) {
+        pauseMenu.classList.remove("dpNone");
+        game.scene.scenes[2].scene.pause();
+    } else {
+        pauseMenu.classList.add("dpNone");
+        game.scene.scenes[2].scene.resume("level1");
+    }
+}

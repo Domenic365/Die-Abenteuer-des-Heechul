@@ -1,12 +1,16 @@
+@font-face {
+    font-family: Planes_ValMore;
+    src: url("assets/tiles/Font/Planes_ValMore.ttf");
+}
+
 body {
-    background: #2f2f2f;
+    font-family: Planes_ValMore, serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/tiles/Background/Background.png);
-    background-repeat: no-repeat;
+    background: #2f2f2f url(./assets/tiles/Background/Background.png) no-repeat;
     background-size: cover;
 }
 
@@ -30,6 +34,24 @@ canvas {
     flex-direction: column;
     width: 100%;
     transform-origin: unset !important;
+}
+
+.dpNone {
+    display: none !important;
+}
+
+.logo {
+    background: url("./assets/UI/Logo.png") no-repeat;
+    height: 192px;
+    width: 424px !important;
+    position: relative;
+}
+
+.logo p {
+    position: absolute;
+    color: white;
+    left: 110px;
+    top: 105px;
 }
 
 .menuDiv {
@@ -64,24 +86,42 @@ canvas {
 .pauseDiv {
     height: 100%;
     transform: unset !important;
+    position: relative;
+}
+
+.pauseMenu {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .topButton {
     justify-content: right;
 }
 
-.topButton button {
+.gameButton {
+    cursor: pointer;
     display: flex;
     justify-content: end;
     background: none;
     border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.gameButton:hover {
+    opacity: 0.9;
 }
 
 .topButton img {
-    width: 64px;
+    width: 32px;
     cursor: pointer;
+    margin: 8px;
 }
 
 .topButton img:hover {
     opacity: 0.9;
 }
+
