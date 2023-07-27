@@ -9,18 +9,22 @@ class MageBoss extends Enemy {
     lifePoints = 6;
 
     attacking(){
-        this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 400, false, ()=>{
-            let fireBallSpeed = 800;
+        if(this.isDoing){
+            return false
+        }
+        this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 700, false, ()=>{
+            let fireBallSpeed = -500;
             let fireBall = new Fireball(this.scene, this)
             this.scene.thrownStones.add(fireBall, true);
             if (this.flipX) {
-                fireBallSpeed = -800;
+                fireBallSpeed = fireBallSpeed * -1;
             }
-            fireBall.setVelocity(fireBallSpeed, -100);
+            fireBall.setVelocity(fireBallSpeed, -150);
         });
     }
 
     update(){
+        this.attacking();
     }
 
 }
