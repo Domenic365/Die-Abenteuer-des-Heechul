@@ -15,6 +15,7 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
     init() {
         this.isJumped = false;
         this.isDoing = false;
+        this.isDead = false;
     }
 
     move(speed, animationKey, flip) {
@@ -39,8 +40,8 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
 
     gotHit(damage, hitAnimKey, deathAnimKey, funBeforeAnim, funAfterAnim) {
         this.lifePoints -= damage;
-        let isDead = this.lifePoints < 1;
-        if (isDead) {
+        this.isDead = this.lifePoints < 1;
+        if (this.isDead) {
             this.doSomething(deathAnimKey, 750, funBeforeAnim, (object) => {
                 object.destroy();
                 if (funAfterAnim) {
@@ -53,6 +54,9 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
     }
 
     doSomething(animKey, timeInMs, funBeforeAnim, funAfterAnim) {
+        if(this.isDoing && this.isDead === false){
+            return false;
+        }
         this.isDoing = true;
         if (funBeforeAnim) {
             funBeforeAnim(this);

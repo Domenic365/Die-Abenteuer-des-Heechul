@@ -18,6 +18,7 @@ class Player extends MovableObjects {
     jumpSpeed = -400;
     knockback = -100;
     coins = 0;
+    isDoing = false;
 
     checkCollection(itemCount) {
         return itemCount < this.maxItem;

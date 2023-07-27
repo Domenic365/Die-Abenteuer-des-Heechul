@@ -1,15 +1,16 @@
 class Bear extends Enemy {
 
 	constructor(scene, x, y, texture, frame) {
-		super(scene, x ?? 0, y ?? 0, texture || "Bear", frame);
-
+		super(scene, x, y, "Bear", frame);
 		scene.physics.add.existing(this, false);
+		scene.enemies.add(this);
 		this.body.setOffset(10, 10);
 		this.body.setSize(20, 30, false);
 	}
 
-	damage = 1;
+
 	lifePoints = 2;
+	speed = -10;
 
 	fellOnGround() {
 		let isAlive = this.lifePoints > 0;
