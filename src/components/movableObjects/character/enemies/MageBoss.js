@@ -4,10 +4,13 @@ class MageBoss extends Enemy {
         super(scene, x, y, "Mage_boss", frame);
 
         scene.physics.add.existing(this, false);
+        this.body.setOffset(10, 0);
+        this.body.setSize(30, 64, false);
     }
 
     lifePoints = 6;
     status = "attacking";
+    speed = -100;
 
     attacking() {
         if (this.isDoing && this.isAttacking) {
@@ -33,9 +36,13 @@ class MageBoss extends Enemy {
     }
 
     run() {
-        this.move(-100, ANIM_MAGEBOSSMAGE_BOSS_RUN);
+        this.move(this.speed, ANIM_MAGEBOSSMAGE_BOSS_RUN);
     }
 
+    stop() {
+        this.speed = this.speed * -1;
+        this.move(this.speed, ANIM_BEARWALK, !this.flipX);
+    }
 
     update() {
         if (this.isDead === true) {

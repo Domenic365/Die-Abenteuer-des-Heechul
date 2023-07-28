@@ -114,6 +114,10 @@ class Level1 extends Phaser.Scene {
         camera.pan(4250, 0, 800, Phaser.Math.Easing.Linear.InOut, true);
     }
 
+    createBossFightText() {
+
+    }
+
 
     //collisions
 
@@ -170,8 +174,7 @@ class Level1 extends Phaser.Scene {
 
     enemyStopCollision() {
         return (enemy) => {
-            enemy.speed = enemy.speed * -1;
-            enemy.move(enemy.speed, ANIM_BEARWALK, !enemy.flipX);
+            enemy.stop();
         };
     }
 

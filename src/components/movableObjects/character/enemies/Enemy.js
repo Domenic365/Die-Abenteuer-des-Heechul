@@ -6,4 +6,9 @@ class Enemy extends MovableObjects {
     }
 
     damage = 1;
+
+    stop() {
+        this.speed = this.speed * -1;
+        this.move(this.speed, ANIM_BEARWALK, !this.flipX);
+    }
 }
