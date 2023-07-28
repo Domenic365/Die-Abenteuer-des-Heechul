@@ -16,6 +16,7 @@ class Level1 extends Phaser.Scene {
         this.createObjects();
         this.createCollisions();
         this.createDom();
+        this.createBossFightText();
     }
 
     update() {
@@ -108,14 +109,33 @@ class Level1 extends Phaser.Scene {
     }
 
     startBossFight() {
+        this.bossFight = true;
         let camera = this.cameras.main;
         camera.stopFollow();
-        let targetCameraCords = camera.getScroll(4250, 0);
         camera.pan(4250, 0, 800, Phaser.Math.Easing.Linear.InOut, true);
+        setTimeout(() => {
+            this.bossText.destroy();
+            this.mageBoss.status = "attacking";
+            this.mageBoss.visible = true;
+        }, 2000);
     }
 
     createBossFightText() {
+        this.bossText = this.add.text(4250, this.cameras.main.centerY, 'Bossfight Start!', {
+            fontFamily: 'Planes_ValMore', fontSize: '48px', color: '#ffffff',
+        });
+        this.bossText.setOrigin(0.5);
+        this.bossText.visible = false;
 
+        this.blinkTimer = this.time.addEvent({
+            delay: 100, callback: this.toggleBossTextVisibility, callbackScope: this, loop: true,
+        });
+    }
+
+    toggleBossTextVisibility() {
+        if (this.bossFight) {
+            this.bossText.visible = !this.bossText.visible;
+        }
     }
 
 

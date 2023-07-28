@@ -6,11 +6,12 @@ class MageBoss extends Enemy {
         scene.physics.add.existing(this, false);
         this.body.setOffset(10, 0);
         this.body.setSize(30, 64, false);
+        this.visible = false;
     }
 
     lifePoints = 6;
-    status = "attacking";
-    speed = -100;
+    status = "";
+    speed = -200;
 
     attacking() {
         if (this.isDoing && this.isAttacking) {
@@ -18,7 +19,7 @@ class MageBoss extends Enemy {
         }
         this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 650, false, () => {
             let fireBallSpeed = -500;
-            let fireBall = new Fireball(this.scene, this)
+            let fireBall = new Fireball(this.scene, this);
             this.scene.thrownStones.add(fireBall, true);
             if (this.flipX) {
                 fireBallSpeed = fireBallSpeed * -1;
