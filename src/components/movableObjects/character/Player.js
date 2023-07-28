@@ -19,6 +19,8 @@ class Player extends MovableObjects {
     knockback = -100;
     coins = 0;
     isDoing = false;
+    reachedBoss = false;
+    bossFightStarted = false;
 
     checkCollection(itemCount) {
         return itemCount < this.maxItem;
@@ -71,13 +73,31 @@ class Player extends MovableObjects {
         }
     }
 
-    update() {
+    playerControl() {
         this.dead = this.lifePoints < 1;
         if (!this.dead) {
             this.moveCharacter();
         }
         if (this.dead && this.isDoing === false) {
             game.scene.scenes[2].gameOver();
+        }
+    }
+
+    checkBoss() {
+        if (this.bossFightStarted === false) {
+            this.reachedBoss = this.x > 3960 && this.x < 4000;
+        }
+        if (this.x > 4000) {
+            this.bossFightStarted = true;
+        }
+    }
+
+    update() {
+        this.checkBoss();
+        if (this.reachedBoss) {
+            this.scene.startBossFight();
+        } else {
+            this.playerControl();
         }
     }
 }

@@ -34,7 +34,7 @@ class Level1 extends Phaser.Scene {
     }
 
     createPlayerAndBoss() {
-        this.player = new Player(this, 4400, 224);
+        this.player = new Player(this, 3800, 224);
         this.mageBoss = new MageBoss(this, 4480, 256);
     }
 
@@ -99,6 +99,22 @@ class Level1 extends Phaser.Scene {
         });
     }
 
+    gameOver() {
+        this.scene.sleep();
+        const pauseButton = document.querySelector(".topButton Button");
+        pauseButton.classList.add("dpNone");
+        const gameOver = document.querySelector("[gameovermenu]");
+        gameOver.classList.remove("dpNone");
+    }
+
+    startBossFight() {
+        let camera = this.cameras.main;
+        camera.stopFollow();
+        let targetCameraCords = camera.getScroll(4250, 0);
+        camera.pan(4250, 0, 800, Phaser.Math.Easing.Linear.InOut, true);
+    }
+
+
     //collisions
 
     createCollisions() {
@@ -141,14 +157,6 @@ class Level1 extends Phaser.Scene {
                 });
             }
         };
-    }
-
-    gameOver() {
-        this.scene.sleep();
-        const pauseButton = document.querySelector(".topButton Button");
-        pauseButton.classList.add("dpNone");
-        const gameOver = document.querySelector("[gameovermenu]");
-        gameOver.classList.remove("dpNone");
     }
 
     playerSpikesCollision() {
