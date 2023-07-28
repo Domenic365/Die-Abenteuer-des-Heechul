@@ -61,9 +61,8 @@ class Level1 extends Phaser.Scene {
 
 
     createDom() {
-        let pauseDiv = document.createElement("div");
-        pauseDiv.classList.add("pauseDiv");
-        pauseDiv.innerHTML = /*html*/ `
+        this.pauseDiv = document.createElement("div");
+        this.pauseDiv.innerHTML = /*html*/ `
 		<div class="topButton">
 			<Button class="gameButton" onclick="toggleGame()"> 
 				<img src="./assets/UI/pauseButton.png" alt="">
@@ -71,7 +70,7 @@ class Level1 extends Phaser.Scene {
 		</div>
 		<section pauseMenu class="pauseMenu dpNone">
 		    <div class="logo">
-			        <p pauseText>Pause</p>
+			        <p>Pause</p>
 			</div>
                 <button class="gameButton" onclick="toggleGame()">
                     <img src="./assets/UI/play.png" alt="">
@@ -86,7 +85,12 @@ class Level1 extends Phaser.Scene {
                 </button>
         </section>
 		`;
-        this.pause = this.add.dom(0, 0, pauseDiv);
+        this.initDom();
+    }
+
+    initDom() {
+        this.pauseDiv.classList.add("pauseDiv");
+        this.pause = this.add.dom(0, 0, this.pauseDiv);
         this.pause.setScrollFactor(0, 0);
     }
 
@@ -106,6 +110,9 @@ class Level1 extends Phaser.Scene {
         pauseButton.classList.add("dpNone");
         const gameOver = document.querySelector("[gameovermenu]");
         gameOver.classList.remove("dpNone");
+        if (this.mageBoss.isDead) {
+            let pauseText = document.querySelector("[pausetext]").innerHTML = "YOU WIN";
+        }
     }
 
     startBossFight() {
@@ -125,11 +132,10 @@ class Level1 extends Phaser.Scene {
             fontFamily: 'Planes_ValMore', fontSize: '48px', color: '#ffffff',
         });
         this.bossText.setOrigin(0.5);
-        this.bossText.visible = false;
-
-        this.blinkTimer = this.time.addEvent({
+        this.time.addEvent({
             delay: 100, callback: this.toggleBossTextVisibility, callbackScope: this, loop: true,
         });
+        this.bossText.visible = false;
     }
 
     toggleBossTextVisibility() {
@@ -162,8 +168,8 @@ class Level1 extends Phaser.Scene {
     rockAndEnemyCollision() {
         return (thrownObject, enemy) => {
             thrownObject.destroy();
-            enemy.gotHit(thrownObject.damage);
             enemy.setVelocityX(0);
+            enemy.gotHit(thrownObject.damage);
         };
     }
 

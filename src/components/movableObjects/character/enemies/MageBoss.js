@@ -20,7 +20,8 @@ class MageBoss extends Enemy {
         this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 650, false, () => {
             let fireBallSpeed = -500;
             let fireBall = new Fireball(this.scene, this);
-            this.scene.thrownStones.add(fireBall, true);
+            fireBall.setGravity(0);
+            this.scene.fireballs.add(fireBall, true);
             if (this.flipX) {
                 fireBallSpeed = fireBallSpeed * -1;
             }
@@ -33,6 +34,9 @@ class MageBoss extends Enemy {
         this.status = "gotHit";
         super.gotHit(damage, ANIM_MAGEBOSSMAGE_BOSS_HURT, ANIM_MAGEBOSSMAGE_BOSS_DEATH, false, () => {
             this.status = "run";
+            if (this.isDead) {
+                game.scene.scenes[2].gameOver();
+            }
         });
     }
 

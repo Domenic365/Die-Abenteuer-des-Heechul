@@ -53,6 +53,7 @@ const groupsToCreate = {
         'thrownStones',
         'coins',
         'burger',
+        "fireballs",
     ],
 };
 

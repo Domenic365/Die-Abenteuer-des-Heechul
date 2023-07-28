@@ -955,7 +955,7 @@
       ],
       "frameRate": 8,
       "skipMissedFrames": true,
-      "repeat": -1,
+      "repeat": 1,
       "showBeforeDelay": false
     },
     {
