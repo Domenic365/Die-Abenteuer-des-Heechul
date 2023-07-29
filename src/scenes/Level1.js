@@ -35,7 +35,7 @@ class Level1 extends Phaser.Scene {
     }
 
     createPlayerAndBoss() {
-        this.player = new Player(this, 3800, 224);
+        this.player = new Player(this, 60, 224);
         this.mageBoss = new MageBoss(this, 4480, 256);
     }
 
@@ -168,7 +168,6 @@ class Level1 extends Phaser.Scene {
     rockAndEnemyCollision() {
         return (thrownObject, enemy) => {
             thrownObject.destroy();
-            enemy.setVelocityX(0);
             enemy.gotHit(thrownObject.damage);
         };
     }
@@ -181,20 +180,15 @@ class Level1 extends Phaser.Scene {
                 character.isJumped = false;
                 character.jump(character.jumpSpeed, ANIM_JUMPDUDE);
             } else {
-                character.gotHit(enemy.damage, ANIM_HURTDUDE, ANIM_DEATHDUDE, (character) => {
-                    character.setVelocityX(character.knockback);
-                    this.healthBar.setFrame(character.lifePoints);
-                });
+                enemy.setVelocity(0);
+                character.gotHit(enemy.damage, enemy.body.touching.right);
             }
         };
     }
 
     playerSpikesCollision() {
         return (player) => {
-            player.gotHit(1, ANIM_HURTDUDE, ANIM_DEATHDUDE, (player) => {
-                player.setVelocity(player.knockback * 2, player.knockback * 2);
-                this.healthBar.setFrame(player.lifePoints);
-            });
+            player.gotHit(1);
         };
     }
 

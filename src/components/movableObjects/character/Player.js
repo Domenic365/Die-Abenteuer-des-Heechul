@@ -16,7 +16,7 @@ class Player extends MovableObjects {
     damage = 2;
     speed = 100;
     jumpSpeed = -400;
-    knockback = -100;
+    knockback = -250;
     coins = 0;
     isDoing = false;
     reachedBoss = false;
@@ -59,6 +59,17 @@ class Player extends MovableObjects {
                 });
             }
         };
+    }
+
+    gotHit(damage, knockToRight) {
+        let knockbackX = this.knockback;
+        if (knockToRight) {
+            knockbackX = knockbackX * -1;
+        }
+        super.gotHit(damage, ANIM_HURTDUDE, ANIM_DEATHDUDE, (character) => {
+            this.setVelocity(knockbackX, this.knockback);
+            this.scene.healthBar.setFrame(character.lifePoints);
+        });
     }
 
     moveCharacter() {
