@@ -964,7 +964,7 @@
           "assets/audio/game over.mp3"
         ],
         "type": "audio",
-        "key": "gameOver"
+        "key": "gameOverAudio"
       },
       {
         "url": [
@@ -979,6 +979,27 @@
         ],
         "type": "audio",
         "key": "youWin"
+      },
+      {
+        "url": [
+          "assets/audio/bossMusic.mp3"
+        ],
+        "type": "audio",
+        "key": "bossMusic"
+      },
+      {
+        "url": [
+          "assets/audio/eat.mp3"
+        ],
+        "type": "audio",
+        "key": "eatMusic"
+      },
+      {
+        "url": [
+          "assets/audio/stone.mp3"
+        ],
+        "type": "audio",
+        "key": "stoneMusic"
       }
     ]
   },

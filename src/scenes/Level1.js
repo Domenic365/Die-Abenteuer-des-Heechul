@@ -17,7 +17,7 @@ class Level1 extends Phaser.Scene {
     this.createDom();
     this.createBossFightText();
     this.createAudio();
-    this.sound.play("backgroundmusic");
+    this.backgroundmusic.play();
   }
 
   update() {
@@ -38,14 +38,20 @@ class Level1 extends Phaser.Scene {
     pauseButton.classList.add("dpNone");
     const gameOver = document.querySelector("[gameovermenu]");
     gameOver.classList.remove("dpNone");
+    this.sound.stopAll();
     if (this.mageBoss.isDead) {
       let pauseText = (document.querySelector("[pausetext]").innerHTML =
         "YOU WIN");
+      this.youWin.play();
+    } else {
+      this.gameOverAudio.play();
     }
   }
 
   startBossFight() {
     this.bossFight = true;
+    this.sound.stopAll();
+    this.bossMusic.play();
     let camera = this.cameras.main;
     camera.stopFollow();
     camera.pan(4250, 0, 800, Phaser.Math.Easing.Linear.InOut, true);
@@ -162,8 +168,7 @@ class Level1 extends Phaser.Scene {
 
   createAudio() {
     audio.forEach((audioData) => {
-      debugger;
-      this.sound.add(audioData.key, audioData.config);
+      this[audioData.key] = this.sound.add(audioData.key, audioData.config);
     });
   }
 
@@ -198,6 +203,7 @@ class Level1 extends Phaser.Scene {
     return (thrownObject, enemy) => {
       thrownObject.destroy();
       enemy.gotHit(thrownObject.damage);
+      this.hit.play();
     };
   }
 
@@ -212,6 +218,7 @@ class Level1 extends Phaser.Scene {
         enemy.setVelocity(0);
         character.gotHit(enemy.damage, enemy.body.touching.right);
       }
+      this.hit.play();
     };
   }
 

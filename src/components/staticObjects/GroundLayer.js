@@ -1246,15 +1246,15 @@ class GroundLayer extends Phaser.GameObjects.Layer {
     this.add(tileSet_289);
 
     // tileSet_98
-    const tileSet_98 = scene.add.image(2432, 224, "TileSet_36");
+    const tileSet_98 = scene.add.image(2464, 224, "TileSet_36");
     this.add(tileSet_98);
 
     // tileSet_100
-    const tileSet_100 = scene.add.image(2464, 224, "TileSet_37");
+    const tileSet_100 = scene.add.image(2496, 224, "TileSet_37");
     this.add(tileSet_100);
 
     // tileSet_295
-    const tileSet_295 = scene.add.image(2496, 224, "TileSet_38");
+    const tileSet_295 = scene.add.image(2528, 224, "TileSet_38");
     this.add(tileSet_295);
 
     // tileSet_296

@@ -7,4 +7,8 @@ class Coin extends Collactable {
     this.body.setSize(16, 32, false);
     this.play(ANIM_COINCOIN);
   }
+
+  music() {
+    this.targetScene.coin.play();
+  }
 }

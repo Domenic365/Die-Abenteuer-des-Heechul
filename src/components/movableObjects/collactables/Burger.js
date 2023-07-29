@@ -11,4 +11,8 @@ class Burger extends Collactable {
       "burger",
     );
   }
+
+  music() {
+    this.targetScene.eatMusic.play();
+  }
 }
