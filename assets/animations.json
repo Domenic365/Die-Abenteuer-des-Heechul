@@ -908,8 +908,8 @@
         }
       ],
       "frameRate": 8,
-      "skipMissedFrames": true,
-      "repeat": 1,
+      "skipMissedFrames": false,
+      "repeat": -1,
       "showBeforeDelay": false
     },
     {

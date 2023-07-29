@@ -16,10 +16,9 @@ class MageBoss extends Enemy {
     if (this.isDoing && this.isAttacking) {
       return false;
     }
-    this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 650, false, () => {
+    this.doSomething(ANIM_MAGEBOSSMAGE_BOSS_ATTACK, 750, false, () => {
       let fireBallSpeed = -500;
       let fireBall = new Fireball(this.scene, this);
-      fireBall.setGravity(0);
       this.scene.fireballs.add(fireBall, true);
       if (this.flipX) {
         fireBallSpeed = fireBallSpeed * -1;
