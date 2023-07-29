@@ -39,7 +39,9 @@ class MovableObjects extends Phaser.Physics.Arcade.Sprite {
   }
 
   gotHit(damage, hitAnimKey, deathAnimKey, funBeforeAnim, funAfterAnim) {
-    this.lifePoints -= damage;
+    if (!this.isInvincible) {
+      this.lifePoints -= damage;
+    }
     this.isDead = this.lifePoints < 1;
     if (this.isDead) {
       this.doSomething(deathAnimKey, 650, funBeforeAnim, (object) => {

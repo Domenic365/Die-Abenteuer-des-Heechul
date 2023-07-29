@@ -20,6 +20,7 @@ class Player extends MovableObjects {
   isDoing = false;
   reachedBoss = false;
   bossFightStarted = false;
+  isInvincible = false;
 
   checkCollection(itemCount) {
     return itemCount < this.maxItem;
@@ -65,10 +66,19 @@ class Player extends MovableObjects {
     if (knockToRight) {
       knockbackX = knockbackX * -1;
     }
+    debugger;
     super.gotHit(damage, ANIM_HURTDUDE, ANIM_DEATHDUDE, (character) => {
       this.setVelocity(knockbackX, this.knockback);
       this.scene.healthBar.setFrame(character.lifePoints);
     });
+    this.setInvincible();
+  }
+
+  setInvincible() {
+    this.isInvincible = true;
+    setTimeout(() => {
+      this.isInvincible = false;
+    }, 3000);
   }
 
   moveCharacter() {
