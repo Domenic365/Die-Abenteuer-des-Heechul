@@ -1,16 +1,16 @@
 class HomeScreen extends Phaser.Scene {
-    constructor() {
-        super("HomeScreen");
-    }
+  constructor() {
+    super("HomeScreen");
+  }
 
-    create() {
-        this.createMenuDom();
-    }
+  create() {
+    this.createMenuDom();
+  }
 
-    createMenuDom() {
-        let menu = document.createElement("div");
-        menu.classList.add("menuDiv");
-        menu.innerHTML = `
+  createMenuDom() {
+    let menu = document.createElement("div");
+    menu.classList.add("menuDiv");
+    menu.innerHTML = `
 			<div class="top">
 			    <div class="logo">
 			        <p>Die Abenteuer des Heechul</p>
@@ -22,6 +22,6 @@ class HomeScreen extends Phaser.Scene {
 			<div class="bottom"></div>
 		`;
 
-        this.add.dom(0, 0, menu);
-    }
+    this.add.dom(0, 0, menu);
+  }
 }
