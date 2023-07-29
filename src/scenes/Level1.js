@@ -34,6 +34,7 @@ class Level1 extends Phaser.Scene {
 
   gameOver() {
     this.scene.sleep();
+    this.bossFight = false;
     const pauseButton = document.querySelector(".topButton Button");
     pauseButton.classList.add("dpNone");
     const gameOver = document.querySelector("[gameovermenu]");

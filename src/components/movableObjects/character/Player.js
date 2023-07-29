@@ -66,7 +66,6 @@ class Player extends MovableObjects {
     if (knockToRight) {
       knockbackX = knockbackX * -1;
     }
-    debugger;
     super.gotHit(damage, ANIM_HURTDUDE, ANIM_DEATHDUDE, (character) => {
       this.setVelocity(knockbackX, this.knockback);
       this.scene.healthBar.setFrame(character.lifePoints);
