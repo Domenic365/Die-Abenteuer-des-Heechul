@@ -1,957 +1,992 @@
 {
-    "section1": {
-        "files": [
-            {
-                "url": "assets/tiles/Background/Layers/1.png",
-                "type": "image",
-                "key": "1"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/1_1.png",
-                "type": "image",
-                "key": "1_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/1_2.png",
-                "type": "image",
-                "key": "1_2"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/2.png",
-                "type": "image",
-                "key": "2"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/3.png",
-                "type": "image",
-                "key": "3"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/3_1.png",
-                "type": "image",
-                "key": "3_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/3_2.png",
-                "type": "image",
-                "key": "3_2"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/4.png",
-                "type": "image",
-                "key": "4"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/4_1.png",
-                "type": "image",
-                "key": "4_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Pointers/4_2.png",
-                "type": "image",
-                "key": "4_2"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/5.png",
-                "type": "image",
-                "key": "5"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/6.png",
-                "type": "image",
-                "key": "6"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/7.png",
-                "type": "image",
-                "key": "7"
-            },
-            {
-                "url": "assets/tiles/Background/Layers/8.png",
-                "type": "image",
-                "key": "8"
-            },
-            {
-                "url": "assets/animations.json",
-                "type": "animation",
-                "key": "animations"
-            },
-            {
-                "url": "assets/character/enemies/bear/Attack.png",
-                "frameConfig": {
-                    "frameWidth": 40,
-                    "frameHeight": 40,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Attack"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Attack2_3_FireBall.png",
-                "type": "image",
-                "key": "Attack2_3_FireBall"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_01.png",
-                "type": "image",
-                "key": "Back_TileSet_01"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_02.png",
-                "type": "image",
-                "key": "Back_TileSet_02"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_03.png",
-                "type": "image",
-                "key": "Back_TileSet_03"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_04.png",
-                "type": "image",
-                "key": "Back_TileSet_04"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_05.png",
-                "type": "image",
-                "key": "Back_TileSet_05"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_06.png",
-                "type": "image",
-                "key": "Back_TileSet_06"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_07.png",
-                "type": "image",
-                "key": "Back_TileSet_07"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_08.png",
-                "type": "image",
-                "key": "Back_TileSet_08"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_09.png",
-                "type": "image",
-                "key": "Back_TileSet_09"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_10.png",
-                "type": "image",
-                "key": "Back_TileSet_10"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_11.png",
-                "type": "image",
-                "key": "Back_TileSet_11"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_12.png",
-                "type": "image",
-                "key": "Back_TileSet_12"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_13.png",
-                "type": "image",
-                "key": "Back_TileSet_13"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_14.png",
-                "type": "image",
-                "key": "Back_TileSet_14"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_15.png",
-                "type": "image",
-                "key": "Back_TileSet_15"
-            },
-            {
-                "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_16.png",
-                "type": "image",
-                "key": "Back_TileSet_16"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Barrel1.png",
-                "type": "image",
-                "key": "Barrel1"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Barrel2.png",
-                "type": "image",
-                "key": "Barrel2"
-            },
-            {
-                "url": "assets/character/enemies/bear/Bear.png",
-                "type": "image",
-                "key": "Bear"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box1.png",
-                "type": "image",
-                "key": "Box1"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box2.png",
-                "type": "image",
-                "key": "Box2"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box3.png",
-                "type": "image",
-                "key": "Box3"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box4.png",
-                "type": "image",
-                "key": "Box4"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box5.png",
-                "type": "image",
-                "key": "Box5"
-            },
-            {
-                "url": "assets/tiles/Objects/Boxes/Box6.png",
-                "type": "image",
-                "key": "Box6"
-            },
-            {
-                "url": "assets/tiles/Objects_Animated/Coin.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Coin"
-            },
-            {
-                "url": "assets/bars/Healthbar_sprite-3.png",
-                "frameConfig": {
-                    "frameWidth": 96,
-                    "frameHeight": 12,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "coinBar"
-            },
-            {
-                "url": "assets/character/enemies/bear/Death.png",
-                "frameConfig": {
-                    "frameWidth": 40,
-                    "frameHeight": 40,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Death"
-            },
-            {
-                "url": "assets/character/player/Double_Jump_Dust_5.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Double_Jump_Dust_5"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster.png",
-                "type": "image",
-                "key": "Dude_Monster"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Attack1_4.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Attack1_4"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Attack2_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Attack2_6"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Climb_4.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Climb_4"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Death_8.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Death_8"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Hurt_4.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Hurt_4"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Idle_4.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Idle_4"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Jump_8.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Jump_8"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Push_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Push_6"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Run_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Run_6"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Throw_4.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Throw_4"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Walk_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Walk_6"
-            },
-            {
-                "url": "assets/character/player/Dude_Monster_Walk+Attack_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Dude_Monster_Walk+Attack_6"
-            },
-            {
-                "url": "assets/bars/Energybar_sprite.png",
-                "frameConfig": {
-                    "frameWidth": 96,
-                    "frameHeight": 12,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Energybar_sprite"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass1_1.png",
-                "type": "image",
-                "key": "Grass1_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass1_2.png",
-                "type": "image",
-                "key": "Grass1_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass2_1.png",
-                "type": "image",
-                "key": "Grass2_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass2_2.png",
-                "type": "image",
-                "key": "Grass2_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass3_1.png",
-                "type": "image",
-                "key": "Grass3_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass3_2.png",
-                "type": "image",
-                "key": "Grass3_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass4_1.png",
-                "type": "image",
-                "key": "Grass4_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass4_2.png",
-                "type": "image",
-                "key": "Grass4_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass5_1.png",
-                "type": "image",
-                "key": "Grass5_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass5_2.png",
-                "type": "image",
-                "key": "Grass5_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Grass/Grass6_1.png",
-                "type": "image",
-                "key": "Grass6_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Food/Hamburger.png",
-                "type": "image",
-                "key": "Hamburger"
-            },
-            {
-                "url": "assets/bars/Healthbar_sprite.png",
-                "frameConfig": {
-                    "frameWidth": 96,
-                    "frameHeight": 12,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Healthbar_sprite"
-            },
-            {
-                "url": "assets/character/enemies/bear/Hurt.png",
-                "frameConfig": {
-                    "frameWidth": 40,
-                    "frameHeight": 40,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Hurt"
-            },
-            {
-                "url": "assets/character/enemies/bear/Idle.png",
-                "frameConfig": {
-                    "frameWidth": 40,
-                    "frameHeight": 40,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Idle"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Mage_boss.png",
-                "type": "image",
-                "key": "Mage_boss"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Mage_boss_attack3.png",
-                "frameConfig": {
-                    "frameWidth": 64,
-                    "frameHeight": 64,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Mage_boss_attack3"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Mage_boss_death.png",
-                "frameConfig": {
-                    "frameWidth": 64,
-                    "frameHeight": 64,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Mage_boss_death"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Mage_boss_hurt.png",
-                "frameConfig": {
-                    "frameWidth": 64,
-                    "frameHeight": 64,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Mage_boss_hurt"
-            },
-            {
-                "url": "assets/character/enemies/mageBoss/Mage_boss_run.png",
-                "frameConfig": {
-                    "frameWidth": 64,
-                    "frameHeight": 64,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Mage_boss_run"
-            },
-            {
-                "url": "assets/tiles/Objects_Animated/Pickup.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Pickup"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Big1.png",
-                "type": "image",
-                "key": "Rock_Big1"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Big2.png",
-                "type": "image",
-                "key": "Rock_Big2"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Big3.png",
-                "type": "image",
-                "key": "Rock_Big3"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Big4.png",
-                "type": "image",
-                "key": "Rock_Big4"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Big5.png",
-                "type": "image",
-                "key": "Rock_Big5"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Small1.png",
-                "type": "image",
-                "key": "Rock_Small1"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Small2.png",
-                "type": "image",
-                "key": "Rock_Small2"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Small3.png",
-                "type": "image",
-                "key": "Rock_Small3"
-            },
-            {
-                "url": "assets/tiles/Objects/Rocks/Rock_Small4.png",
-                "type": "image",
-                "key": "Rock_Small4"
-            },
-            {
-                "url": "assets/character/player/Rock1.png",
-                "type": "image",
-                "key": "Rock1"
-            },
-            {
-                "url": "assets/character/player/Rock2.png",
-                "type": "image",
-                "key": "Rock2"
-            },
-            {
-                "url": "assets/tiles/Objects/Spikes/Spikes1_1.png",
-                "type": "image",
-                "key": "Spikes1_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Spikes/Spikes1_2.png",
-                "type": "image",
-                "key": "Spikes1_2"
-            },
-            {
-                "url": "assets/tiles/Objects/Spikes/Spikes2_1.png",
-                "type": "image",
-                "key": "Spikes2_1"
-            },
-            {
-                "url": "assets/tiles/Objects/Spikes/Spikes2_2.png",
-                "type": "image",
-                "key": "Spikes2_2"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_01.png",
-                "type": "image",
-                "key": "TileSet_01"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_02.png",
-                "type": "image",
-                "key": "TileSet_02"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_03.png",
-                "type": "image",
-                "key": "TileSet_03"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_04.png",
-                "type": "image",
-                "key": "TileSet_04"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_05.png",
-                "type": "image",
-                "key": "TileSet_05"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_06.png",
-                "type": "image",
-                "key": "TileSet_06"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_07.png",
-                "type": "image",
-                "key": "TileSet_07"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_08.png",
-                "type": "image",
-                "key": "TileSet_08"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_09.png",
-                "type": "image",
-                "key": "TileSet_09"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_10.png",
-                "type": "image",
-                "key": "TileSet_10"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_11.png",
-                "type": "image",
-                "key": "TileSet_11"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_12.png",
-                "type": "image",
-                "key": "TileSet_12"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_13.png",
-                "type": "image",
-                "key": "TileSet_13"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_14.png",
-                "type": "image",
-                "key": "TileSet_14"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_15.png",
-                "type": "image",
-                "key": "TileSet_15"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_16.png",
-                "type": "image",
-                "key": "TileSet_16"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_17.png",
-                "type": "image",
-                "key": "TileSet_17"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_18.png",
-                "type": "image",
-                "key": "TileSet_18"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_19.png",
-                "type": "image",
-                "key": "TileSet_19"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_20.png",
-                "type": "image",
-                "key": "TileSet_20"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_21.png",
-                "type": "image",
-                "key": "TileSet_21"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_22.png",
-                "type": "image",
-                "key": "TileSet_22"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_23.png",
-                "type": "image",
-                "key": "TileSet_23"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_24.png",
-                "type": "image",
-                "key": "TileSet_24"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_25.png",
-                "type": "image",
-                "key": "TileSet_25"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_26.png",
-                "type": "image",
-                "key": "TileSet_26"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_27.png",
-                "type": "image",
-                "key": "TileSet_27"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_28.png",
-                "type": "image",
-                "key": "TileSet_28"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_29.png",
-                "type": "image",
-                "key": "TileSet_29"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_30.png",
-                "type": "image",
-                "key": "TileSet_30"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_31.png",
-                "type": "image",
-                "key": "TileSet_31"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_32.png",
-                "type": "image",
-                "key": "TileSet_32"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_33.png",
-                "type": "image",
-                "key": "TileSet_33"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_34.png",
-                "type": "image",
-                "key": "TileSet_34"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_35.png",
-                "type": "image",
-                "key": "TileSet_35"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_36.png",
-                "type": "image",
-                "key": "TileSet_36"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_37.png",
-                "type": "image",
-                "key": "TileSet_37"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_38.png",
-                "type": "image",
-                "key": "TileSet_38"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_39.png",
-                "type": "image",
-                "key": "TileSet_39"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_40.png",
-                "type": "image",
-                "key": "TileSet_40"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_41.png",
-                "type": "image",
-                "key": "TileSet_41"
-            },
-            {
-                "url": "assets/tiles/Tiles/foregroundTiles/TileSet_42.png",
-                "type": "image",
-                "key": "TileSet_42"
-            },
-            {
-                "url": "assets/tiles/Objects/Trees/Tree1.png",
-                "type": "image",
-                "key": "Tree1"
-            },
-            {
-                "url": "assets/tiles/Objects/Trees/Tree2.png",
-                "type": "image",
-                "key": "Tree2"
-            },
-            {
-                "url": "assets/tiles/Objects/Trees/Tree3.png",
-                "type": "image",
-                "key": "Tree3"
-            },
-            {
-                "url": "assets/tiles/Objects/Trees/Tree4.png",
-                "type": "image",
-                "key": "Tree4"
-            },
-            {
-                "url": "assets/character/enemies/bear/Walk.png",
-                "frameConfig": {
-                    "frameWidth": 40,
-                    "frameHeight": 40,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Walk"
-            },
-            {
-                "url": "assets/character/player/Walk_Run_Push_Dust_6.png",
-                "frameConfig": {
-                    "frameWidth": 32,
-                    "frameHeight": 32,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "Walk_Run_Push_Dust_6"
-            }
-        ]
-    },
-    "meta": {
-        "app": "Phaser Editor 2D - Asset Pack Editor",
-        "contentType": "phasereditor2d.pack.core.AssetContentType",
-        "url": "https://phasereditor2d.com",
-        "version": 2,
-        "showAllFilesInBlocks": false
-    }
+  "section1": {
+    "files": [
+      {
+        "url": "assets/tiles/Background/Layers/1.png",
+        "type": "image",
+        "key": "1"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/1_1.png",
+        "type": "image",
+        "key": "1_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/1_2.png",
+        "type": "image",
+        "key": "1_2"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/2.png",
+        "type": "image",
+        "key": "2"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/3.png",
+        "type": "image",
+        "key": "3"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/3_1.png",
+        "type": "image",
+        "key": "3_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/3_2.png",
+        "type": "image",
+        "key": "3_2"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/4.png",
+        "type": "image",
+        "key": "4"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/4_1.png",
+        "type": "image",
+        "key": "4_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Pointers/4_2.png",
+        "type": "image",
+        "key": "4_2"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/5.png",
+        "type": "image",
+        "key": "5"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/6.png",
+        "type": "image",
+        "key": "6"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/7.png",
+        "type": "image",
+        "key": "7"
+      },
+      {
+        "url": "assets/tiles/Background/Layers/8.png",
+        "type": "image",
+        "key": "8"
+      },
+      {
+        "url": "assets/animations.json",
+        "type": "animation",
+        "key": "animations"
+      },
+      {
+        "url": "assets/character/enemies/bear/Attack.png",
+        "frameConfig": {
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Attack"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Attack2_3_FireBall.png",
+        "type": "image",
+        "key": "Attack2_3_FireBall"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_01.png",
+        "type": "image",
+        "key": "Back_TileSet_01"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_02.png",
+        "type": "image",
+        "key": "Back_TileSet_02"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_03.png",
+        "type": "image",
+        "key": "Back_TileSet_03"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_04.png",
+        "type": "image",
+        "key": "Back_TileSet_04"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_05.png",
+        "type": "image",
+        "key": "Back_TileSet_05"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_06.png",
+        "type": "image",
+        "key": "Back_TileSet_06"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_07.png",
+        "type": "image",
+        "key": "Back_TileSet_07"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_08.png",
+        "type": "image",
+        "key": "Back_TileSet_08"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_09.png",
+        "type": "image",
+        "key": "Back_TileSet_09"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_10.png",
+        "type": "image",
+        "key": "Back_TileSet_10"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_11.png",
+        "type": "image",
+        "key": "Back_TileSet_11"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_12.png",
+        "type": "image",
+        "key": "Back_TileSet_12"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_13.png",
+        "type": "image",
+        "key": "Back_TileSet_13"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_14.png",
+        "type": "image",
+        "key": "Back_TileSet_14"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_15.png",
+        "type": "image",
+        "key": "Back_TileSet_15"
+      },
+      {
+        "url": "assets/tiles/Tiles/backgroundTiles/Back_TileSet_16.png",
+        "type": "image",
+        "key": "Back_TileSet_16"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Barrel1.png",
+        "type": "image",
+        "key": "Barrel1"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Barrel2.png",
+        "type": "image",
+        "key": "Barrel2"
+      },
+      {
+        "url": "assets/character/enemies/bear/Bear.png",
+        "type": "image",
+        "key": "Bear"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box1.png",
+        "type": "image",
+        "key": "Box1"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box2.png",
+        "type": "image",
+        "key": "Box2"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box3.png",
+        "type": "image",
+        "key": "Box3"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box4.png",
+        "type": "image",
+        "key": "Box4"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box5.png",
+        "type": "image",
+        "key": "Box5"
+      },
+      {
+        "url": "assets/tiles/Objects/Boxes/Box6.png",
+        "type": "image",
+        "key": "Box6"
+      },
+      {
+        "url": "assets/tiles/Objects_Animated/Coin.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Coin"
+      },
+      {
+        "url": "assets/bars/Healthbar_sprite-3.png",
+        "frameConfig": {
+          "frameWidth": 96,
+          "frameHeight": 12,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "coinBar"
+      },
+      {
+        "url": "assets/character/enemies/bear/Death.png",
+        "frameConfig": {
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Death"
+      },
+      {
+        "url": "assets/character/player/Double_Jump_Dust_5.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Double_Jump_Dust_5"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster.png",
+        "type": "image",
+        "key": "Dude_Monster"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Attack1_4.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Attack1_4"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Attack2_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Attack2_6"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Climb_4.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Climb_4"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Death_8.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Death_8"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Hurt_4.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Hurt_4"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Idle_4.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Idle_4"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Jump_8.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Jump_8"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Push_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Push_6"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Run_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Run_6"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Throw_4.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Throw_4"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Walk_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Walk_6"
+      },
+      {
+        "url": "assets/character/player/Dude_Monster_Walk+Attack_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Dude_Monster_Walk+Attack_6"
+      },
+      {
+        "url": "assets/bars/Energybar_sprite.png",
+        "frameConfig": {
+          "frameWidth": 96,
+          "frameHeight": 12,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Energybar_sprite"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass1_1.png",
+        "type": "image",
+        "key": "Grass1_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass1_2.png",
+        "type": "image",
+        "key": "Grass1_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass2_1.png",
+        "type": "image",
+        "key": "Grass2_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass2_2.png",
+        "type": "image",
+        "key": "Grass2_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass3_1.png",
+        "type": "image",
+        "key": "Grass3_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass3_2.png",
+        "type": "image",
+        "key": "Grass3_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass4_1.png",
+        "type": "image",
+        "key": "Grass4_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass4_2.png",
+        "type": "image",
+        "key": "Grass4_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass5_1.png",
+        "type": "image",
+        "key": "Grass5_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass5_2.png",
+        "type": "image",
+        "key": "Grass5_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Grass/Grass6_1.png",
+        "type": "image",
+        "key": "Grass6_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Food/Hamburger.png",
+        "type": "image",
+        "key": "Hamburger"
+      },
+      {
+        "url": "assets/bars/Healthbar_sprite.png",
+        "frameConfig": {
+          "frameWidth": 96,
+          "frameHeight": 12,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Healthbar_sprite"
+      },
+      {
+        "url": "assets/character/enemies/bear/Hurt.png",
+        "frameConfig": {
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Hurt"
+      },
+      {
+        "url": "assets/character/enemies/bear/Idle.png",
+        "frameConfig": {
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Idle"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Mage_boss.png",
+        "type": "image",
+        "key": "Mage_boss"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Mage_boss_attack3.png",
+        "frameConfig": {
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Mage_boss_attack3"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Mage_boss_death.png",
+        "frameConfig": {
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Mage_boss_death"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Mage_boss_hurt.png",
+        "frameConfig": {
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Mage_boss_hurt"
+      },
+      {
+        "url": "assets/character/enemies/mageBoss/Mage_boss_run.png",
+        "frameConfig": {
+          "frameWidth": 64,
+          "frameHeight": 64,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Mage_boss_run"
+      },
+      {
+        "url": "assets/tiles/Objects_Animated/Pickup.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Pickup"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Big1.png",
+        "type": "image",
+        "key": "Rock_Big1"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Big2.png",
+        "type": "image",
+        "key": "Rock_Big2"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Big3.png",
+        "type": "image",
+        "key": "Rock_Big3"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Big4.png",
+        "type": "image",
+        "key": "Rock_Big4"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Big5.png",
+        "type": "image",
+        "key": "Rock_Big5"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Small1.png",
+        "type": "image",
+        "key": "Rock_Small1"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Small2.png",
+        "type": "image",
+        "key": "Rock_Small2"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Small3.png",
+        "type": "image",
+        "key": "Rock_Small3"
+      },
+      {
+        "url": "assets/tiles/Objects/Rocks/Rock_Small4.png",
+        "type": "image",
+        "key": "Rock_Small4"
+      },
+      {
+        "url": "assets/character/player/Rock1.png",
+        "type": "image",
+        "key": "Rock1"
+      },
+      {
+        "url": "assets/character/player/Rock2.png",
+        "type": "image",
+        "key": "Rock2"
+      },
+      {
+        "url": "assets/tiles/Objects/Spikes/Spikes1_1.png",
+        "type": "image",
+        "key": "Spikes1_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Spikes/Spikes1_2.png",
+        "type": "image",
+        "key": "Spikes1_2"
+      },
+      {
+        "url": "assets/tiles/Objects/Spikes/Spikes2_1.png",
+        "type": "image",
+        "key": "Spikes2_1"
+      },
+      {
+        "url": "assets/tiles/Objects/Spikes/Spikes2_2.png",
+        "type": "image",
+        "key": "Spikes2_2"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_01.png",
+        "type": "image",
+        "key": "TileSet_01"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_02.png",
+        "type": "image",
+        "key": "TileSet_02"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_03.png",
+        "type": "image",
+        "key": "TileSet_03"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_04.png",
+        "type": "image",
+        "key": "TileSet_04"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_05.png",
+        "type": "image",
+        "key": "TileSet_05"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_06.png",
+        "type": "image",
+        "key": "TileSet_06"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_07.png",
+        "type": "image",
+        "key": "TileSet_07"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_08.png",
+        "type": "image",
+        "key": "TileSet_08"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_09.png",
+        "type": "image",
+        "key": "TileSet_09"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_10.png",
+        "type": "image",
+        "key": "TileSet_10"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_11.png",
+        "type": "image",
+        "key": "TileSet_11"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_12.png",
+        "type": "image",
+        "key": "TileSet_12"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_13.png",
+        "type": "image",
+        "key": "TileSet_13"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_14.png",
+        "type": "image",
+        "key": "TileSet_14"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_15.png",
+        "type": "image",
+        "key": "TileSet_15"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_16.png",
+        "type": "image",
+        "key": "TileSet_16"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_17.png",
+        "type": "image",
+        "key": "TileSet_17"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_18.png",
+        "type": "image",
+        "key": "TileSet_18"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_19.png",
+        "type": "image",
+        "key": "TileSet_19"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_20.png",
+        "type": "image",
+        "key": "TileSet_20"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_21.png",
+        "type": "image",
+        "key": "TileSet_21"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_22.png",
+        "type": "image",
+        "key": "TileSet_22"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_23.png",
+        "type": "image",
+        "key": "TileSet_23"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_24.png",
+        "type": "image",
+        "key": "TileSet_24"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_25.png",
+        "type": "image",
+        "key": "TileSet_25"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_26.png",
+        "type": "image",
+        "key": "TileSet_26"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_27.png",
+        "type": "image",
+        "key": "TileSet_27"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_28.png",
+        "type": "image",
+        "key": "TileSet_28"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_29.png",
+        "type": "image",
+        "key": "TileSet_29"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_30.png",
+        "type": "image",
+        "key": "TileSet_30"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_31.png",
+        "type": "image",
+        "key": "TileSet_31"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_32.png",
+        "type": "image",
+        "key": "TileSet_32"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_33.png",
+        "type": "image",
+        "key": "TileSet_33"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_34.png",
+        "type": "image",
+        "key": "TileSet_34"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_35.png",
+        "type": "image",
+        "key": "TileSet_35"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_36.png",
+        "type": "image",
+        "key": "TileSet_36"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_37.png",
+        "type": "image",
+        "key": "TileSet_37"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_38.png",
+        "type": "image",
+        "key": "TileSet_38"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_39.png",
+        "type": "image",
+        "key": "TileSet_39"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_40.png",
+        "type": "image",
+        "key": "TileSet_40"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_41.png",
+        "type": "image",
+        "key": "TileSet_41"
+      },
+      {
+        "url": "assets/tiles/Tiles/foregroundTiles/TileSet_42.png",
+        "type": "image",
+        "key": "TileSet_42"
+      },
+      {
+        "url": "assets/tiles/Objects/Trees/Tree1.png",
+        "type": "image",
+        "key": "Tree1"
+      },
+      {
+        "url": "assets/tiles/Objects/Trees/Tree2.png",
+        "type": "image",
+        "key": "Tree2"
+      },
+      {
+        "url": "assets/tiles/Objects/Trees/Tree3.png",
+        "type": "image",
+        "key": "Tree3"
+      },
+      {
+        "url": "assets/tiles/Objects/Trees/Tree4.png",
+        "type": "image",
+        "key": "Tree4"
+      },
+      {
+        "url": "assets/character/enemies/bear/Walk.png",
+        "frameConfig": {
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Walk"
+      },
+      {
+        "url": "assets/character/player/Walk_Run_Push_Dust_6.png",
+        "frameConfig": {
+          "frameWidth": 32,
+          "frameHeight": 32,
+          "startFrame": 0,
+          "endFrame": -1,
+          "spacing": 0,
+          "margin": 0
+        },
+        "type": "spritesheet",
+        "key": "Walk_Run_Push_Dust_6"
+      },
+      {
+        "url": [
+          "assets/audio/backgroundmusic.mp3"
+        ],
+        "type": "audio",
+        "key": "backgroundmusic"
+      },
+      {
+        "url": [
+          "assets/audio/coin.mp3"
+        ],
+        "type": "audio",
+        "key": "coin"
+      },
+      {
+        "url": [
+          "assets/audio/game over.mp3"
+        ],
+        "type": "audio",
+        "key": "gameOver"
+      },
+      {
+        "url": [
+          "assets/audio/hit.mp3"
+        ],
+        "type": "audio",
+        "key": "hit"
+      },
+      {
+        "url": [
+          "assets/audio/you win.mp3"
+        ],
+        "type": "audio",
+        "key": "youWin"
+      }
+    ]
+  },
+  "meta": {
+    "app": "Phaser Editor 2D - Asset Pack Editor",
+    "contentType": "phasereditor2d.pack.core.AssetContentType",
+    "url": "https://phasereditor2d.com",
+    "version": 2,
+    "showAllFilesInBlocks": false
+  }
 }
