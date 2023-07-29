@@ -77,7 +77,9 @@ class Player extends MovableObjects {
         this.move(this.speed, ANIM_RUNDUDE, false);
       } else if (this.cursorkeys.left.isDown === true) {
         this.move(-this.speed, ANIM_RUNDUDE, true);
-      } else if (this.isJumped === false) {
+      } else if (this.isJumped) {
+        this.move(0, ANIM_JUMPDUDE);
+      } else {
         this.move(0, ANIM_IDLEDUDE);
       }
     }
