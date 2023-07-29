@@ -16,6 +16,8 @@ class Level1 extends Phaser.Scene {
     this.createCollisions();
     this.createDom();
     this.createBossFightText();
+    this.createAudio();
+    this.sound.play("backgroundmusic");
   }
 
   update() {
@@ -159,8 +161,9 @@ class Level1 extends Phaser.Scene {
   }
 
   createAudio() {
-    audio.forEach((audioKey) => {
-      this.sound.add(audioKey);
+    audio.forEach((audioData) => {
+      debugger;
+      this.sound.add(audioData.key, audioData.config);
     });
   }
 

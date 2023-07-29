@@ -133,7 +133,10 @@ const objectsToCreate = [
 ];
 
 const audio = [
-  { key: "backgroundmusic" },
+  {
+    key: "backgroundmusic",
+    config: { loop: true, volume: 0 },
+  },
   { key: "coin" },
   { key: "gameOver" },
   { key: "hit" },
