@@ -69,6 +69,11 @@ class Level1 extends Phaser.Scene {
     }
   }
 
+  backToHomeScreen() {
+    this.sound.stopAll();
+    game.scene.scenes[0].scene.start("HomeScreen");
+  }
+
   //objectCreation
   createEnvironment() {
     this.background = new BackgroundClass(this);
@@ -126,7 +131,7 @@ class Level1 extends Phaser.Scene {
         		    <div class="logo">
 			        <p pauseText>GAME OVER</p>
 			</div>
-                <button class="gameButton" onclick="game.scene.scenes[0].scene.start('HomeScreen')">
+                <button class="gameButton" onclick="game.scene.scenes[2].backToHomeScreen()">
                     <img src="./assets/UI/home.png" alt="">
                 </button>
         </section>
