@@ -164,6 +164,11 @@ canvas {
         background-repeat: no-repeat !important;
         background-size: cover !important;
         cursor: pointer !important;
+        -webkit-tap-highlight-color: transparent;
+        -moz-tap-highlight-color: transparent;
+        -ms-tap-highlight-color: transparent;
+        tap-highlight-color: transparent;
+        outline: none;
     }
 
     .buttons button:hover {

@@ -53,6 +53,7 @@ class Level1 extends Phaser.Scene {
     this.bossFight = true;
     this.sound.stopAll();
     this.bossMusic.play();
+    this.player.move(200, ANIM_RUNDUDE);
     let camera = this.cameras.main;
     camera.stopFollow();
     camera.pan(4250, 0, 800, Phaser.Math.Easing.Linear.InOut, true);
@@ -136,13 +137,42 @@ class Level1 extends Phaser.Scene {
                 </button>
         </section>
         <section class="buttons">
-            <button onmousedown="game.scene.scenes[2].player.left = true" onmouseup="game.scene.scenes[2].player.left = false" class="arrowLeft"></button>
-            <button onmousedown="game.scene.scenes[2].player.right = true" onmouseup="game.scene.scenes[2].player.right = false" class="arrowRight"></button>
-            <button onclick="game.scene.scenes[2].player.jump(game.scene.scenes[2].player.jumpSpeed, ANIM_JUMPDUDE)" class="arrowUp"></button>
-            <button onclick="() =>{game.scene.scenes[2].player.throwStone()}" class="stoneButton"></button>
+            <button run-left class="arrowLeft"></button>
+            <button run-right class="arrowRight"></button>
+            <button jump class="arrowUp"></button>
+            <button throw-stone class="stoneButton"></button>
         </section>
 		`;
     this.initDom();
+    this.createEventListener();
+  }
+
+  createEventListener() {
+    const canvas = document.getElementById("canvas");
+    canvas.addEventListener("contextmenu", function (event) {
+      event.preventDefault();
+    });
+    let player = game.scene.scenes[2].player;
+    const runLeft = document.querySelector("[run-left]");
+    runLeft.addEventListener("touchstart", () => {
+      player.left = true;
+    });
+    runLeft.addEventListener("touchend", () => {
+      player.left = false;
+    });
+    const runRight = document.querySelector("[run-right]");
+    runRight.addEventListener("touchstart", () => {
+      player.right = true;
+    });
+    runRight.addEventListener("touchend", () => {
+      player.right = false;
+    });
+    const jump = document.querySelector("[jump]");
+    jump.addEventListener("touchstart", () => {
+      player.jump(game.scene.scenes[2].player.jumpSpeed, ANIM_JUMPDUDE);
+    });
+    const throwStone = document.querySelector("[throw-stone]");
+    throwStone.addEventListener("touchstart", player.throwStone());
   }
 
   loadGroups() {
