@@ -19,6 +19,14 @@ body {
     overflow: hidden;
 }
 
+body * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 /*canvas*/
 
 canvas {
@@ -214,5 +222,21 @@ canvas {
 
     .menuDiv {
         border-radius: 0;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-image: url("./assets/UI/swap.png");
+        background-size: contain;
+        background-position: center;
+    }
+
+    body * {
+        display: none;
+    }
+
+    #canvas {
+        display: none;
     }
 }
