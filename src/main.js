@@ -32,3 +32,19 @@ function toggleGame() {
     game.scene.scenes[2].scene.resume("level1");
   }
 }
+
+let firstLoaded = true;
+
+function loadMuteButton() {
+  "use strict";
+  let imgElement = document.querySelector("[mute-button]");
+  if (game.sound.mute || firstLoaded) {
+    imgElement.src = "./assets/UI/unmute.png";
+    game.sound.mute = false;
+  } else {
+    imgElement.src = "./assets/UI/mute.png";
+    game.sound.mute = true;
+  }
+
+  firstLoaded = false;
+}

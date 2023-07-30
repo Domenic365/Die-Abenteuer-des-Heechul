@@ -148,3 +148,5 @@ const audio = [
   { key: "stoneMusic" },
   { key: "eatMusic" },
 ];
+
+let mutet = false;

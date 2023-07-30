@@ -116,26 +116,38 @@ class Level1 extends Phaser.Scene {
 
   createDom() {
     this.pauseDiv = document.createElement("div");
-    this.pauseDiv.innerHTML = /*html*/ `
+    this.pauseDiv.innerHTML = this.loadHTML();
+    this.initDom();
+    this.createEventListener();
+    loadMuteButton();
+  }
+
+  loadHTML() {
+    return /*html*/ `
 		<div class="topButton">
 			<Button class="gameButton" onclick="toggleGame()"> 
-				<img src="./assets/UI/pauseButton.png" alt="">
+				<img src="./assets/UI/pauseButton.png" alt="" draggable="false">
 			</Button>
 		</div>
 		<section pauseMenu class="pauseMenu dpNone">
 		    <div class="logo">
 			        <p>Pause</p>
 			</div>
+			<div class="menuButtons">
                 <button class="gameButton" onclick="toggleGame()">
-                    <img src="./assets/UI/play.png" alt="">
+                    <img src="./assets/UI/play.png" alt="" draggable="false">
                 </button>
+                <button onclick="loadMuteButton()" class="gameButton">
+                    <img mute-button src="" alt="" draggable="false">
+                </button>
+            </div>
         </section>
         <section gameOverMenu class="pauseMenu dpNone">    
         		    <div class="logo">
 			        <p pauseText>GAME OVER</p>
 			</div>
                 <button class="gameButton" onclick="game.scene.scenes[2].backToHomeScreen()">
-                    <img src="./assets/UI/home.png" alt="">
+                    <img src="./assets/UI/home.png" alt="" draggable="false">
                 </button>
         </section>
         <section class="buttons">
@@ -145,8 +157,6 @@ class Level1 extends Phaser.Scene {
             <button throw-stone class="stoneButton"></button>
         </section>
 		`;
-    this.initDom();
-    this.createEventListener();
   }
 
   createEventListener() {
