@@ -5,7 +5,7 @@ const game = new Phaser.Game({
   pixelArt: true,
   scene: [HomeScreen, Boot, Level1],
   scale: {
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.AUTO,
     parent: "canvas",
   },
   dom: {

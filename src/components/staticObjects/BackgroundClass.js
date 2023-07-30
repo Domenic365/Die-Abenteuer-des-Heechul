@@ -46,27 +46,8 @@ class BackgroundClass extends Phaser.GameObjects.Layer {
     this.tilesprite_7 = tilesprite_7;
   }
 
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_1;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_2;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_3;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_4;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_5;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_6;
-  /** @type {Phaser.GameObjects.TileSprite} */
-  tilesprite_7;
-
-  /* START-USER-CODE */
-
   update() {
-    let scrollfactor = 0.08;
+    let scrollfactor = 0.1;
     this.tilesprite.tilePositionX =
       this.scene.cameras.main.scrollX * scrollfactor;
     this.tilesprite_1.tilePositionX =
@@ -83,10 +64,4 @@ class BackgroundClass extends Phaser.GameObjects.Layer {
     this.tilesprite_7.tilePositionX =
       this.scene.cameras.main.scrollX * scrollfactor;
   }
-
-  /* END-USER-CODE */
 }
-
-/* END OF COMPILED CODE */
-
-// You can write more code here

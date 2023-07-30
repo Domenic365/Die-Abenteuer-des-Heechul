@@ -12,6 +12,7 @@ body {
     align-items: center;
     background: #2f2f2f url(./assets/tiles/Background/Background.png) no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 /*canvas*/
@@ -130,3 +131,36 @@ canvas {
     opacity: 0.9;
 }
 
+@media (max-width: 960px) {
+    canvas {
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+    }
+
+    #canvas {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .menuDiv {
+        border-radius: 0;
+    }
+}
+
+@media (max-height: 540px) {
+    canvas {
+        border-top: none;
+        border-bottom: none;
+        border-radius: 0;
+    }
+
+    #canvas {
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .menuDiv {
+        border-radius: 0;
+    }
+}
