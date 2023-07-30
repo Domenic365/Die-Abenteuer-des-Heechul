@@ -1000,6 +1000,16 @@
         ],
         "type": "audio",
         "key": "stoneMusic"
+      },
+      {
+        "url": "assets/UI/arrowLeft.png",
+        "type": "image",
+        "key": "arrowLeft"
+      },
+      {
+        "url": "assets/UI/arrowRight.png",
+        "type": "image",
+        "key": "arrowRight"
       }
     ]
   },

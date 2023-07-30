@@ -21,6 +21,8 @@ class Player extends MovableObjects {
   reachedBoss = false;
   bossFightStarted = false;
   isInvincible = false;
+  left = false;
+  right = false;
 
   checkCollection(itemCount) {
     return itemCount < this.maxItem;
@@ -82,9 +84,9 @@ class Player extends MovableObjects {
 
   moveCharacter() {
     if (this.isDoing === false) {
-      if (this.cursorkeys.right.isDown === true) {
+      if (this.cursorkeys.right.isDown || this.right) {
         this.move(this.speed, ANIM_RUNDUDE, false);
-      } else if (this.cursorkeys.left.isDown === true) {
+      } else if (this.cursorkeys.left.isDown || this.left) {
         this.move(-this.speed, ANIM_RUNDUDE, true);
       } else if (this.isJumped) {
         this.move(0, ANIM_JUMPDUDE);

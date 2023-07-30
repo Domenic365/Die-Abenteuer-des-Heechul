@@ -17,6 +17,8 @@ class Level1 extends Phaser.Scene {
     this.createDom();
     this.createBossFightText();
     this.createAudio();
+    this.touchRight = new TouchControl(this, 100, 300, "arrowRight", "right");
+    this.touchLeft = new TouchControl(this, 16, 300, "arrowLeft", "left");
     this.backgroundmusic.play();
   }
 
