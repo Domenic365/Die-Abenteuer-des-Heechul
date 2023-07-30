@@ -135,6 +135,12 @@ class Level1 extends Phaser.Scene {
                     <img src="./assets/UI/home.png" alt="">
                 </button>
         </section>
+        <section class="buttons">
+            <button onmousedown="game.scene.scenes[2].player.left = true" onmouseup="game.scene.scenes[2].player.left = false" class="arrowLeft"></button>
+            <button onmousedown="game.scene.scenes[2].player.right = true" onmouseup="game.scene.scenes[2].player.right = false" class="arrowRight"></button>
+            <button onclick="game.scene.scenes[2].player.jump(game.scene.scenes[2].player.jumpSpeed, ANIM_JUMPDUDE)" class="arrowUp"></button>
+            <button onclick="() =>{game.scene.scenes[2].player.throwStone()}" class="stoneButton"></button>
+        </section>
 		`;
     this.initDom();
   }

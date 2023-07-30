@@ -1,3 +1,7 @@
+:root {
+    --touchButtonsSize: 48px;
+}
+
 @font-face {
     font-family: Planes_ValMore;
     src: url("assets/tiles/Font/Planes_ValMore.ttf");
@@ -131,6 +135,10 @@ canvas {
     opacity: 0.9;
 }
 
+.buttons button {
+    all: unset;
+}
+
 @media (max-width: 960px) {
     canvas {
         border-left: none;
@@ -145,6 +153,45 @@ canvas {
 
     .menuDiv {
         border-radius: 0;
+    }
+
+    /* buttons */
+    .buttons button {
+        all: unset;
+        height: var(--touchButtonsSize) !important;
+        width: var(--touchButtonsSize) !important;
+        position: absolute !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        cursor: pointer !important;
+    }
+
+    .buttons button:hover {
+        opacity: 0.8 !important;
+    }
+
+    .arrowLeft {
+        background-image: url("./assets/UI/arrowLeft.png") !important;
+        bottom: 8px !important;
+        left: 8px !important;
+    }
+
+    .arrowRight {
+        background-image: url("./assets/UI/arrowRight.png") !important;
+        bottom: 8px !important;
+        left: 96px !important;
+    }
+
+    .arrowUp {
+        background-image: url("./assets/UI/arrowUp.png") !important;
+        bottom: 8px !important;
+        right: 8px !important;
+    }
+
+    .stoneButton {
+        background-image: url("./assets/UI/attack.png") !important;
+        bottom: 8px !important;
+        right: 96px !important;
     }
 }
 
