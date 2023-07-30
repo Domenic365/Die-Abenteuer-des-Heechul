@@ -1,67 +1,25 @@
 class BackgroundClass extends Phaser.GameObjects.Layer {
   constructor(scene) {
     super(scene);
-
     scene.add.existing(this);
 
-    const tilesprite_1 = scene.add.tileSprite(0, 0, 4672, 324, "8");
-    tilesprite_1.setOrigin(0, 0);
-    this.add(tilesprite_1);
+    this.tileSprites = [];
 
-    const tilesprite_2 = scene.add.tileSprite(0, 0, 4672, 324, "7");
-    tilesprite_2.setOrigin(0, 0);
-    this.add(tilesprite_2);
-
-    const tilesprite = scene.add.tileSprite(0, 0, 4672, 324, "6");
-    tilesprite.setOrigin(0, 0);
-    this.add(tilesprite);
-
-    const tilesprite_3 = scene.add.tileSprite(0, 0, 4672, 324, "5");
-    tilesprite_3.setOrigin(0, 0);
-    this.add(tilesprite_3);
-
-    const tilesprite_4 = scene.add.tileSprite(0, 0, 4672, 324, "4");
-    tilesprite_4.setOrigin(0, 0);
-    this.add(tilesprite_4);
-
-    const tilesprite_5 = scene.add.tileSprite(0, 0, 4672, 324, "3");
-    tilesprite_5.setOrigin(0, 0);
-    this.add(tilesprite_5);
-
-    const tilesprite_6 = scene.add.tileSprite(0, 0, 4672, 324, "2");
-    tilesprite_6.setOrigin(0, 0);
-    this.add(tilesprite_6);
-
-    const tilesprite_7 = scene.add.tileSprite(0, 0, 4672, 324, "1");
-    tilesprite_7.setOrigin(0, 0);
-    this.add(tilesprite_7);
-
-    this.tilesprite_1 = tilesprite_1;
-    this.tilesprite_2 = tilesprite_2;
-    this.tilesprite = tilesprite;
-    this.tilesprite_3 = tilesprite_3;
-    this.tilesprite_4 = tilesprite_4;
-    this.tilesprite_5 = tilesprite_5;
-    this.tilesprite_6 = tilesprite_6;
-    this.tilesprite_7 = tilesprite_7;
+    for (let i = 8; i >= 1; i--) {
+      const tilesprite = scene.add.tileSprite(0, 0, 4672, 324, i.toString());
+      tilesprite.setOrigin(0, 0);
+      this.add(tilesprite);
+      this.tileSprites.push(tilesprite);
+    }
   }
 
   update() {
-    let scrollfactor = 0.1;
-    this.tilesprite.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_1.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_2.tilePositionX += 0.1;
-    this.tilesprite_3.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_4.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_5.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_6.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
-    this.tilesprite_7.tilePositionX =
-      this.scene.cameras.main.scrollX * scrollfactor;
+    const scrollfactor = 0.1;
+    const mainScrollX = this.scene.cameras.main.scrollX * scrollfactor;
+
+    for (const tilesprite of this.tileSprites) {
+      tilesprite.tilePositionX = mainScrollX;
+      this.tileSprites[1].x -= 0.04;
+    }
   }
 }
