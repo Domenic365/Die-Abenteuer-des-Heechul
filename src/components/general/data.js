@@ -149,4 +149,16 @@ const audio = [
   { key: "eatMusic" },
 ];
 
-let mutet = false;
+const textStyle = {
+  fontFamily: "Planes_ValMore",
+  fontSize: "24px",
+  color: "#ffffff",
+  align: "center",
+};
+
+const controlInfos = [
+  { text: "LEFT", imageKey: "arrowLeft", y: 270 },
+  { text: "RIGHT", imageKey: "arrowRight", y: 220 },
+  { text: "JUMP", imageKey: "arrowUp", y: 170 },
+  { text: "SPACE", imageKey: null, y: 250, x: 380 },
+];

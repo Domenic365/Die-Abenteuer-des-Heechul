@@ -1010,6 +1010,11 @@
         "url": "assets/UI/arrowRight.png",
         "type": "image",
         "key": "arrowRight"
+      },
+      {
+        "url": "assets/UI/arrowUp.png",
+        "type": "image",
+        "key": "arrowUp"
       }
     ]
   },

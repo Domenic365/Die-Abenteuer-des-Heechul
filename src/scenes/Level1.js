@@ -10,6 +10,7 @@ class Level1 extends Phaser.Scene {
 
   create() {
     this.createEnvironment();
+    this.createControlInfos();
     this.createBars();
     this.createPlayerAndBoss();
     this.createObjects();
@@ -224,6 +225,31 @@ class Level1 extends Phaser.Scene {
   createAudio() {
     audio.forEach((audioData) => {
       this[audioData.key] = this.sound.add(audioData.key, audioData.config);
+    });
+  }
+
+  createControlInfos() {
+    controlInfos.forEach((info, index) => {
+      const xText = 150;
+      const xImage = 100;
+      const imageScale = 32;
+
+      this.add
+        .text(info.x || xText, info.y, info.text, textStyle)
+        .setOrigin(0, 0.5);
+
+      if (info.imageKey) {
+        const controlImage = this.add
+          .image(xImage, info.y, info.imageKey)
+          .setOrigin(0, 0.5);
+
+        if (controlImage.width && controlImage.height) {
+          controlImage.setScale(
+            imageScale / controlImage.width,
+            imageScale / controlImage.height,
+          );
+        }
+      }
     });
   }
 
