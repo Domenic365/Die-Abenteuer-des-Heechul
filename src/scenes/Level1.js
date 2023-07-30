@@ -5,7 +5,7 @@ class Level1 extends Phaser.Scene {
 
   init() {
     this.loadGroups();
-    this.physics.world.setBounds(0, 0, 4672, game.config.height);
+    this.physics.world.setBounds(0, 0, 4538, game.config.height);
   }
 
   create() {
