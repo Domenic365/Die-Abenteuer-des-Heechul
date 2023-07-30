@@ -149,30 +149,31 @@ class Level1 extends Phaser.Scene {
 
   createEventListener() {
     const canvas = document.getElementById("canvas");
-    canvas.addEventListener("contextmenu", function (event) {
-      event.preventDefault();
-    });
-    let player = game.scene.scenes[2].player;
-    const runLeft = document.querySelector("[run-left]");
-    runLeft.addEventListener("touchstart", () => {
+    canvas.addEventListener("contextmenu", (event) => event.preventDefault());
+    const player = game.scene.scenes[2].player;
+    const addTouchEvent = (element, eventType, action) => {
+      element.addEventListener(eventType, action);
+    };
+    addTouchEvent(document.querySelector("[run-left]"), "touchstart", () => {
       player.left = true;
     });
-    runLeft.addEventListener("touchend", () => {
+    addTouchEvent(document.querySelector("[run-left]"), "touchend", () => {
       player.left = false;
     });
-    const runRight = document.querySelector("[run-right]");
-    runRight.addEventListener("touchstart", () => {
+    addTouchEvent(document.querySelector("[run-right]"), "touchstart", () => {
       player.right = true;
     });
-    runRight.addEventListener("touchend", () => {
+    addTouchEvent(document.querySelector("[run-right]"), "touchend", () => {
       player.right = false;
     });
-    const jump = document.querySelector("[jump]");
-    jump.addEventListener("touchstart", () => {
+    addTouchEvent(document.querySelector("[jump]"), "touchstart", () => {
       player.jump(game.scene.scenes[2].player.jumpSpeed, ANIM_JUMPDUDE);
     });
-    const throwStone = document.querySelector("[throw-stone]");
-    throwStone.addEventListener("touchstart", player.throwStone());
+    addTouchEvent(
+      document.querySelector("[throw-stone]"),
+      "touchstart",
+      player.throwStone(),
+    );
   }
 
   loadGroups() {
