@@ -39,6 +39,8 @@ class Level1 extends Phaser.Scene {
     pauseButton.classList.add("dpNone");
     const gameOver = document.querySelector("[gameovermenu]");
     gameOver.classList.remove("dpNone");
+    const buttons = document.querySelector(".buttons");
+    buttons.classList.add("dpNone");
     this.sound.stopAll();
     if (this.mageBoss.isDead) {
       let pauseText = (document.querySelector("[pausetext]").innerHTML =
