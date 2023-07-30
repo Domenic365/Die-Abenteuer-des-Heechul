@@ -181,7 +181,7 @@ canvas {
         outline: none;
     }
 
-    .buttons button:hover {
+    .buttons button:active {
         opacity: 0.8 !important;
     }
 
