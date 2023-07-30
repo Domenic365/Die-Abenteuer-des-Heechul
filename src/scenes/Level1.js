@@ -201,7 +201,7 @@ class Level1 extends Phaser.Scene {
 
   itemPlayerCollision() {
     return (player, item) => {
-      item.collect();
+      item.collect(player);
     };
   }
 

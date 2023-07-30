@@ -16,10 +16,13 @@ class BackgroundClass extends Phaser.GameObjects.Layer {
   update() {
     const scrollfactor = 0.1;
     const mainScrollX = this.scene.cameras.main.scrollX * scrollfactor;
-
     for (const tilesprite of this.tileSprites) {
-      tilesprite.tilePositionX = mainScrollX;
-      this.tileSprites[1].x -= 0.04;
+      debugger;
+      if (this.tileSprites[1] === tilesprite) {
+        tilesprite.tilePositionX += 0.3;
+      } else {
+        tilesprite.tilePositionX = mainScrollX;
+      }
     }
   }
 }

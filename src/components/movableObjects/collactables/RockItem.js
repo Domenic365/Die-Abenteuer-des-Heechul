@@ -3,6 +3,10 @@ class RockItem extends Collactable {
     super(scene, x, y, "Rock2", frame, scene.stones, scene.stoneBar, "rock");
   }
 
+  collect(player) {
+    super.collect(player, "stones");
+  }
+
   music() {
     this.targetScene.stoneMusic.play();
   }
