@@ -15,7 +15,7 @@ class HomeScreen extends Phaser.Scene {
     menu.innerHTML = `
         <section pauseMenu class="pauseMenu">
 		    <div class="logo">
-			        <p>El Pollo Loco</p>
+			        <p>Die Abenteuer des Heechul</p>
 			</div>
 			<div class="menuButtons">
 			    <button class="gameButton" onclick="game.scene.scenes[0].scene.start('Boot')">
